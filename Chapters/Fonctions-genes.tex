@@ -8,12 +8,13 @@
 \section{Comparaison avec des données similaires}
 
 L'étude des effets des \glspl{ht} et des \glspl{gc} sur le transcriptome dans le contexte de la métamorphose présentés ici ne sont pas les premières publiées.
-\citep{Kulkarni2012} ont étudié les effets de ces deux hormones sur le transcriptome de cultures de queues traitées ou non à la \gls{t3} et / ou à la \gls{cort}.
-Il est à noter que les condition expérimentales employées ne sont pas identique à celles utilisées dans le cadre de cette thèse.
-En particulier, \citep{Kulkarni2012} mesurent les variations de quantités de transcrits dans la queue entière, et pas seulement l'épiderme.
+\citet{Kulkarni2012}\comment{and => \&} ont étudié les effets de ces deux hormones sur le transcriptome de queues de têtards traités ou non à la \gls{t3} et / ou à la \gls{cort}.
+Il est à noter que les condition expérimentales employées ne sont pas identique à celles utilisées dans le cadre de mon doctorat.
+En particulier, ils mesurent les variations de quantités de transcrits dans la queue entière, et pas seulement l'épiderme.
 Ils utilisent en outre des concentration de \gls{t3} 5 fois supérieures à celles utilisées ici (50 nM vs 10 nM).
+La concentration en \gls{cort} est cependant la même que nous avons utilisé.
 Enfin, la technologie employée est différente (puce à \gls{dna} dans leur cas).
-L'ensemble de ces différences rend la comparaison directe de nos résultats avec les leurs délicate.
+L'ensemble de ces différences rend la comparaison directe de nos résultats avec les leurs très délicate.
 \par
 Dans cet article, les auteurs trouvent $\sim 4500$ gènes régulés par la \gls{t3} et la \gls{cort}, comparé à $\sim 3200$ après traitement à la \gls{t3} seule et $\sim 1900$ après un traitement aux \glspl{gc} seuls.
 Cela contraste fortement avec le nombre de gènes obtenus dans nos résultats (5 à 10 fois moins de gènes selon les conditions).
@@ -21,16 +22,19 @@ Cela contraste fortement avec le nombre de gènes obtenus dans nos résultats (5
 Les différence entre les deux études peuvent s'expliquer notamment par l'utilisation de plateformes et de démarche de traitement des données différentes :
 \begin{itemize}
 \item Les puces à \gls{dna} sont très bruitées comparé au \gls{rnaseq} (voir démarche expérimentale).
-De plus les corrélations des données de puces et de \gls{rnaseq} sont de l'ordre de 0,7 à 0,8.
-Pour comparaison, la comparaison avec des données de RNA-Seq produites au laboratoire avec une technologie différente révèle une corrélation de 0,85 à 0.95.
-Ainsi, les biais propres à chaque technologie rend leur comparaison directe difficile.
+De plus les corrélations des données de puces et de \gls{rnaseq} sont de l'ordre de 0,7 à 0,8\comment{Info de nicolas. Nos données de puces ?}.
+Pour comparaison, la corrélation entre les données que j'ai généré et des données de \gls{rnaseq} produites au laboratoire avec une technologie différente – \gls{solid} – est de l'ordre de 0,85 à 0,95.
+Ainsi, les biais propres à chaque technologie rend leur comparaison directe difficile\comment{Est-ce mieux avec les corrections introduites dans les lignes précédentes ?}.
 \item Dans l'article, les auteurs ne se sont basés que sur la \textit{p}-value de l'analyse différentielle pour classer les gènes en fonction du type de profils d'expression.
 Nous avons vu que cette approche est discutable en raison du faible pouvoir statistique des données à haut débit (puces à \gls{dna} et \gls{ngs} confondues).
 Les catégories de gènes définies dans l'article sont donc bruitées et correspondent plus à une description 'technique' des résultats qu'à une description des différents profils d'expression des gènes.
 \item L'utilisation de tissus différents.
 \citep{Kulkarni2011} utilisent la queue entière alors que nous nous somme focalisés sur l'épiderme caudal.
-De plus, les traitements ont été effectués sur des culture de queues (ou de pattes) organotypiques, ce qui permet d'eliminer tout effet central possible.
+Nous avons en outre effectué les traitements sur des cultures organotypiques de queues ou de \glspl{hlb} et sur des têtards entiers.
+\comment{``On a fait les deux, donc on peut comparer'', mais en fait on ne le fait pas ...}
+Ceci nous permet d'une part de prendre en compte des effets centraux possibles, d'autre part, detenir en compte d'éventuels effets dus aux conditions de culture.
 \end{itemize}
+\comment{Sur cette partie j'ai une sensation de redite par rapport aux stratégies expérimentales}
 
 
 
