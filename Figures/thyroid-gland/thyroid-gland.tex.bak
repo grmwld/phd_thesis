@@ -1,0 +1,44 @@
+% BOTTOM caption
+% ------------------------
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\textwidth]
+% ------------------------
+%
+% SIDE caption
+% ------------------------
+%\begin{SCfigure}[\sidecaptionrelwidth][!htbp]
+%\centering
+%\includegraphics[width=0.5\textwidth]
+% ------------------------
+%
+% Main information
+% ===========================================================
+{Figures/thyroid-gland/thyroid-gland.pdf}
+\caption[Anatomie et histologie de la glande thyroïde]
+{
+Anatomie et histologie de la glande thyroïde.
+A) La glande thyroide est située ventralement dans le cou, sous le cartilage thyroïde et autour de la trachée et de l'œsophage.
+Elle est composée de deux lobes (droite et gauche) relié par l'isthme.
+Sur la dorsale de la glande se situent les glandes parathyroïdes.
+B) Trois principales structures histologiques sont impliquées dans la production des \glspl{ht}.
+Les follicules (F) sont des structures spheriques entourées d'une couche épitéliale de cellules folliculaire (thyréocytes; T) et don.
+
+, entourés d'une couche de cellules folliculaire (thyréocytes; T), 
+
+}
+\label{fig:figname}
+% ===========================================================
+%
+% BOTTOM caption
+% ------------------------
+\end{figure}
+% ------------------------
+%
+% SIDE caption
+% ------------------------
+%\end{SCfigure}
+% ------------------------
+%
+%
+%\missingfigure{Make a figure}

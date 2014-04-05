@@ -1,0 +1,23 @@
+%\begin{figure}[!htb]
+%\centerline{\includegraphics[width=0.5\textwidth]{Figures/hpt/hpt.png}}
+%\caption[L'axe hypothalamo-hypophyso-thyroïdien]
+%{
+%La synthèse et la sécrétion d'HT par la thyroide est stimulée par la TSH, produite au niveau de l'anté-hypophyse.
+%La stimulation de la synthèse de la TSH est elle-même sous le contrôle de la TRH, produite par dans l'hypothalamus.
+%La T3 et la T4 exercent un rétro-contrôle négatif sur ce système en inhibant la synthèse de TSH et de TRH.
+%}
+%\label{fig:hpt}
+%\end{figure}
+
+\begin{SCfigure}[\sidecaptionrelwidth][!htb]
+\centering
+\includegraphics[width=0.5\textwidth]
+{Figures/hpt/hpt.png}
+\caption[L'axe hypothalamo-hypophyso-thyroïdien]
+{
+La synthèse et la sécrétion d'\glspl{ht} par la thyroide est stimulée par la \gls{tsh}, produite au niveau de l'anté-hypophyse.
+La stimulation de la synthèse de la \gls{tsh} est elle-même sous le contrôle de la \gls{trh}, produite par dans l'hypothalamus.
+La \gls{t3} et la \gls{t4} exercent un rétro-contrôle négatif sur ce système en inhibant la synthèse de \gls{tsh} et de \gls{trh}.
+}
+\label{fig:hpt}
+\end{SCfigure}

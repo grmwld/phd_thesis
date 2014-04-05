@@ -1,0 +1,70 @@
+\setlength{\extrarowheight}{5px}
+
+\begin{table}[!htb]
+\footnotesize
+
+\def\tabularxcolumn#1{m{#1}}
+\newcolumntype{L}{>{\setlength\hsize{0.4\hsize}\raggedright}X}
+\newcolumntype{M}{>{\setlength\hsize{1\hsize}\raggedright}X}
+\newcolumntype{N}{>{\setlength\hsize{1\hsize}\raggedright}X@{}}
+\newcolumntype{O}{>{\setlength\hsize{1\hsize}\centering}X}
+\newcolumntype{P}{>{\centering\setlength\hsize{2\hsize}}X}
+
+\begin{tabularx}{\textwidth}{L N M}
+
+\toprule
+
+\textbf{Tissu}		& \multicolumn{2}{P}{Réponse} \tabularnewline
+					  
+					  \cmidrule(rl){2-3}
+
+					& Morphologique		& Biochimique \tabularnewline
+					
+Cerveau
+					& Remodelage, croissance des axones, prolifération et mort cellulaire
+					& Division cellulaire, apoptose, synthèse protéique \tabularnewline
+
+Foie
+					& Remodelage, différentiation fonctionnelle
+					& Induction des enzymes du cycle de l'urée et de l'albumine; Passage des de l'hémoglobine larvaire à l'hémoglobine adulte \tabularnewline
+
+Œil
+					& Repositionnement; nouvelles connexions et neurones rétinaux; remodelage de la lentille
+					& Transformation des pigments visuels (porphyropsine-rhodopsine) \tabularnewline
+
+Peau
+					& Remodelage; formation des glandes granulaires; keratinisation; apoptose
+					& Induction des collagènes, keratines et magainines adulte; induction de collagènases \tabularnewline
+
+Membres, Poumons
+					& Formation de novo d'os, de cartilage; de muscle, de nerfs, d'épithélium
+					& Prolifération et différentiation; apoptose; chondrogenèse et ossification \tabularnewline
+
+Queue, Branchies
+					& Régression complete
+					& Apoptose; destruction de la matrice extracellulaire; induction et activation d'enzymes lytiques (collagénases, metalloprotéinases, nucléases); Prolifération des lysosomes; prolifération des macrophages \tabularnewline
+
+Pancréas, Intestins
+					& Profond remodelage
+					& Reprogrammation du phénotype; induction de protéases, protéines de liaison aux acides gras et stromelysine-3 \tabularnewline
+
+Système immunitaire
+					& Redistribution des types populations cellulaires	
+					& Altération du système immunitaire et apparition de nouveaux composants immuno-compétents; Prolifération transitoire dans le contexte des tissus apoptotiques	\tabularnewline
+
+Muscle
+					& Croissance et différentiation; apoptose
+					& Induction de la chaîne lourde de myosine \tabularnewline
+
+\bottomrule
+
+\end{tabularx}
+\caption[Effets morphologiques et biochimiques survenant durant la métamorphose]
+{
+Effets morphologiques et biochimiques survenant durant la métamorphose.
+Tiré de \citet{Tata2006}.
+}
+\label{tab:metamorphosis}
+
+\def\tabularxcolumn#1{p{#1}}
+\end{table}

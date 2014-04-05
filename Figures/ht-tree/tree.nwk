@@ -1,0 +1,15 @@
+(Protostomes,
+	((Echinodermes,Hemichordés),
+		(Céphalochordés,
+			(Urochordés,
+				(Agnathes,
+					(Chondrychtiens,
+						(Amphibiens,
+							(Sauropsides,Mammifères)
+						)
+					)
+				)
+			)
+		)
+	)
+);

@@ -1,0 +1,41 @@
+% BOTTOM caption
+% ------------------------
+%\begin{figure}[!htbp]
+%\centering
+%\vspace{1\baselineskip}
+%\includegraphics[width=\textwidth]
+% ------------------------
+%
+% SIDE caption
+% ------------------------
+\begin{SCfigure}[\sidecaptionrelwidth][!htbp]
+\centering
+%\vspace{1\baselineskip}
+\includegraphics[width=0.5\textwidth]
+% ------------------------
+%
+% Main information
+% ===========================================================
+{Figures/tfc-heatmap-de-genes/tfc-heatmap-de-genes.pdf}
+\caption[Heatmap groupant 81 clusters de gènes ayant des profils d'expression similaires]
+{
+Heatmap groupant 81 clusters de gènes ayant des profils d'expression similaires.
+Chaque ligne représente un cluster de gènes déterminé par "fuzzy c-mean clustering" (voir MM papier limb).
+Le niveau d'expression de chaque cluster est centré sur zero, et la variance à travers les quatre traitements ajustée à un.
+Le dendrogramme et l'ordre des clusters est calculé sur la base de leur distance euclidienne.
+Les chiffres à gauche du dendrogramme correspondent aux numéros des clusters.
+}
+\label{fig:tfc-heatmap-de-genes}
+% ===========================================================
+%
+% BOTTOM caption
+% ------------------------
+%\end{figure}
+% ------------------------
+%
+% SIDE caption
+% ------------------------
+\end{SCfigure}
+% ------------------------
+%
+%\missingfigure{Make a figure}
