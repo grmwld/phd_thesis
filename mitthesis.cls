@@ -597,6 +597,8 @@
 
 % \title and \author already exist
 
+\def\titleen#1{\gdef\@titleen{#1}}
+
 \def\phdprogram#1{\gdef\@phdprogram{#1}}
 
 \def\laboratory#1{\gdef\@laboratory{#1}}
@@ -658,6 +660,7 @@ reserved.\par\permission}}
 \fi
 
 \def\thesisdate#1{\gdef\@thesisdate{#1}}
+\def\thesisdateen#1{\gdef\@thesisdateen{#1}}
 
 % typically just a month and year
 \def\degreemonth#1{\gdef\@degreemonth{#1}}
@@ -771,10 +774,23 @@ par \\
 \par
 \begin{abstract}}
 
-%% Changed from \unvbox to \unvcopy for use with multiple copies of abstract
-%% page.
-%% Krishna Sethuraman (1990)
 \def\endabstractpage{\end{abstract}\noindent}
+
+
+\def\abstractpageen{\cleardoublepage
+\begin{center}{\large{\bf \@titleen} \\
+by \\
+\@author \\[\baselineskip]}
+\par
+\def\baselinestretch{1}\@normalsize
+\@department \\
+\@thesisdateen \\
+Doctorate of Philosophy
+\end{center}
+\par
+\begin{abstract}}
+
+\def\endabstractpageen{\end{abstract}\noindent}
 % \unvcopy\@abstractsupervisor \newpage}
 
 %% This counter is used to save the page number for the second copy of
