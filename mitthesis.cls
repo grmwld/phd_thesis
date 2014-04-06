@@ -471,7 +471,7 @@
    \glsifhaslongfr{##1}%
    {% has french version:
       \glsentryshort{##1}\space
-      (\firstacronymfont{\glsentrylongfr{##1}##2}, "\glsentrylong{##1}")%
+      (\firstacronymfont{\glsentrylongfr{##1}##2}, ``\glsentrylong{##1}'')%
    }%
    {%
      \glsentryshort{##1}\space
@@ -483,7 +483,7 @@
    \glsifhaslongfr{##1}%
    {% has french version:
       \Glsentryshort{##1}\space
-      (\firstacronymfont{\glsentrylongfr{##1}##2}, "\glsentrylong{##1}")%
+      (\firstacronymfont{\glsentrylongfr{##1}##2}, ``\glsentrylong{##1}'')%
    }%
    {%
      \Glsentryshort{##1}\space
@@ -495,7 +495,7 @@
    \glsifhaslongplfr{##1}%
    {% has french version:
       \glsentryshortpl{##1}\space
-      (\firstacronymfont{\glsentrylongplfr{##1}##2}, "\glsentrylongpl{##1}")%
+      (\firstacronymfont{\glsentrylongplfr{##1}##2}, ``\glsentrylongpl{##1}'')%
    }%
    {%
      \glsentryshortpl{##1}\space
@@ -507,7 +507,7 @@
     \glsifhaslongplfr{##1}%
     {% has french version:
       \Glsentryshortpl{##1}\space
-      (\firstacronymfont{\glsentrylongplfr{##1}##2}, "\glsentrylongpl{##1}")%
+      (\firstacronymfont{\glsentrylongplfr{##1}##2}, ``\glsentrylongpl{##1}'')%
     }%
     {%
       \Glsentryshortpl{##1}\space
