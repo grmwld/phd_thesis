@@ -219,9 +219,9 @@
 %\renewcommand{\RaggedRight}{\raggedright}
 
 \usepackage{tocloft}
-%\setlength{\cftbeforesecskip}{0pt}
-%\setlength\cftparskip{0pt}
 \renewcommand{\cftchapafterpnum}{\vspace{10pt}}
+\setlength{\cftbeforesecskip}{7pt}
+\renewcommand{\cftsecafterpnum}{\vspace{3pt}}
 
 \usepackage{setspace}
 
@@ -292,18 +292,18 @@
 
 
 % New page on each section except first from chapter
-\usepackage{etoolbox}
+%\usepackage{etoolbox}
 %\preto{\section} {
 %	\ifnum\value{section}=0 \else\clearpage\fi
 %}
 % Separate figures by chapters in LOF
-\preto\figure{%
-  \ifnum\value{figure}=0\addtocontents{lof}{{\bfseries Chapitre \thechapter\vskip10pt}}\fi
-}
+%\preto\figure{%
+%  \ifnum\value{figure}=0\addtocontents{lof}{{\bfseries Chapitre \thechapter\vskip10pt}}\fi
+%}
 % Separate tables by chapters in LOT
-\preto\table{%
-  \ifnum\value{table}=0\addtocontents{lot}{{\bfseries Chapitre \thechapter\vskip10pt}}\fi
-}
+%\preto\table{%
+%  \ifnum\value{table}=0\addtocontents{lot}{{\bfseries Chapitre \thechapter\vskip10pt}}\fi
+%}
 
 
 % Regional settings and encoding
@@ -366,7 +366,7 @@
 \def\bibfont{\footnotesize}
 
 % List of abreviations (glossary)
-\usepackage[nomain,acronym]{glossaries}
+\usepackage[nomain,acronym,nonumberlist]{glossaries}
 %%%%%%%%%   Configure multi-lang glossaries   %%%%%%%%%
 %% Based on http://tex.stackexchange.com/a/145765/45511
 %%
