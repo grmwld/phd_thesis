@@ -16,8 +16,8 @@
 %% Page Intentionally Left Blank use the ``leftblank'' option, as
 %% above. 
 %\documentclass[a4paper,12pt,twoside,draft]{mitthesis}
-\documentclass[a4paper,12pt,twoside]{mitthesis}
-%\documentclass[a4paper,12pt]{mitthesis}
+% \documentclass[a4paper,12pt,twoside]{mitthesis}
+\documentclass[a4paper,12pt]{mitthesis}
 \hbadness=10000
 
 \begin{document}
@@ -39,28 +39,28 @@
 \justifying
 
 % %%% - INDRODUCTION - %%
-% \part{Introduction}
-% \subfile{Chapters/HormonesThyroidiennes}
-% \subfile{Chapters/Glucocorticoides}
+\part{Introduction}
+\subfile{Chapters/HormonesThyroidiennes}
+\subfile{Chapters/Glucocorticoides}
 
 % %%% - OBJECTIFS - %%
-% \part{Objectifs et Stratégies Expérimentales}
-% \subfile{Chapters/Objectifs}
-% \subfile{Chapters/Metamorphose}
-% \subfile{Chapters/Strategies}
+\part{Objectifs et Stratégies Expérimentales}
+\subfile{Chapters/Objectifs}
+\subfile{Chapters/Metamorphose}
+\subfile{Chapters/Strategies}
 
 % %%% - RESULTATS - %%
 \part{Résultats}
-% \subfile{Chapters/Hindlimbs}
-% \subfile{Chapters/Tailfin}
-% \subfile{Chapters/TF-vs-HL}
+\subfile{Chapters/Hindlimbs}
+\subfile{Chapters/Tailfin}
+\subfile{Chapters/TF-vs-HL}
 
 %%% - DISCUSSION - %%
 \part{Discussion}
-% \subfile{Chapters/Profils-HT-GC}
-% \subfile{Chapters/Fonctions-genes}
-% \subfile{Chapters/Stress-Environnement}
-% \subfile{Chapters/Conclusion-Perspectives}
+\subfile{Chapters/Profils-HT-GC}
+\subfile{Chapters/Fonctions-genes}
+\subfile{Chapters/Stress-Environnement}
+\subfile{Chapters/Conclusion-Perspectives}
 
 %% - ANNEXES - %%
 \pagestyle{plain}
@@ -69,7 +69,7 @@
 \renewcommand{\thesection}{\thechapter - \arabic{section}}
 \part*{Annexes}
 \addcontentsline{toc}{part}{Annexes}
-% \subfile{Appendix/appa}
+\subfile{Appendix/appa}
 
 %% - BIBLIOGRAPHIE - %%
 \subfile{biblio}
