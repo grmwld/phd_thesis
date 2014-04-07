@@ -218,6 +218,12 @@
 %\renewcommand{\RaggedLeft}{\raggedleft}
 %\renewcommand{\RaggedRight}{\raggedright}
 
+\usepackage{tocloft}
+%\setlength{\cftbeforesecskip}{0pt}
+%\setlength\cftparskip{0pt}
+\renewcommand{\cftchapafterpnum}{\vspace{10pt}}
+
+\usepackage{setspace}
 
 % fancy headers and footers
 \usepackage{fancyhdr}
@@ -287,8 +293,16 @@
 
 % New page on each section except first from chapter
 \usepackage{etoolbox}
-\preto{\section} {
-	\ifnum\value{section}=0 \else\clearpage\fi
+%\preto{\section} {
+%	\ifnum\value{section}=0 \else\clearpage\fi
+%}
+% Separate figures by chapters in LOF
+\preto\figure{%
+  \ifnum\value{figure}=0\addtocontents{lof}{{\bfseries Chapitre \thechapter\vskip10pt}}\fi
+}
+% Separate tables by chapters in LOT
+\preto\table{%
+  \ifnum\value{table}=0\addtocontents{lot}{{\bfseries Chapitre \thechapter\vskip10pt}}\fi
 }
 
 
@@ -330,7 +344,7 @@
 
 % Show numbering up to depth level 3
 \setcounter{secnumdepth}{3}
-\setcounter{tocdepth}{3}
+\setcounter{tocdepth}{2}
 
 % Hyperlinks
 \usepackage{hyperref}
@@ -348,9 +362,11 @@
 % Enhanced bibliography
 %\usepackage{refcheck}
 \usepackage[round]{natbib}
+\setlength{\bibsep}{0.5pt plus 0.3ex}
+\def\bibfont{\footnotesize}
 
 % List of abreviations (glossary)
-\usepackage[nomain,acronym,toc]{glossaries}
+\usepackage[nomain,acronym]{glossaries}
 %%%%%%%%%   Configure multi-lang glossaries   %%%%%%%%%
 %% Based on http://tex.stackexchange.com/a/145765/45511
 %%
@@ -534,8 +550,12 @@
 \makeglossaries
 \usepackage[xindy]{imakeidx}
 \makeindex
+\renewcommand*{\indexspace}{0pt}
 \glossarystyle{listfr}
-\renewcommand{\glsnamefont}[1]{\textbf{#1}}
+%\renewcommand{\glsnamefont}[1]{\textbf{#1}}
+%\renewcommand*{\glsgroupskip}{}
+%\renewcommand*{\indexspace}{}
+%\setlength{\itemsep}{0pt} \setlength{\parsep}{0pt}
 \renewcommand{\glsgroupskip}{}
 
 % TODO
@@ -761,7 +781,7 @@ Examinateur :
 % this environment should probably be called abstract,
 % but we want people to also be able to get at the more
 % basic abstract environment
-\def\abstractpage{\cleardoublepage
+\def\abstractpage{
 \begin{center}{\large{\bf \@title} \\
 par \\
 \@author \\[\baselineskip]}
@@ -777,7 +797,7 @@ par \\
 \def\endabstractpage{\end{abstract}\noindent}
 
 
-\def\abstractpageen{\cleardoublepage
+\def\abstractpageen{
 \begin{center}{\large{\bf \@titleen} \\
 by \\
 \@author \\[\baselineskip]}
