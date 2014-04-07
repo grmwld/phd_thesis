@@ -26,9 +26,20 @@ De même, dans le \gls{tf}, la majorité de l'interaction entre les \glspl{ht} e
 Il est intéressant de noter que dans les deux tissus, la majorité de l'enrichissement de termes associés au système immunitaire provient d'une même sous catégorie de profils d'expression, à savoir la potentiation de l'effet répresseur des \glspl{ht} et des \glspl{gc} dans le cadre d'un co-traitement.
 \par
 Seuls deux gènes sont potentiés dans les \glspl{hlb} et antagonisés dans le \gls{tf} :
-EMILIN2 et FGFBP1, deux facteurs extra-cellulaires, le premier étant un composant élastique de la matrice extra-cellulaire et le second se liant aux facteurs de croissance FGF pour potentier leur action.
-De même, 9 gènes sont ``potentiés'' dans le \gls{tf} et ``antagonisés'' dans les \glspl{hlb}.
-Ils couvrent des fonctions biologiques allant du contrôle du cycle cellulaire (MOB2, MCM2) au métabolisme des lipides (PNPLA2) en passant par le système immun (NMI) ou encore le remodelage de la matrice extra-cellulaire (ADAMTSL5).
+\begin{itemize}
+\item EMILIN2 : Dans les \glspl{hlb} $log_2(FC)=0,58$ ; $0,19$ ; $1,17$ dans les traitements \gls{t3}, \gls{cort} et \gls{t3}+\gls{cort} respectivement. Dans le \gls{tf} $log_2(FC)=-0,69$ ; $-0,02$ ; $-0,28$
+\item FGFBP1 : Dans les \glspl{hlb} $log_2(FC)=0,79$ ; $0,95$ ; $1,68$. Dans le \gls{tf} $log_2(FC)=-0,93$ ; $0,36$ ; $0,07$
+\end{itemize}
+Ce sont deux facteurs extra-cellulaires, le premier étant un composant élastique de la matrice extra-cellulaire et le second se liant aux facteurs de croissance FGF pour potentier leur action.
+De même, 5 gènes sont ``potentiés'' dans le \gls{tf} et ``antagonisés'' dans les \glspl{hlb} :
+\begin{itemize}
+\item MOB2 : Dans les \glspl{hlb} $log_2(FC)=-0,65$ ; $0,16$ ; $-0,26$. Dans le \gls{tf} $log_2(FC)=-0,27$ ; $-0,36$ ; $-0,80$
+\item NMI : Dans les \glspl{hlb} $log_2(FC)=0,91$ ; $-0,96$ ; $-0,24$. Dans le \gls{tf} $log_2(FC)=-0,63$ ; $-1,75$ ; $-1,88$
+\item CCR2 : Dans les \glspl{hlb} $log_2(FC)=-1,61$ ; $-0,60$ ; $-1,00$. Dans le \gls{tf} $log_2(FC)=-1,02$ ; $-1,24$ ; $-1,67$
+\item ADAMTSL5 : Dans les \glspl{hlb} $log_2(FC)=-0,82$ ; $0,03$ ; $-0,26$. Dans le \gls{tf} $log_2(FC)=0,97$ ; $0,77$ ; $1,48$
+\item CAPN2 : Dans les \glspl{hlb} $log_2(FC)=-1,28$ ; $-0,04$ ; $-0,73$. Dans le \gls{tf} $log_2(FC)=-0,14$ ; $-0,03$ ; $-0,60$
+\end{itemize}
+Ils couvrent des fonctions biologiques allant du contrôle du cycle cellulaire (MOB2) au système immun (NMI, CCR2) en passant par le remodelage de la matrice extra-cellulaire (ADAMTSL5).
 
 \input{Figures/comparison-tfc-hlc-de-genes/comparison-tfc-hlc-de-genes}
 
@@ -37,22 +48,33 @@ Ils couvrent des fonctions biologiques allant du contrôle du cycle cellulaire (
 
 \begin{section}{Vieillissement}
 
-Comme spécifié précédement, une perturbation du signal thyroïdien durant la période périnatale ou la métamorphose peut avoir des conséquences délétères sur le long terme.
+Comme spécifié précédemment, une perturbation du signal thyroïdien durant la période périnatale ou la métamorphose peut avoir des conséquences délétères sur le long terme.
 J'ai donc sélectionné un ensemble de gènes impliqués dans un vieillissement prématuré des structures et fonctions biologiques à partir de la base de données HAGR \citep{DeMagalhaes2005}.
 Les profils d'expression de 222 orthologues (sur 289) sont présentés \autoref{subfig:comparison-tfc-hlc-aging-all}.
 Parmi les 222 gènes, 10 ont une expression spécifique du \glspl{tf} ou des \glspl{hlb}.
-
-\input{Figures/comparison-tfc-hlc-aging/comparison-tfc-hlc-aging}
-
 Après avoir filtré ce set de gène pour ne conserver que ceux qui sont différentiellement exprimés dans au moins une condition (97 gènes), il apparait une dichotomie entre les deux tissus:
 Alors que dans les \gls{hlb} 87 gènes sont affectés par au moins un des traitements hormonaux, seuls 25 le sont dans le \gls{tf} (\autoref{subfig:comparison-tfc-hlc-aging-de}).
-Dans le \gls{tf}, la 10 gènes sont spécifiques de ce tissu alors que 72 sont spécifiques des \glspl{hlb}. 
+Dans le \gls{tf}, 10 gènes sont spécifiques de ce tissu alors que 72 sont spécifiques des \glspl{hlb}. 
 De plus, tout tissu confondu, 72, 6 et 86 gènes sont régulés par la \gls{t3}, la \gls{cort} et le co-traitement avec les deux hormones.
 \par
-Parmi les gènes dont l'expression présente un profil d'``antagonisme'' ou de ``potentiation'' \glspl{ht} et les \glspl{gc}, on trouve entre autres les orthologues de \gls{stat5}B ($log_2(FC)=-0,11$ ; $1,23$ ; $0,66$ dans les traitements \gls{t3}, \gls{cort} et \gls{t3}+\gls{cort} respectivement), FOXO3 ($log_2(FC)=0,43$ ; $0,61$ ; $1,04$), IGF1R ($log_2(FC)=1,28$ ; $-0,03$ ; $0,78$) ; GHR ($log_2(FC)=-1,40$ ; $0,20$ ; $0,05$), RAD51 ($log_2(FC)=-0,98$ ; $-1,12$ ; $-1,46$) dans le \gls{tf}, \gls{cebpa} ($log_2(FC)=-0,25$, $0,57$, $1,24$), LEPR ($log_2(FC)=-1,40$, $1,23$, $0,70$) dans les \glspl{hlb}.
+Parmi les gènes dont l'expression présente un profil d'``antagonisme'' ou de ``potentiation'' \glspl{ht} et les \glspl{gc}, nous trouvons entre autres dans le \gls{tf} :
+\begin{itemize}
+\item \gls{stat5}B ($log_2(FC)=-0,11$ ; $1,23$ ; $0,66$ dans les traitements \gls{t3}, \gls{cort} et \gls{t3}+\gls{cort} respectivement)
+\item FOXO3 ($log_2(FC)=0,43$ ; $0,61$ ; $1,04$)
+\item IGF1R ($log_2(FC)=1,28$ ; $-0,03$ ; $0,78$)
+\item GHR ($log_2(FC)=-1,40$ ; $0,20$ ; $0,05$)
+\item RAD51 ($log_2(FC)=-0,98$ ; $-1,12$ ; $-1,46$)
+\end{itemize}
+et dans les \glspl{hlb} :
+\begin{itemize}
+\item \gls{cebpa} ($log_2(FC)=-0,25$ ; $0,57$ ; $1,24$)
+\item \glspl{lepr} ($log_2(FC)=-1,40$ ; $1,23$ ; $0,70$)
+\end{itemize}
 \par
 \gls{socs2} est induit par la \gls{t3} dans les \glspl{hlb} ($log_2(FC)=1,16$, $-0,20$, $1,01$ dans les traitements \gls{t3}, \gls{cort} et \gls{t3}+\gls{cort} respectivement) et réprimé de façon ``potentialisée'' par les deux hormones dans le \gls{tf} ($log_2(FC)=-0,17$, $-0,72$, $-1,30$).
 Dans les deux tissus, l'induction de PCK1 \gls{cort}-dépendante (($log_2(FC)=3,74$ et $5,00$ dans les \glspl{hlb} et le \gls{tf} respectivement) est antagonisée par la \gls{t3} (($log_2(FC)=2,67$ et $3,10$ respectivement).
+
+\input{Figures/comparison-tfc-hlc-aging/comparison-tfc-hlc-aging}
 
 \end{section}
 
@@ -60,14 +82,11 @@ Dans les deux tissus, l'induction de PCK1 \gls{cort}-dépendante (($log_2(FC)=3,
 \begin{section}{Les modificateurs post-traductionnels des histones}\label{sec:res-histones}
 
 Outre une action sur la mise en place des structures anatomiques et morphologiques, une perturbation de la signalisation thyroïdienne pourrait affecter la présence de modificateurs de la chromatine et influer sur la spécificité spatiale et temporelle de déposition des marques.
-J'ai donc séléctionné sur la base de leur annotation \gls{go}, les gènes impliqués dans la (dés)acétylation et la (dé)méthylation des histones.
+J'ai donc sélectionné sur la base de leur annotation \gls{go}, les gènes impliqués dans la (dés)acétylation et la (dé)méthylation des histones.
 La liste initiale comprend 241 gènes humains pour lesquels un orthologue chez le Xénope a pu être identifié.
 Dans le \gls{tf} et les \glspl{hlb}, 203 et 205 gènes respectivement sont exprimés (passent l'étape de ``filtre indépendant'', voir \autoref{subsec:diff-expr-call}), pour un total de 209 gènes.
 La \autoref{subfig:comparison-tfc-hlc-histones-all} présente les profils d'expression de l'ensemble de ces gènes.
 Exceptés quelques sous ensembles de gènes et indépendamment de leur significativité d'expression différentielle, les profils d'expression entre le \gls{tf} et les \gls{hlb} restent similaires.
-
-\input{Figures/comparison-tfc-hlc-histones/comparison-tfc-hlc-histones}
-
 La \autoref{subfig:comparison-tfc-hlc-histones-de} présente uniquement les gènes différentiellement exprimés dans au moins une condition.
 Cela représente 17 gènes dans le \gls{tf} et 73 gènes dans les \gls{hlb}, pour un total de 80 gènes.
 Il ressort que la majorité des gènes ne sont différentiellement exprimés que dans les \gls{hlb}.
@@ -76,12 +95,21 @@ Nous remarquons par exemple que \gls{jhdm1d} est, sous l'effet de la \gls{t3}, r
 NSD1 n'est induit par la \gls{t3} dans les \glspl{hlb} ($log_2(FC)=1,30$ ; $0,17$ ; $1,37$), de même que TRRAP ($log_2(FC)=1,14$ ; $0,1$ ; $1,19$).
 \par
 Les gènes catégorisés comme cible d'une interaction entre \glspl{ht} et \glspl{gc} et impliqués dans la modification des histones incluent 6 gènes :
-CDK2 (potentié : $log_2(FC)=-0,48$ ; $-0,66$ ; $-1,15$), GFI1B (induction \gls{cort}-dépendante antagonisée par la \gls{t3} : $log_2(FC)=0,09$ ; $1,97$ ; $0,63$), PRKCB ($log_2(FC)=-0,16$ ; $-0,42$ ; $-1,20$), PHF15 (réprimé de façon ``potentiée'' $log_2(FC)=-0,76$ ; $-0,57$ ; $-1,28$), MECP2 ($log_2(FC)=-0,92$ ; $-0,44$ ; $-1,22$),  et SATB1 (réprimé de façon ``potentiée'' : $log_2(FC)=-0,22$ ; $-0,69$ ; $-1,30$).
+\begin{itemize}
+\item CDK2 (répréssion ``potentiée'' : $log_2(FC)=-0,48$ ; $-0,66$ ; $-1,15$)
+\item GFI1B (induction \gls{cort}-dépendante antagonisée par la \gls{t3} : $log_2(FC)=0,09$ ; $1,97$ ; $0,63$)
+\item PRKCB (répréssion ``potentiée'' : $log_2(FC)=-0,16$ ; $-0,42$ ; $-1,20$)
+\item PHF15 (répréssion ``potentiée'' : $log_2(FC)=-0,76$ ; $-0,57$ ; $-1,28$)
+\item MECP2 (répréssion ``potentiée'' : $log_2(FC)=-0,92$ ; $-0,44$ ; $-1,22$)
+\item SATB1 (répréssion ``potentiée'' : $log_2(FC)=-0,22$ ; $-0,69$ ; $-1,30$)
+\end{itemize}
 Dans les \gls{hlb}, aucun gène impliqué dans un effet croisé de la \gls{t3} et de la \gls{cort} ne semble impliqué dans la modification des histones.
 Enfin, il est important de mentionner que certains gènes dans cette catégorie (et la suivante) paraissent au premier abord mal catégorisés.
 La raison est que les listes de gènes ont été obtenues programmatiquement en utilisant la \gls{go}.
 Ainsi, MECP2, connu pour être essentiel dans la lecture de l'\gls{dna} méthylé, n'est pas à strictement parlé impliqué dans les processus de méthylation de l'\gls{dna}.
 Il a été en revanche associé à la favorisation du dépôt de certains modifications d'histones en fonction de l'état de méthylation d'un locus \citep{Fuks2003}.
+
+\input{Figures/comparison-tfc-hlc-histones/comparison-tfc-hlc-histones}
 
 \end{section}
 
@@ -91,22 +119,21 @@ Il a été en revanche associé à la favorisation du dépôt de certains modifi
 La modification de l'épigénome peut aussi se traduire par la méthylation de l'\gls{dna} au niveau d'îlots CpG, en général associés à la répression de la transcription.
 De même que ce qui a été effectué dans la section précédente, j'ai séléctionné 43 gènes impliqués dans les processus de méthylation de l'\gls{dna}, dont 33 sont exprimés dans les tissus étudiés, avec 1 gène spécifiquement exprimé dans les \glspl{hlb}.
 Leurs profils d'expression sont présentés \autoref{subfig:comparison-tfc-hlc-medna-all}.
-
-\input{Figures/comparison-tfc-hlc-medna/comparison-tfc-hlc-medna}
-
-On notera la présence d'un gène (TDRD9) pour lequel l'expression est très forte dans la condition \gls{cort} dans les \glspl{hlb}.
-Celui-ci n'est pas inclu dans la \autoref{subfig:comparison-tfc-hlc-histones-de} car cette forte expression n'est validée que dans un seul des trois répliquats biologiques.
+Nous notons la présence du gène \gls{tdrd9} pour lequel l'expression est très forte dans la condition \gls{cort} dans les \glspl{hlb}.
+Celui-ci n'est pas inclus dans la \autoref{subfig:comparison-tfc-hlc-medna-de} car cette forte expression n'est validée que dans un seul des trois répliquats biologiques.
 La variance importante associée à son expression dans ce tissu l'empêche donc de passer les seuils statistiques.
 Un total de 17 gènes sont différentiellement exprimés, dont 16 dans les \glspl{hlb}.
 Seuls deux gènes sont en commun parmi les gènes différentiellement exprimés dans les deux tissus et leurs profils d'expression sont similaires.
-Il est intéressant de noter que sous l'action de la \gls{t3} et de la \gls{cort} APOBEC2 est réprimé dans les \glspl{hlb} mais induit dans le \gls{tf}.
-GSK3B (impliqué dans l'expression de DNMT3A) est quant à lui induit par la \gls{t3} spécifiquement dans les \glspl{hlb}, de même que MGMT.
+Il est intéressant de noter que sous l'action de la \gls{t3} et de la \gls{cort} \gls{apobec2} est réprimé dans les \glspl{hlb} mais induit dans le \gls{tf}.
+GSK3B (impliqué dans l'expression de \gls{dnmt3a}) est quant à lui induit par la \gls{t3} spécifiquement dans les \glspl{hlb}, de même que MGMT.
 \par
 Aucun gène régulé de façon croisée par la \gls{t3} et la \gls{cort} n'est retrouvé dans cette liste.
 En revanche, certains gènes montrent une tendance à une telle interaction entre les voies de signalisation.
 En particulier, UHRF1 (impliqué dans la maintenance de la méthylation de l'\gls{dna}), semble réprimé de façon ``potentié'' dans les deux tissus :
-$log_2(FC)=-0,16$ ; $-0,03$ ; $-0,59$ dans les \glspl{hlb} et $log_2(FC)=-0,73$ ; $-0,76$ ; $-1,42$ dans le \gls{tf}
+$log_2(FC)=-0,16$ ; $-0,03$ ; $-0,59$ dans les \glspl{hlb} et $log_2(FC)=-0,73$ ; $-0,76$ ; $-1,42$ dans le \gls{tf}.
 Enfin, il est important de préciser que \gls{mecp2} n'est pas inclus dans cette liste car il n'est pas impliqué dans la méthylation de l'\gls{dna} à proprement parler (voir \autoref{sec:res-histones})
+
+\input{Figures/comparison-tfc-hlc-medna/comparison-tfc-hlc-medna}
 
 \end{section}
 
@@ -125,7 +152,7 @@ Les autres gènes dont l'expression est potentialisée ou antagonisée par les \
 A noter que dans la \autoref{fig:comparison-tfc-hlc-htsig}, \gls{dio3} dans les \glspl{hlb} n’apparaît pas comme ``antagonisé'' car les facteurs d'induction ont été écrêtés à $\pm 4$ afin de ne pas affecter le contraste pour les autres gènes.
 \par
 L'expression de \gls{dio2} est induite par la \gls{t3} et la \gls{cort} dans le \gls{tf} ($log_2(FC)=2,31$ respectivement) et dans une moindre mesure dans les \glspl{hlb}.
-En présence des deux hormone, sont expression est potentiée dans les deux tissus.
+En présence des deux hormone, son expression est potentiée dans les deux tissus.
 \par
 En ce qui concerne \gls{dio3}, elle est fortement induite par la \gls{t3} dans le \gls{tf} ($log_2(FC)=3,65$) et dans les \glspl{hlb} ($log_2(FC)=5,76$).
 Alors que la \gls{cort} a peu d'effet sur sa transcription dans les \glspl{hlb}, elle réprime fortement sa transcription dans le \gls{tf} ($log_2(FC)=-2,39$).
