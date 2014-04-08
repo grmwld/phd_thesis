@@ -64,7 +64,7 @@ Une minorité de gènes sont toutefois classifiés comme ayant une une réponse 
 
 \input{Figures/hlc-heatmap-de-genes/hlc-heatmap-de-genes}
 
-L'annotation fonctionnelle automatisée des gènes différentiellement exprimés dans au moins une condition (4741 gènes) a été réalisée avec l'outil en ligne GOrilla en utilisant l'ensemble des gènes exprimés comme "background".
+L'annotation fonctionnelle automatisée des gènes différentiellement exprimés dans au moins une condition (4741 gènes) a été réalisée avec l'outil en ligne GOrilla en utilisant l'ensemble des gènes exprimés comme ``background''.
 Il en ressort un fort enrichissement en termes associés au métabolisme des lipides, du cycle cellulaire, du système immunitaire, des \glspl{rna} et au transport intra-cellulaire de molécules (\autoref{fig:hlc-go-all-graph}).
 Cette représentation est particulièrement adaptée à l'illustration des résultats obtenus.
 En effet, elle permet d'intégrer les relations entre les différents termes présentés.
@@ -93,23 +93,23 @@ De façon frappante, le contenu en gènes dans ces quatre catégories sous-tend 
 % -----------------------------------------
 % +++ BEGIN - Clusters antagoniste
 
-\subsubsection{Gènes "antagonisés"}
+\subsubsection{Gènes ``antagonisés''}
 
 \paragraph{Gènes dont la répression \gls{t3}-dépendante est antagonisée par la \gls{cort}}
-Dans cette catégorie, le contenu en gène ne semble pas enrichi de façon dramatique en une fonction biologique particulière, malgrée la participation de \gls{aadac} et \gls{pnpla2} au métabolisme des tri-glycérides (\autoref{fig:hlc-go-antago-down}, $\textit{p} = 2,05 * 10^{-4}$ pour les deux termes).
+Dans cette catégorie, le contenu en gène ne semble pas enrichi de façon dramatique en une fonction biologique particulière, malgré la participation de \gls{aadac} et \gls{pnpla2} au métabolisme des tri-glycérides (\autoref{fig:hlc-go-antago-down}, $\textit{p} = 2,05 * 10^{-4}$ pour les deux termes).
 
 \input{Figures/hlc-go-antago-down/hlc-go-antago-down}
 
 \paragraph{Gènes dont l'induction \gls{t3}-dépendante est antagonisée par les \gls{cort}}
 Cette catégorie non-plus ne présente pas d'enrichissement fonctionnel fort.
-\gls{mcm4}, \gls{mcm2} et \gls{lig1} participent cependant à la légère sur-représentation du contôle de la réplication de l'\gls{dna} (\autoref{fig:hlc-go-antago-up}, $\textit{p}=3,36*10^{-5}; \textit{p}=4,35*10^{-5}\textit{p}=4,53*10^{-4}$ pour les trois termes).
+\gls{mcm4}, \gls{mcm2} et \gls{lig1} participent cependant à la légère sur-représentation du contrôle de la réplication de l'\gls{dna} (\autoref{fig:hlc-go-antago-up}, $\textit{p}=3,36*10^{-5}; \textit{p}=4,35*10^{-5}\textit{p}=4,53*10^{-4}$ pour les trois termes).
 
 \input{Figures/hlc-go-antago-up/hlc-go-antago-up}
 
 % -----------------------------------------
 % +++ BEGIN - Cluster potentiés
 
-\subsubsection{Gènes "potentiés"}
+\subsubsection{Gènes ``potentiés''}
 
 \paragraph{Gènes dont l'effet inducteur de la \gls{t3} est potentié par la \gls{cort}}
 La seule catégorie fonctionnelle enrichie dans ce sous-ensemble de gènes correspond au développement de l'épiderme (\autoref{fig:hlc-go-pot-up}; gènes \gls{bnc1}, \gls{znf750}, \gls{krt17}, \gls{lamb3} et \gls{scel}).
@@ -147,12 +147,13 @@ Le terme ostéoarthrite (``osteoarthritis'') suit une tendance inverse.
 \end{itemize}
 \input{Figures/hlc-manualannot-pot-vs-antago/hlc-manualannot-pot-vs-antago}
 
-L'analyse plus fine des gènes "antagonisés", en représentant de part et d'autre de l'histogramme les gènes réprimés et "antagonisés" par rapport l'effet \gls{t3} ou induits \autoref{fig:hlc-manualannot-antago}.
-Il y a une asymétrie forte en faveur des gènes induits.
+Pour analyser plus finement les fonctions biologiques associées aux profils ``d'antagonisme'', j'ai représenté sous forme de double-histogramme vertical les effectifs des gènes réprimés (à gauche) ou induits (à droite) associés à différentes fonctions biologiques (\autoref{fig:hlc-manualannot-antago}).
+Il y a une asymétrie forte pour les gènes associés à l'ostéoarthrite.
+Il sont en effet enrichis en gènes dont l'induction \gls{t3}-dépendante est antagonisée par la \gls{cort}
 
 \input{Figures/hlc-manualannot-antago/hlc-manualannot-antago}
 
-L'analyse des gènes "potentiés" révèle une situation contrastée \autoref{fig:hlc-manualannot-pot} pour les termes liés à l'inflammation ("inflammation"), peau ("skin") et le système vasculaire ("vascular"). 
+L'analyse des gènes ``potentiés'' révèle une situation contrastée \autoref{fig:hlc-manualannot-pot} pour les termes liés à l'inflammation (``inflammation''), peau (``skin'') et le système vasculaire (``vascular''). 
 
 \input{Figures/hlc-manualannot-pot/hlc-manualannot-pot}
 
