@@ -8,23 +8,24 @@
 % -----------------------------------------
 % --- BEGIN - Résumé
 
-\section{Résumé de la portée de l'article proposé}
+\section{L'interaction croisée des hormones thyroïdiennes et des glucocorticoïdes dans les pattes postérieures révèle une perturbation des programmes de mise en place du squelette}
 
-J'ai dans un premier temps consacré mes efforts sur l'analyse des programmes transcriptionnels régulés par les \glspl{ht} et les \glspl{gc} dans les bourgeons de membres postérieurs de têtards de \gls{xtrop}.
+
+\subsection{Résumé et portée de l'article}\label{subsec:grimaldi2014}
+
+J'ai dans un premier temps consacré mes efforts à l'analyse des programmes transcriptionnels régulés par les \glspl{ht} et les \glspl{gc} dans les bourgeons de membres postérieurs de têtards de \gls{xtrop}.
 Ces organes sont au \gls{snf} 54 en plein développement, et font intervenir des processus cellulaires très variés, de la prolifération à l'apoptose.
 Ce modèle d'étude est particulièrement pertinent dans le cadre des impacts à long terme de perturbations survenant lors du développement post-embryonnaire.
-
-Comme décrit précédement, l'analyse de la dynamique du transcriptome de cet organe après 24h de traitement aux \glspl{ht} et/ou aux \glspl{gc} est réalisée par \gls{rnaseq}.
-Le détail de la procédure utilisée au cours de cette partie de l'analyse est décrit dans le "matériel et méthode" de la publication en cours de finition présentée à la \autoref{sec:grimaldi2014}.
-
+\par
+Comme décrit précédemment, l'analyse de la dynamique du transcriptome de cet organe après 24h de traitement aux \glspl{ht} et/ou aux \glspl{gc} est réalisée par \gls{rnaseq}.
+Le détail de la procédure utilisée au cours de cette partie de l'analyse est décrit dans la section ``Materials and Methods'' de la publication en cours de finition présentée à la \autoref{subsec:grimaldi2014}.
+\par
 Le résultat fort qui découle de ce travail concerne la fonction biologique des gènes dont l'expression induite ou réprimée par une des deux hormones est affectée par la seconde.
-Les profils d'expression peuvent ainsi être classifiés en deux catégories:
-"antagonistes" quand l'effet de la première hormone est inhibée par la seconde; "potentiés" dans le cas d'une additivité ou une synergie d'action entre les deux hormones.
-
-Une analyse préliminaire basée sur l'annotation fonctionnelle de ces gènes par \gls{go} révèle que seul un certain type de profil semble enrichi en une fonction biologique particulière (voir \autoref{par:hlc-go-pot-down}).
-
-Pour aller plus loin et se détacher des biais potentiel bien connus des bases de données d'annotation fonctionnelles (meilleure caractérisation dans un contexte mammalien, biais vers certaine fonctions biologiques ...), chaque gène dans les différentes catégories d'interactions croisées entre \gls{ht} et \gls{gc} ont été annotés manuellement sur la base de la littérature.
-
+Les profils d'expression peuvent ainsi être classifiés en deux catégories :
+``antagonistes'' quand l'effet de la première hormone est inhibée par la seconde ; ``potentiés'' dans le cas d'une additivité ou une synergie d'action entre les deux hormones.
+\par
+L'analyse préliminaire basée sur l'annotation fonctionnelle de ces gènes par \gls{go} révèle que seul un certain type de profil semble enrichi en une fonction biologique particulière (voir \autoref{par:hlc-go-pot-down}).
+Pour aller plus loin et se détacher des biais potentiel bien connus des bases de données d'annotation fonctionnelles (meilleure caractérisation dans un contexte mammalien, biais vers certaine fonctions biologiques ...), chaque gène dans les différentes catégories d'interactions croisées entre \gls{ht} et \gls{gc} a été annoté manuellement sur la base de la littérature.
 Il ressort de cette analyse qu'une part significative de ces gènes sont impliqués dans le remodelage de la matrice extra-cellulaire, du cartilage, et de l'os.
 Alors qu'il est bien décrit dans la littérature que les \glspl{ht} et les \glspl{gc} sont cruciaux lors du développement squelettique \citep{Robson2002,Wojcicka2013a}, ces données apportent les premiers éléments de réponse moléculaires vers une élucidation du rôle et des conséquences développementales de l'interaction croisée entre deux voies de signalisation.
 
@@ -36,25 +37,18 @@ Alors qu'il est bien décrit dans la littérature que les \glspl{ht} et les \gls
 % -----------------------------------------
 % --- BEGIN - Article
 
-\section{Article: L'interaction croisée des hormones thyroïdiennes et des glucocorticoïdes dans les pattes postérieures révèle une perturbation des programmes de mise en place du squelette}\label{sec:grimaldi2014}
-
-%\begin{abstract}
-%
-%Abstract
-%
-%\end{abstract}
-%
-%\explainindetail{Inserer article hindlimb}
-%\includepdf[pages={-}]{Publications/grimaldi2014.pdf}
+\includepdf[pages={-}]{Publications/grimaldi2014.pdf}
+\includepdf[pages={-}]{Publications/grimaldi2014-fig.pdf}
+\includepdf[pages={-}]{Publications/grimaldi2014-sup.pdf}
 %\includepdf[pages={-},nup=1x2,landscape=true]{Publications/grimaldi2014-sup.pdf}
 
-% --- END - Résumé article
+% --- END - Article
 % -----------------------------------------
 
 % :::::::::::::::::::::::::::::::::::::::::
 
 % -----------------------------------------
-% --- BEGIN - Article
+% --- 
 
 \section{Annotation fonctionnelle automatique des termes enrichis dans les différentes catégories de profils d'expression}\label{sec:hlc-preanalysis}
 
@@ -64,7 +58,7 @@ Alors qu'il est bien décrit dans la littérature que les \glspl{ht} et les \gls
 \subsection{Analyse globale}
 
 La répartition des gènes dans les différents types de profils d'expression sont hétérogènes.
-Seule une minorité est affectée par le traitement aux \glspl{gc} (\autoref{fig:hlc-heatmap-de-genes} et Figure 1 de l'article en \autoref{sec:grimaldi2014}).
+Seule une minorité est affectée par le traitement aux \glspl{gc} (\autoref{fig:hlc-heatmap-de-genes} et Figure 1 de l'article en \autoref{subsec:grimaldi2014}).
 La majeure partie des profils d'expression des gènes différentiellement exprimés correspond ainsi à un effet du traitement à la \gls{t3}.
 Une minorité de gènes sont toutefois classifiés comme ayant une une réponse à la \gls{cort}, aussi bien seule que interagissant avec la réponse à la \gls{t3}.
 
@@ -91,7 +85,7 @@ Dans une moindre mesure, le système immunitaire est également affecté, ainsi 
 % +++ BEGIN - Intéractions entre hormones
 
 \subsection{Analyse des clusters spécifiques d'une interaction croisée entre les effets des deux hormones}
-Après avoir fait le choix délibéré de concentrer l'analyse sur les gènes affectés par les deux hormones simultanément (\autoref{sec:grimaldi2014}, Figure 2), j'ai répété l'annotation fonctionnelle des gènes dans les différentes catégories de profil d'expression, parmi les profils "antagonistes" et "potentiation" en distinguant dans chaque cas les gènes induits et les gènes réprimés.
+Après avoir fait le choix délibéré de concentrer l'analyse sur les gènes affectés par les deux hormones simultanément (Figure 2 de l'article à la \autoref{subsec:grimaldi2014}, Figure 2), j'ai répété l'annotation fonctionnelle des gènes dans les différentes catégories de profil d'expression, parmi les profils "antagonistes" et "potentiation" en distinguant dans chaque cas les gènes induits et les gènes réprimés.
 Le contraste utilisé à cette étape emploie l'ensemble des 4741 gènes différentiellement exprimés dans au moins une condition comme background.
 Ceci permet de capturer les termes enrichis dans le contexte d'un crosstalk particulier comparé à ceux enrichis dans le contexte d'un effet quelconque.
 De façon frappante, le contenu en gènes dans ces quatre catégories sous-tend des processus biologiques contrastés.
