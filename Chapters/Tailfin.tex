@@ -39,20 +39,20 @@ La représentation en "treemap" décrite précédemment récapitule les fonction
 
 Au vu des données générées, les interactions entre signalisation \gls{ht} et \gls{gc} au niveau transcriptionnel se caractérisent, de façon similaire aux \glspl{hlb}, par deux types de profils :
 \begin{itemize}
-\item des profils type "potentialisation", où le traitement combiné des deux hormones se traduit par un effet plus marqué sur la quantité de transcrits des gènes cible que lors d'un traitement par une des deux hormones seule.
-\item des profils de type "antagonisme", où l'effet d'une hormone est inhibé par la seconde.
+\item des profils type ``potentiation'', où le traitement combiné des deux hormones se traduit par un effet plus marqué sur la quantité de transcrits des gènes cible que lors d'un traitement par une des deux hormones seule.
+\item des profils de type ``antagonisme'', où l'effet d'une hormone est inhibé par la seconde.
 \end{itemize}
-
-Peu de gènes présentent un profil d'expression "antagonisé" par rapport à un profil d'expression de type "potentié", 129 et 747 respectivement.
-Les profils de type "potentiés" peuvent être catégorisés en une potentiation de l'effet répresseur (\autoref{fig:tfc-clusters-pot}~A) et de l'effet activateur (\autoref{fig:tfc-clusters-pot}~B).
-Les effets de type antagonistes sont marqués par la présence de "clusters" regroupant des gènes dont l'effet de la \gls{t3} est inhibé par la \gls{cort} (\autoref{fig:tfc-clusters-antago}~A) et des gènes dont l'effet de la \gls{cort} est inhibé par celui de la \gls{t3} (\autoref{fig:tfc-clusters-antago}~B).
+\par
+Peu de gènes présentent un profil d'expression ``d'antagonisme'' par rapport à un profil d'expression de type ``potentié'', 129 et 747 respectivement.
+Les profils de type ``potentiés'' peuvent être catégorisés en une potentiation de l'effet répresseur (\autoref{fig:tfc-clusters-pot}~A) et de l'effet activateur (\autoref{fig:tfc-clusters-pot}~B).
+Les effets de type antagonistes sont marqués par la présence de ``clusters'' regroupant des gènes dont l'effet de la \gls{t3} est inhibé par la \gls{cort} (\autoref{fig:tfc-clusters-antago}~A) et des gènes dont l'effet de la \gls{cort} est inhibé par celui de la \gls{t3} (\autoref{fig:tfc-clusters-antago}~B).
 
 \input{Figures/tfc-clusters-pot/tfc-clusters-pot}
 
 \input{Figures/tfc-clusters-antago/tfc-clusters-antago}
 
 Pour mettre en évidence les catégories fonctionnelles spécifiques des diférents types d'interactions croisées entre \glspl{ht} et \glspl{gc}, le "background" que j'ai utilisé a été constitué à partir de la liste des 1363 gènes différentiellement exprimés dans au moins une condition.
-Les fonctions biologiques associées aux gènes réprimés parmi les gènes "potentialisés" sont clairement associées à l'inhibition de prolifération cellulaire et à la réponse immunitaire  \autoref{fig:tfc-go-pot-down}.
+Les fonctions biologiques associées aux gènes réprimés parmi les gènes ``potentialisés'' sont clairement associées à l'inhibition de prolifération cellulaire et à la réponse immunitaire  \autoref{fig:tfc-go-pot-down}.
 
 \input{Figures/tfc-go-pot-down/tfc-go-pot-down}
 
@@ -60,14 +60,14 @@ Les gènes dont la quantité de transcrits est augmentée de façon potentiée p
 
 \input{Figures/tfc-go-pot-up/tfc-go-pot-up}
 
-Les "clusters" regroupant les gènes dont les effets des \glspl{ht} et des \glspl{gc} s'antagonisent ne présentent pas d'enrichissement particulièrement fort pour une ou plusieurs fonctions biologiques définies.
+Les ``clusters'' regroupant les gènes dont les effets des \glspl{ht} et des \glspl{gc} s'antagonisent ne présentent pas d'enrichissement particulièrement fort pour une ou plusieurs fonctions biologiques définies.
 Il semble toutefois que le transport membranaire d'ions soit légèrement sur-représenté dans ces catégories (\autoref{fig:tfc-go-antago-cort} et \autoref{fig:tfc-go-antago-t3}).
 
 \input{Figures/tfc-go-antago-cort/tfc-go-antago-cort}
 
 \input{Figures/tfc-go-antago-t3/tfc-go-antago-t3}
 
-Les gènes ayant des profils de type "antagonisé" et dans une moindre mesure de type "potentiés" ont des effets biologiques très divers, soulignant le caractère pléiotrope des \glspl{ht} et des \glspl{gc}.
+Les gènes ayant des profils de type ``antagonisme'' et dans une moindre mesure de type ``potentiation''" ont des effets biologiques très divers, soulignant le caractère pléiotrope des \glspl{ht} et des \glspl{gc}.
 Cette propriété, combinée à la taille restreinte des ensembles de gènes étudiés, contribue au faible enrichissement de catégories fonctionnelles par l'utilisation d'outils automatisés.
 
 
@@ -77,27 +77,27 @@ Pour aller plus loin dans la caractérisation des effets biologiques de l'intera
 
 \subsection{Annotation manuelle des gènes régulés de façon croisée par les hormones thyroïdiennes et les glucocorticoïdes}
 Les termes relevés et le nombre de gènes qui leur sont associés sont présentés \autoref{fig:tfc-manualannot-pot-vs-antago}.
-Le contraste avec les méthodes d'annotation fonctionnelle automatisées est frappant:
+Le contraste avec les méthodes d'annotation fonctionnelle automatisées est frappant :
 L'annotation manuelle fait ressortir un nombre important de gènes associés au cytosquelette, à l'adhésion cellulaire, à la matrice extra-cellulaire, aux processus d'inflammation et de régulation de la prolifération cellulaire / apoptose.
 
 \input{Figures/tfc-manualannot-pot-vs-antago/tfc-manualannot-pot-vs-antago}
 
-Enfin, il est intéressant de noter qu'il n'y a vraisemblablement pas de fonction biologique spécifiquement enrichie à chaque type interaction ("antagonisme" \textit{vs} "potentiation").
+Enfin, il est intéressant de noter qu'il n'y a vraisemblablement pas de fonction biologique spécifiquement enrichie à chaque type interaction (``antagonisme'' \textit{vs} ``potentiation'').
 
 
-\subsection{Annotation manuelle des gènes constituant les profils "antagonisés"}
+\subsection{Annotation manuelle des gènes constituant les profils ``d'antagonisme''}
 J'ai ensuite représenté séparément les termes associés aux gènes dont l'effet de la \gls{t3} est antagonisé par la \gls{cort} ("clusters" 1-4 \autoref{fig:tfc-clusters-antago}~A, \autoref{subfig:tfc-manualannot-antago-t}) et dont l'effet de la \gls{cort} est antagonisé par la \gls{t3} ("clusters" 5-6 \autoref{fig:tfc-clusters-antago}~B, \autoref{subfig:tfc-manualannot-antago-c}).
 
 \input{Figures/tfc-manualannot-antago/tfc-manualannot-antago}
 
 De façon frappante, il semble que le termes enrichis soient très spécifiques des tissus, en particulier dans le cas de l'antagonisme de l'effet \gls{t3}
 par la \gls{cort}.
-Cette dichotomie se traduit par l'enrichissement de termes liés au métabolisme, au devenir cellulaire et au stress oxidatif pour les gènes induits par la \gls{t3}; de termes liés au remodelage de la matrice extra-cellulaire parmi les gènes réprimés.
+Cette dichotomie se traduit par l'enrichissement de termes liés au métabolisme, au devenir cellulaire et au stress oxydatif pour les gènes induits par la \gls{t3}; de termes liés au remodelage de la matrice extra-cellulaire parmi les gènes réprimés.
 Le même type de dichotomie est observée pour les gènes dont l'effet de la \gls{cort} est antagonisé par la \gls{t3}, mais dans une moindre mesure.
 
 
-\subsection{Annotation manuelle des gènes constituant les profils "potentiés"}
-Enfin, le même type d'analyse pour les gènes "potentiés" (\autoref{fig:tfc-manualannot-pot}) ne révèle pas de fonction biologique préférentiellement associée au sens de la variation (si ce n'est le métabolisme qui tend à être légèrement enrichi parmi les gènes induits).
+\subsection{Annotation manuelle des gènes constituant les profils ``potentiés''}
+Enfin, le même type d'analyse pour les gènes ``potentiés'' (\autoref{fig:tfc-manualannot-pot}) ne révèle pas de fonction biologique préférentiellement associée au sens de la variation (si ce n'est le métabolisme qui tend à être légèrement enrichi parmi les gènes induits).
 
 \input{Figures/tfc-manualannot-pot/tfc-manualannot-pot}
 
