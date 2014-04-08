@@ -589,6 +589,7 @@
 \usepackage{layout}
 \usepackage[final,babel]{microtype}
 \usepackage{epigraph}
+\usepackage{abstract}
 
 \renewcommand{\thepart}{\Roman{part}}
 \renewcommand{\thechapter}{\arabic{chapter}}
@@ -792,9 +793,9 @@ par \\
 \@degree
 \end{center}
 \par
-\begin{abstract}}
+\begin{abstractfr}}
 
-\def\endabstractpage{\end{abstract}\noindent}
+\def\endabstractpage{\end{abstractfr}\noindent}
 
 
 \def\abstractpageen{
@@ -808,9 +809,9 @@ by \\
 Doctorate of Philosophy
 \end{center}
 \par
-\begin{abstract}}
+\begin{abstracten}}
 
-\def\endabstractpageen{\end{abstract}\noindent}
+\def\endabstractpageen{\end{abstracten}\noindent}
 % \unvcopy\@abstractsupervisor \newpage}
 
 %% This counter is used to save the page number for the second copy of
@@ -837,6 +838,9 @@ Doctorate of Philosophy
 \def\signature#1#2{\par\noindent#1\dotfill\null\\*
   {\raggedleft #2\par}}
 
-\def\abstract{\subsection*{Abstract}\small\def\baselinestretch{1}\@normalsize}
-\def\endabstract{\par}
+\def\abstractfr{\subsection*{Résumé}\small\def\baselinestretch{1}\@normalsize}
+\def\endabstractfr{\par}
+
+\def\abstracten{\subsection*{Abstract}\small\def\baselinestretch{1}\@normalsize}
+\def\endabstracten{\par}
 
