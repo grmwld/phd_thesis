@@ -21,3 +21,5 @@
 *.toc
 main.pdf
 These-Doctorat_AG_*.pdf
+*.sublime-workspace
+*.sublime-project
