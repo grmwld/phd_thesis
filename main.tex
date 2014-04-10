@@ -1,0 +1,85 @@
+% -*- Mode:TeX -*-
+%%
+%% The documentclass options along with the pagestyle can be used to generate
+%% a technical report, a draft copy, or a regular thesis.  You may need to
+%% re-specify the pagestyle after you \include  cover.tex.  For more
+%% information, see the first few lines of mitthesis.cls.
+%%
+%\documentclass[12pt,vi,twoside]{mitthesis}
+%%
+%\documentclass[12pt,twoside,leftblank]{mitthesis}
+%%
+%% If you want blank pages before new chapters to be labelled ``This
+%% Page Intentionally Left Blank use the ``leftblank'' option, as
+%% above. 
+%\documentclass[a4paper,12pt,twoside,draft]{mitthesis}
+
+\ifdefined\isdeadtree
+	\documentclass[a4paper,12pt,twoside]{mitthesis}
+	\toggletrue{deadtree}
+\else
+	\documentclass[a4paper,12pt]{mitthesis}
+	\togglefalse{deadtree}
+\fi
+
+\hbadness=10000
+
+% \togglefalse{deadtree}
+% \toggletrue{deadtree}
+
+\begin{document}
+\include{Frontmatter/abbreviations}
+
+\pagestyle{plain}
+
+\subfile{Frontmatter/cover}
+\glsresetall
+
+% \layout
+% \listoftodos
+
+\printglossary[title=Liste des abréviations]
+
+\subfile{Frontmatter/contents}
+
+\raggedbottom	
+\justifying
+
+%%% - INDRODUCTION - %%
+\part{Introduction}
+\subfile{Chapters/HormonesThyroidiennes}
+\subfile{Chapters/Glucocorticoides}
+
+%%% - OBJECTIFS - %%
+\part{Objectifs et Stratégies Expérimentales}
+\subfile{Chapters/Objectifs}
+\subfile{Chapters/Metamorphose}
+\subfile{Chapters/Strategies}
+
+% %%% - RESULTATS - %%
+\part{Résultats}
+\subfile{Chapters/Hindlimbs}
+\subfile{Chapters/Tailfin}
+\subfile{Chapters/TF-vs-HL}
+
+%%% - DISCUSSION - %%
+\part{Discussion}
+\subfile{Chapters/Profils-HT-GC}
+\subfile{Chapters/Fonctions-genes}
+\subfile{Chapters/Stress-Environnement}
+\subfile{Chapters/Conclusion-Perspectives}
+
+%%% - ANNEXES - %%
+\pagestyle{plain}
+\appendix
+\renewcommand{\thechapter}{\Alph{chapter}}
+\renewcommand{\thesection}{\thechapter - \arabic{section}}
+\part*{Annexes}
+\addcontentsline{toc}{part}{Annexes}
+\subfile{appendix/appa}
+
+%% - BIBLIOGRAPHIE - %%
+\subfile{biblio}
+
+\end{document}
+

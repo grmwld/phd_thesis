@@ -1,0 +1,11 @@
+\begin{figure}[!htb]
+\centerline{
+\includegraphics[width=\textwidth]
+{Figures/ht-tree/ht-tree.pdf}}
+\caption[Evolution la signalisation thyroidienne]
+{
+Les étapes principales de l'établissement de la signalisation thyroïdienne au cours de l'évolution sont représentées sur cet arbre simplifé.
+Figure basée sur \citet{Paris2008}
+}
+\label{fig:ht-tree}
+\end{figure}

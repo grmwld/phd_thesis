@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="300">
+  <style>
+    rect {
+    	fill: #aaa;
+    }
+  </style>
+  <def>
+    <g class="base" id="a">
+      <path fill="#c0504d" d="m0 66 h16 v-24 l-8 -8 -8 8z"/>
+      <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="62">A</text>
+    </g>
+    <g class="base" id="a2">
+      <path fill="#c0504d" d="m0 8 h16 v24 l-8 8 -8 -8z"/>
+      <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="24">A</text>
+    </g>
+    <g class="base" id="t">
+      <path fill="#f79646" d="m0 66 h16 v-32 l-8 8 -8 -8z"/>
+      <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="62">T</text>
+    </g>
+    <g class="base" id="t2">
+      <path fill="#f79646" d="m0 8 h16 v32 l-8 -8 -8 8z"/>
+      <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="24">T</text>
+    </g>
+    <g class="base" id="g">
+      <path fill="#4bacc6" d="m0 66 h16 v-16 l-16 -16z"/>
+      <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="62">G</text>
+    </g>
+    <g class="base" id="g2">
+      <path fill="#4bacc6" d="m0 8 h16 v32 l-16 -16z"/>
+      <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="24">G</text>
+    </g>
+    <g class="base" id="c">
+      <path fill="#9bbb59" d="m0 66 h16 v-24 l-16 -16z"/>
+      <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="62">C</text>
+    </g>
+    <g class="base" id="c2">
+      <path fill="#9bbb59" d="m0 8 h16 v40 l-16 -16z"/>
+      <text style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;" x="8" y="24">C</text>
+    </g>
+  </def>
+  <use x="34" y="20" xlink:href="#a2"/>
+  <use x="34" y="20" xlink:href="#t"/>
+  <use x="54" y="20" xlink:href="#g2"/>
+  <use x="54" y="20" xlink:href="#c"/>
+  <use x="74" y="20" xlink:href="#a2"/>
+  <use x="74" y="20" xlink:href="#t"/>
+  <use x="94" y="20" xlink:href="#a2"/>
+  <use x="94" y="20" xlink:href="#t"/>
+  <use x="114" y="20" xlink:href="#c2"/>
+  <use x="114" y="20" xlink:href="#g"/>
+  <use x="134" y="20" xlink:href="#a2"/>
+  <use x="134" y="20" xlink:href="#t"/>
+  <use x="214" y="20" xlink:href="#t2"/>
+  <use x="214" y="20" xlink:href="#a"/>
+  <use x="234" y="20" xlink:href="#g2"/>
+  <use x="234" y="20" xlink:href="#c"/>
+  <use x="254" y="20" xlink:href="#t2"/>
+  <use x="254" y="20" xlink:href="#a"/>
+  <use x="274" y="20" xlink:href="#t2"/>
+  <use x="274" y="20" xlink:href="#a"/>
+  <use x="294" y="20" xlink:href="#c2"/>
+  <use x="294" y="20" xlink:href="#g"/>
+  <use x="314" y="20" xlink:href="#t2"/>
+  <use x="314" y="20" xlink:href="#a"/>
+  <rect x="30" y="20" width="304" height="8"/>
+  <rect x="30" y="86" width="304" height="8"/>
+  <use x="34" y="140" xlink:href="#c2"/>
+  <use x="34" y="140" xlink:href="#g"/>
+  <use x="54" y="140" xlink:href="#t2"/>
+  <use x="54" y="140" xlink:href="#a"/>
+  <use x="74" y="140" xlink:href="#c2"/>
+  <use x="74" y="140" xlink:href="#g"/>
+  <use x="94" y="140" xlink:href="#c2"/>
+  <use x="94" y="140" xlink:href="#g"/>
+  <use x="134" y="140" xlink:href="#g2"/>
+  <use x="134" y="140" xlink:href="#c"/>
+  <use x="154" y="140" xlink:href="#g2"/>
+  <use x="154" y="140" xlink:href="#c"/>
+  <use x="174" y="140" xlink:href="#a2"/>
+  <use x="174" y="140" xlink:href="#t"/>
+  <use x="194" y="140" xlink:href="#g2"/>
+  <use x="194" y="140" xlink:href="#c"/>
+  <use x="214" y="140" xlink:href="#a2"/>
+  <use x="214" y="140" xlink:href="#t"/>
+  <rect x="30" y="140" width="204" height="8"/>
+  <rect x="30" y="206" width="204" height="8"/>
+</svg>

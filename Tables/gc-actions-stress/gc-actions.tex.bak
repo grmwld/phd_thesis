@@ -1,0 +1,53 @@
+\setlength{\extrarowheight}{5px}
+
+\begin{table}[!htbp]
+\footnotesize
+
+\def\tabularxcolumn#1{m{#1}}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcolumntype{M}{>{\setlength\hsize{1\hsize}\raggedright}X}
+\newcolumntype{N}{>{\setlength\hsize{1\hsize}\centering}X@{}}
+\newcolumntype{O}{>{\setlength\hsize{1\hsize}\centering}X}
+\newcolumntype{P}{>{\centering\setlength\hsize{2\hsize}}X}
+
+\begin{tabularx}{\textwidth}{M N O N O}
+
+\toprule
+
+			& \multicolumn{2}{P}{\glspl{gc} médiateurs de la réponse au stress}
+			& \multicolumn{2}{P}{\glspl{gc} temporisateurs de la réponse au stress} \tabularnewline
+
+\cmidrule(rl){2-3}
+\cmidrule(rl){4-5}
+
+			& Permissif		& Stimulant		& Préparative	& Suppréssive \tabularnewline
+
+Cardiovasculaires
+			& \checkmark	& 				& 				& 			 \tabularnewline
+Volumes de fluides
+			& 				& 				& 				& \checkmark\textsuperscript{*} \tabularnewline
+Système immun
+			& \checkmark	& 				& 				& \checkmark\textsuperscript{*} \tabularnewline
+Métabolisme
+			& \checkmark	& \checkmark	& \checkmark	& 			 \tabularnewline
+Transport du glucose et son utilisation par le cerveau
+			& 				& 				& 				& \checkmark~ \tabularnewline
+Appétit
+			& 				& 				& \checkmark	& \checkmark\textsuperscript{*} \tabularnewline
+Cognitifs
+			& \checkmark	& 				& 				& \checkmark~ \tabularnewline
+Comportement et physiologie de la reproduction
+			& \checkmark	& \checkmark	& \checkmark	& 			 \tabularnewline
+
+\bottomrule
+
+\end{tabularx}
+\caption[Effets des glucocorticoïdes dans la réponse au stress]
+{
+Types d'effets physiologiques des \glspl{gc} dans la réponse au stress.
+Tiré de \citet{Sapolsky2000}
+}
+\label{tab:gc-actions-stress}
+
+\def\tabularxcolumn#1{p{#1}}
+\end{table}

@@ -1,0 +1,2350 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1110.2273"
+   height="334.74527"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="tre.svg">
+  <metadata
+     id="metadata208">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs206">
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path3963" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path3969" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="956"
+     inkscape:window-height="700"
+     id="namedview204"
+     showgrid="false"
+     inkscape:zoom="0.62"
+     inkscape:cx="489.34956"
+     inkscape:cy="5.4447091"
+     inkscape:window-x="0"
+     inkscape:window-y="530"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2"
+     fit-margin-top="2"
+     fit-margin-left="2"
+     fit-margin-right="2"
+     fit-margin-bottom="2" />
+  <style
+     id="style4">
+    rect {
+    	fill: #aaa;
+    }
+  </style>
+  <def
+     id="def6">
+    <g
+       class="base"
+       id="a">
+      <path
+         fill="#c0504d"
+         d="m0 66 h16 v-24 l-8 -8 -8 8z"
+         id="path9" />
+      <text
+         style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;"
+         x="8"
+         y="62"
+         id="text11">A</text>
+    </g>
+    <g
+       class="base"
+       id="a2">
+      <path
+         fill="#c0504d"
+         d="m0 8 h16 v24 l-8 8 -8 -8z"
+         id="path14" />
+      <text
+         style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;"
+         x="8"
+         y="24"
+         id="text16">A</text>
+    </g>
+    <g
+       class="base"
+       id="t">
+      <path
+         fill="#f79646"
+         d="m0 66 h16 v-32 l-8 8 -8 -8z"
+         id="path19" />
+      <text
+         style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;"
+         x="8"
+         y="62"
+         id="text21">T</text>
+    </g>
+    <g
+       class="base"
+       id="t2">
+      <path
+         fill="#f79646"
+         d="m0 8 h16 v32 l-8 -8 -8 8z"
+         id="path24" />
+      <text
+         style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;"
+         x="8"
+         y="24"
+         id="text26">T</text>
+    </g>
+    <g
+       class="base"
+       id="g">
+      <path
+         fill="#4bacc6"
+         d="m0 66 h16 v-16 l-16 -16z"
+         id="path29" />
+      <text
+         style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;"
+         x="8"
+         y="62"
+         id="text31">G</text>
+    </g>
+    <g
+       class="base"
+       id="g2">
+      <path
+         fill="#4bacc6"
+         d="m0 8 h16 v32 l-16 -16z"
+         id="path34" />
+      <text
+         style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;"
+         x="8"
+         y="24"
+         id="text36">G</text>
+    </g>
+    <g
+       class="base"
+       id="c">
+      <path
+         fill="#9bbb59"
+         d="m0 66 h16 v-24 l-16 -16z"
+         id="path39" />
+      <text
+         style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;"
+         x="8"
+         y="62"
+         id="text41">C</text>
+    </g>
+    <g
+       class="base"
+       id="c2">
+      <path
+         fill="#9bbb59"
+         d="m0 8 h16 v40 l-16 -16z"
+         id="path44" />
+      <text
+         style="fill:#fff;font-family:sans;text-anchor:middle;font-size:16px;"
+         x="8"
+         y="24"
+         id="text46">C</text>
+    </g>
+  </def>
+  <g
+     id="g4421"
+     transform="matrix(1.4557464,0,0,1.4557464,29.312067,-330.82125)">
+    <use
+       id="use152"
+       xlink:href="#a2"
+       y="260"
+       x="34"
+       width="500"
+       height="500" />
+    <use
+       id="use154"
+       xlink:href="#t"
+       y="260"
+       x="34"
+       width="500"
+       height="500" />
+    <use
+       id="use156"
+       xlink:href="#g2"
+       y="260"
+       x="54"
+       width="500"
+       height="500" />
+    <use
+       id="use158"
+       xlink:href="#c"
+       y="260"
+       x="54"
+       width="500"
+       height="500" />
+    <use
+       id="use160"
+       xlink:href="#g2"
+       y="260"
+       x="74"
+       width="500"
+       height="500" />
+    <use
+       id="use162"
+       xlink:href="#c"
+       y="260"
+       x="74"
+       width="500"
+       height="500" />
+    <use
+       id="use164"
+       xlink:href="#t2"
+       y="260"
+       x="94"
+       width="500"
+       height="500" />
+    <use
+       id="use166"
+       xlink:href="#a"
+       y="260"
+       x="94"
+       width="500"
+       height="500" />
+    <use
+       id="use168"
+       xlink:href="#c2"
+       y="260"
+       x="114"
+       width="500"
+       height="500" />
+    <use
+       id="use170"
+       xlink:href="#g"
+       y="260"
+       x="114"
+       width="500"
+       height="500" />
+    <use
+       id="use172"
+       xlink:href="#a2"
+       y="260"
+       x="134"
+       width="500"
+       height="500" />
+    <use
+       id="use174"
+       xlink:href="#t"
+       y="260"
+       x="134"
+       width="500"
+       height="500" />
+    <use
+       id="use176"
+       xlink:href="#a2"
+       y="260"
+       x="234"
+       width="500"
+       height="500" />
+    <use
+       id="use178"
+       xlink:href="#t"
+       y="260"
+       x="234"
+       width="500"
+       height="500" />
+    <use
+       id="use180"
+       xlink:href="#g2"
+       y="260"
+       x="254"
+       width="500"
+       height="500" />
+    <use
+       id="use182"
+       xlink:href="#c"
+       y="260"
+       x="254"
+       width="500"
+       height="500" />
+    <use
+       id="use184"
+       xlink:href="#g2"
+       y="260"
+       x="274"
+       width="500"
+       height="500" />
+    <use
+       id="use186"
+       xlink:href="#c"
+       y="260"
+       x="274"
+       width="500"
+       height="500" />
+    <use
+       id="use188"
+       xlink:href="#t2"
+       y="260"
+       x="294"
+       width="500"
+       height="500" />
+    <use
+       id="use190"
+       xlink:href="#a"
+       y="260"
+       x="294"
+       width="500"
+       height="500" />
+    <use
+       id="use192"
+       xlink:href="#c2"
+       y="260"
+       x="314"
+       width="500"
+       height="500" />
+    <use
+       id="use194"
+       xlink:href="#g"
+       y="260"
+       x="314"
+       width="500"
+       height="500" />
+    <use
+       id="use196"
+       xlink:href="#a2"
+       y="260"
+       x="334"
+       width="500"
+       height="500" />
+    <use
+       id="use198"
+       xlink:href="#t"
+       y="260"
+       x="334"
+       width="500"
+       height="500" />
+    <rect
+       id="rect200"
+       height="8"
+       width="324"
+       y="260"
+       x="30"
+       style="fill:#aaaaaa" />
+    <rect
+       id="rect202"
+       height="8"
+       width="324"
+       y="326"
+       x="30"
+       style="fill:#aaaaaa" />
+  </g>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:2.50818014;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
+     d="m 81.904417,37.729564 161.625053,0"
+     id="path3167"
+     inkscape:connector-curvature="0" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path4937"
+     d="m 372.85331,37.729564 161.62506,0"
+     style="fill:none;stroke:#000000;stroke-width:2.50818014;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
+  <g
+     id="g4449"
+     transform="matrix(0.83606004,0,0,0.83606004,548.54253,277.21806)">
+    <g
+       transform="translate(-616.26554,-157.47627)"
+       id="g6">
+      <text
+         style="font-size:10px;text-anchor:middle"
+         y="12.75"
+         x="-137"
+         transform="matrix(0,-1,1,0,0,0)"
+         id="Y_title"
+         font-size="10">
+        <tspan
+           id="tspan3350"
+           style="font-size:20px">bits</tspan>
+      </text>
+    </g>
+    <rect
+       y="-119.97627"
+       x="-568.01556"
+       width="1.25"
+       style="fill:#000000"
+       id="y_axis"
+       height="175" />
+    <rect
+       y="55.023731"
+       x="-568.01556"
+       width="561.27478"
+       style="fill:#000000"
+       id="x_axis"
+       height="1.25" />
+    <rect
+       id="rect11"
+       y="-22.754042"
+       x="-570.51556"
+       width="3.75"
+       height="1.25"
+       style="fill:#aaaaaa" />
+    <text
+       style="font-size:10px"
+       id="text13"
+       y="-17.754042"
+       x="-587.01556"
+       text-anchor="right"
+       font-size="10">
+      <tspan
+         id="tspan3354"
+         style="font-size:20px">1</tspan>
+    </text>
+    <rect
+       id="rect15"
+       y="-100.53183"
+       x="-570.51556"
+       width="3.75"
+       height="1.25"
+       style="fill:#aaaaaa" />
+    <text
+       style="font-size:10px"
+       id="text17"
+       y="-95.53183"
+       x="-587.01556"
+       text-anchor="right"
+       font-size="10">
+      <tspan
+         id="tspan3352"
+         style="font-size:20px">2</tspan>
+    </text>
+    <rect
+       id="rect19"
+       y="55.023731"
+       x="-567.39056"
+       width="1.25"
+       height="3.75"
+       style="fill:#aaaaaa" />
+    <g
+       transform="matrix(1,0,0,2.036103,-620.71085,-292.08694)"
+       id="g3198">
+      <ellipse
+         d="m 74.285002,198.55629 c 0,4.06738 -8.038728,7.36464 -17.955,7.36464 -9.916273,0 -17.955,-3.29726 -17.955,-7.36464 0,-4.06738 8.038727,-7.36464 17.955,-7.36464 9.916272,0 17.955,3.29726 17.955,7.36464 z"
+         cx="56.330002"
+         cy="198.55629"
+         rx="17.955"
+         ry="7.3646369"
+         id="ellipse23"
+         sodipodi:cx="56.330002"
+         sodipodi:cy="198.55629"
+         sodipodi:rx="17.955"
+         sodipodi:ry="7.3646369"
+         style="fill:#c8c800"
+         transform="translate(16.445312,-35.5)" />
+      <ellipse
+         d="m 68.466251,198.55629 c 0,3.05053 -5.582449,5.52348 -12.46875,5.52348 -6.8863,0 -12.46875,-2.47295 -12.46875,-5.52348 0,-3.05053 5.58245,-5.52348 12.46875,-5.52348 6.886301,0 12.46875,2.47295 12.46875,5.52348 z"
+         cx="55.997501"
+         cy="198.55629"
+         rx="12.46875"
+         ry="5.5234776"
+         id="ellipse25"
+         sodipodi:cx="55.997501"
+         sodipodi:cy="198.55629"
+         sodipodi:rx="12.46875"
+         sodipodi:ry="5.5234776"
+         style="fill:#ffffff"
+         transform="translate(16.445312,-35.5)" />
+      <rect
+         height="7.3646369"
+         width="19.950001"
+         x="71.445312"
+         y="159.37396"
+         id="rect27"
+         style="fill:#ffffff" />
+      <rect
+         height="3.6823184"
+         width="6.9159999"
+         x="81.420311"
+         y="163.05629"
+         id="rect29"
+         style="fill:#c8c800" />
+      <rect
+         height="1.8411592"
+         width="13.566"
+         x="74.770309"
+         y="163.05629"
+         id="rect31"
+         style="fill:#c8c800" />
+    </g>
+    <g
+       transform="matrix(1,0,0,1.4452692,-620.71085,-200.45759)"
+       id="g3173">
+      <polygon
+         points="38.375,191.19165 38.375,191.19165 52.34,166.83925 57.66,166.83925 71.625,191.19165 66.6375,191.19165 62.48125,185.10355 47.51875,185.10355 43.3625,191.19165 "
+         id="polygon33"
+         style="fill:#00ff00"
+         transform="translate(16.445312,-35.5)" />
+      <polygon
+         points="59.655,181.45069 55,171.70973 49.68,181.45069 "
+         id="polygon35"
+         style="fill:#ffffff"
+         transform="translate(16.445312,-35.5)" />
+    </g>
+    <text
+       style="font-size:10px"
+       id="text37"
+       y="66.273727"
+       x="-554.26556"
+       text-anchor="bottom"
+       font-size="10">1</text>
+    <rect
+       id="rect39"
+       y="55.023731"
+       x="-532.39056"
+       width="1.25"
+       height="3.75"
+       style="fill:#aaaaaa" />
+    <polygon
+       transform="matrix(1,0,0,0.21398003,-604.26554,9.55297)"
+       style="fill:#ff0000"
+       id="polygon41"
+       points="73.375,207.90157 106.625,207.90157 106.625,208.63732 92.66,208.63732 92.66,212.5 87.34,212.5 87.34,208.63732 73.375,208.63732 " />
+    <g
+       transform="matrix(1,0,0,0.68808721,-620.71085,-64.202016)"
+       id="g3205">
+      <polygon
+         points="106.625,207.90157 101.6375,207.90157 97.48125,204.68267 82.51875,204.68267 78.3625,207.90157 73.375,207.90157 73.375,207.90157 87.34,195.02597 92.66,195.02597 "
+         id="polygon43"
+         style="fill:#00ff00"
+         transform="translate(16.445312,-35.5)" />
+      <polygon
+         points="90,197.60109 84.68,202.75133 94.655,202.75133 "
+         id="polygon45"
+         style="fill:#ffffff"
+         transform="translate(16.445312,-35.5)" />
+    </g>
+    <g
+       transform="matrix(1,0,0,1.4956883,-620.71085,-193.31649)"
+       id="g3182">
+      <ellipse
+         d="m 109.285,160.99759 c 0,18.79335 -8.03873,34.02838 -17.954998,34.02838 -9.916273,0 -17.955,-15.23503 -17.955,-34.02838 0,-18.79335 8.038727,-34.02838 17.955,-34.02838 9.916268,0 17.954998,15.23503 17.954998,34.02838 z"
+         cx="91.330002"
+         cy="160.99759"
+         rx="17.955"
+         ry="34.028378"
+         id="ellipse47"
+         sodipodi:cx="91.330002"
+         sodipodi:cy="160.99759"
+         sodipodi:rx="17.955"
+         sodipodi:ry="34.028378"
+         style="fill:#c8c800"
+         transform="translate(16.445312,-35.5)" />
+      <ellipse
+         d="m 103.46625,160.99759 c 0,14.09502 -5.582452,25.52128 -12.468752,25.52128 -6.886301,0 -12.46875,-11.42626 -12.46875,-25.52128 0,-14.09502 5.582449,-25.52128 12.46875,-25.52128 6.8863,0 12.468752,11.42626 12.468752,25.52128 z"
+         cx="90.997498"
+         cy="160.99759"
+         rx="12.46875"
+         ry="25.521284"
+         id="ellipse49"
+         sodipodi:cx="90.997498"
+         sodipodi:cy="160.99759"
+         sodipodi:rx="12.46875"
+         sodipodi:ry="25.521284"
+         style="fill:#ffffff"
+         transform="translate(16.445312,-35.5)" />
+      <rect
+         height="34.028378"
+         width="19.950001"
+         x="106.44531"
+         y="108.4834"
+         id="rect51"
+         style="fill:#ffffff" />
+      <rect
+         height="17.014189"
+         width="6.9159999"
+         x="116.42031"
+         y="125.49759"
+         id="rect53"
+         style="fill:#c8c800" />
+      <rect
+         height="8.5070944"
+         width="13.566"
+         x="109.77031"
+         y="125.49759"
+         id="rect55"
+         style="fill:#c8c800" />
+    </g>
+    <text
+       style="font-size:10px"
+       id="text57"
+       y="66.273727"
+       x="-519.26556"
+       text-anchor="bottom"
+       font-size="10">2</text>
+    <rect
+       id="rect59"
+       y="55.023731"
+       x="-497.39053"
+       width="1.25"
+       height="3.75"
+       style="fill:#aaaaaa" />
+    <polygon
+       transform="matrix(1,0,0,8.1337677,-604.26554,-1673.4019)"
+       style="fill:#ff0000"
+       id="polygon61"
+       points="108.375,211.03629 141.625,211.03629 141.625,211.27049 127.66,211.27049 127.66,212.5 122.34,212.5 122.34,211.27049 108.375,211.27049 " />
+    <text
+       style="font-size:10px"
+       id="text83"
+       y="66.273727"
+       x="-484.26553"
+       text-anchor="bottom"
+       font-size="10">3</text>
+    <rect
+       id="rect85"
+       y="55.023731"
+       x="-462.39053"
+       width="1.25"
+       height="3.75"
+       style="fill:#aaaaaa" />
+    <polygon
+       transform="matrix(1,0,0,6.2421909,-604.26554,-1285.7229)"
+       style="fill:#ff0000"
+       id="polygon87"
+       points="143.375,207.44116 143.375,206.47757 176.625,206.47757 176.625,207.44116 162.66,207.44116 162.66,212.5 157.34,212.5 157.34,207.44116 " />
+    <g
+       transform="matrix(1,0,0,1.1555987,-620.71085,-147.37533)"
+       id="g3229">
+      <ellipse
+         d="m 179.285,202.60602 c 0,2.1382 -8.03873,3.87156 -17.955,3.87156 -9.91627,0 -17.955,-1.73336 -17.955,-3.87156 0,-2.13821 8.03873,-3.87156 17.955,-3.87156 9.91627,0 17.955,1.73335 17.955,3.87156 z"
+         cx="161.33"
+         cy="202.60602"
+         rx="17.955"
+         ry="3.8715603"
+         id="ellipse89"
+         sodipodi:cx="161.33"
+         sodipodi:cy="202.60602"
+         sodipodi:rx="17.955"
+         sodipodi:ry="3.8715603"
+         style="fill:#c8c800"
+         transform="translate(16.445312,-35.5)" />
+      <ellipse
+         d="m 173.46625,202.60602 c 0,1.60365 -5.58245,2.90367 -12.46875,2.90367 -6.8863,0 -12.46875,-1.30002 -12.46875,-2.90367 0,-1.60365 5.58245,-2.90367 12.46875,-2.90367 6.8863,0 12.46875,1.30002 12.46875,2.90367 z"
+         cx="160.9975"
+         cy="202.60602"
+         rx="12.46875"
+         ry="2.9036703"
+         id="ellipse91"
+         sodipodi:cx="160.9975"
+         sodipodi:cy="202.60602"
+         sodipodi:rx="12.46875"
+         sodipodi:ry="2.9036703"
+         style="fill:#ffffff"
+         transform="translate(16.445312,-35.5)" />
+      <rect
+         height="3.8715603"
+         width="19.950001"
+         x="176.44531"
+         y="165.17023"
+         id="rect93"
+         style="fill:#ffffff" />
+      <rect
+         height="1.9357802"
+         width="6.9159999"
+         x="186.42032"
+         y="167.10602"
+         id="rect95"
+         style="fill:#c8c800" />
+      <rect
+         height="0.96789008"
+         width="13.566"
+         x="179.77031"
+         y="167.10602"
+         id="rect97"
+         style="fill:#c8c800" />
+    </g>
+    <text
+       style="font-size:10px"
+       id="text103"
+       y="66.273727"
+       x="-449.26553"
+       text-anchor="bottom"
+       font-size="10">4</text>
+    <rect
+       id="rect105"
+       y="55.023731"
+       x="-427.39053"
+       width="1.25"
+       height="3.75"
+       style="fill:#aaaaaa" />
+    <g
+       transform="matrix(1,0,0,0.43201377,-620.71085,-36.703748)"
+       id="g3193">
+      <ellipse
+         d="m 214.285,134.72223 c 0,42.95548 -8.03873,77.77778 -17.955,77.77778 -9.91627,0 -17.955,-34.8223 -17.955,-77.77778 0,-42.955482 8.03873,-77.77778 17.955,-77.77778 9.91627,0 17.955,34.822298 17.955,77.77778 z"
+         cx="196.33"
+         cy="134.72223"
+         rx="17.955"
+         ry="77.777779"
+         id="ellipse107"
+         sodipodi:cx="196.33"
+         sodipodi:cy="134.72223"
+         sodipodi:rx="17.955"
+         sodipodi:ry="77.777779"
+         style="fill:#0000ff"
+         transform="translate(16.445312,-35.5)" />
+      <ellipse
+         d="m 208.46625,134.72223 c 0,32.21661 -5.58245,58.33333 -12.46875,58.33333 -6.8863,0 -12.46875,-26.11672 -12.46875,-58.33333 0,-32.21661 5.58245,-58.333333 12.46875,-58.333333 6.8863,0 12.46875,26.116723 12.46875,58.333333 z"
+         cx="195.9975"
+         cy="134.72223"
+         rx="12.46875"
+         ry="58.333332"
+         id="ellipse109"
+         sodipodi:cx="195.9975"
+         sodipodi:cy="134.72223"
+         sodipodi:rx="12.46875"
+         sodipodi:ry="58.333332"
+         style="fill:#ffffff"
+         transform="translate(16.445312,-35.5)" />
+      <rect
+         height="77.777779"
+         width="19.950001"
+         x="211.44531"
+         y="60.333336"
+         id="rect111"
+         style="fill:#ffffff" />
+    </g>
+    <text
+       style="font-size:10px"
+       id="text113"
+       y="66.273727"
+       x="-414.26553"
+       text-anchor="bottom"
+       font-size="10">5</text>
+    <rect
+       id="rect115"
+       y="55.023731"
+       x="-392.39053"
+       width="1.25"
+       height="3.75"
+       style="fill:#aaaaaa" />
+    <rect
+       style="fill:#ffffff"
+       id="rect121"
+       y="52.876606"
+       x="-374.26553"
+       width="19.950001"
+       height="1.4314129" />
+    <polygon
+       transform="matrix(1,0,0,0.49412987,-604.26554,-53.033514)"
+       style="fill:#ff0000"
+       id="polygon127"
+       points="246.625,196.141 246.625,198.30038 232.66,198.30038 232.66,209.63717 227.34,209.63717 227.34,198.30038 213.375,198.30038 213.375,196.141 " />
+    <polygon
+       transform="matrix(1,0,0,1.2142507,-604.26554,-194.68035)"
+       style="fill:#00ff00"
+       id="polygon129"
+       points="232.66,117.41329 246.625,196.141 241.6375,196.141 237.48125,176.45907 222.51875,176.45907 218.3625,196.141 213.375,196.141 213.375,196.141 227.34,117.41329 " />
+    <polygon
+       transform="translate(-604.26554,-157.47627)"
+       style="fill:#ffffff"
+       id="polygon131"
+       points="230,133.15883 224.68,164.64991 234.655,164.64991 " />
+    <text
+       style="font-size:10px"
+       id="text133"
+       y="66.273727"
+       x="-379.26553"
+       text-anchor="bottom"
+       font-size="10">6</text>
+    <rect
+       id="rect135"
+       y="55.023731"
+       x="-357.39053"
+       width="1.25"
+       height="3.75"
+       style="fill:#aaaaaa" />
+    <text
+       style="font-size:10px"
+       id="text157"
+       y="66.273727"
+       x="-344.26553"
+       text-anchor="bottom"
+       font-size="10">7</text>
+    <rect
+       id="rect159"
+       y="55.023731"
+       x="-322.39053"
+       width="1.25"
+       height="3.75"
+       style="fill:#aaaaaa" />
+    <g
+       transform="matrix(1,0,0,2.7398753,-620.71085,-433.93418)"
+       id="g3273">
+      <ellipse
+         d="m 319.28499,211.23047 c 0,0.70114 -8.03873,1.26954 -17.955,1.26954 -9.91628,0 -17.955,-0.5684 -17.955,-1.26954 0,-0.70115 8.03872,-1.26954 17.955,-1.26954 9.91627,0 17.955,0.56839 17.955,1.26954 z"
+         cx="301.32999"
+         cy="211.23047"
+         rx="17.955"
+         ry="1.2695366"
+         id="ellipse161"
+         sodipodi:cx="301.32999"
+         sodipodi:cy="211.23047"
+         sodipodi:rx="17.955"
+         sodipodi:ry="1.2695366"
+         style="fill:#0000ff"
+         transform="translate(16.445312,-35.5)" />
+      <g
+         id="g3270">
+        <ellipse
+           d="m 313.46625,211.23047 c 0,0.52586 -5.58245,0.95215 -12.46875,0.95215 -6.8863,0 -12.46875,-0.42629 -12.46875,-0.95215 0,-0.52586 5.58245,-0.95215 12.46875,-0.95215 6.8863,0 12.46875,0.42629 12.46875,0.95215 z"
+           transform="translate(16.445312,-35.5)"
+           style="fill:#ffffff"
+           sodipodi:ry="0.95215243"
+           sodipodi:rx="12.46875"
+           sodipodi:cy="211.23047"
+           sodipodi:cx="300.9975"
+           id="ellipse163"
+           ry="0.95215243"
+           rx="12.46875"
+           cy="211.23047"
+           cx="300.9975" />
+      </g>
+      <rect
+         height="1.2695366"
+         width="19.950001"
+         x="316.44531"
+         y="175.09569"
+         id="rect165"
+         style="fill:#ffffff" />
+    </g>
+    <text
+       style="font-size:10px"
+       id="text183"
+       y="66.273727"
+       x="-309.26553"
+       text-anchor="bottom"
+       font-size="10">8</text>
+    <rect
+       id="rect185"
+       y="55.023731"
+       x="-287.39053"
+       width="1.25"
+       height="3.75"
+       style="fill:#aaaaaa" />
+    <g
+       transform="matrix(1,0,0,1.7130648,-620.71085,-251.80319)"
+       id="g3285">
+      <ellipse
+         d="m 354.28499,207.67535 c 0,2.66458 -8.03873,4.82464 -17.955,4.82464 -9.91628,0 -17.955,-2.16006 -17.955,-4.82464 0,-2.66457 8.03872,-4.82464 17.955,-4.82464 9.91627,0 17.955,2.16007 17.955,4.82464 z"
+         cx="336.32999"
+         cy="207.67535"
+         rx="17.955"
+         ry="4.8246398"
+         id="ellipse187"
+         sodipodi:cx="336.32999"
+         sodipodi:cy="207.67535"
+         sodipodi:rx="17.955"
+         sodipodi:ry="4.8246398"
+         style="fill:#0000ff"
+         transform="translate(16.445312,-35.5)" />
+      <ellipse
+         d="m 348.46625,207.67535 c 0,1.99844 -5.58245,3.61848 -12.46875,3.61848 -6.8863,0 -12.46875,-1.62004 -12.46875,-3.61848 0,-1.99843 5.58245,-3.61848 12.46875,-3.61848 6.8863,0 12.46875,1.62005 12.46875,3.61848 z"
+         cx="335.9975"
+         cy="207.67535"
+         rx="12.46875"
+         ry="3.6184797"
+         id="ellipse189"
+         sodipodi:cx="335.9975"
+         sodipodi:cy="207.67535"
+         sodipodi:rx="12.46875"
+         sodipodi:ry="3.6184797"
+         style="fill:#ffffff"
+         transform="translate(16.445312,-35.5)" />
+      <rect
+         height="4.8246398"
+         width="19.950001"
+         x="351.44531"
+         y="169.76305"
+         id="rect191"
+         style="fill:#ffffff" />
+      <rect
+         height="4.9148202"
+         width="19.950001"
+         x="351.44531"
+         y="159.97849"
+         id="rect197"
+         style="fill:#ffffff" />
+    </g>
+    <text
+       style="font-size:10px"
+       id="text207"
+       y="66.273727"
+       x="-274.26553"
+       text-anchor="bottom"
+       font-size="10">9</text>
+    <rect
+       id="rect209"
+       y="55.023731"
+       x="-252.39053"
+       width="1.25"
+       height="3.75"
+       style="fill:#aaaaaa" />
+    <g
+       transform="matrix(1,0,0,0.33044065,-620.71085,-2.36815)"
+       id="g3305">
+      <polygon
+         points="367.34,191.51647 372.66,191.51647 386.625,209.36073 381.6375,209.36073 377.48125,204.89967 362.51875,204.89967 358.3625,209.36073 353.375,209.36073 353.375,209.36073 "
+         id="polygon221"
+         style="fill:#00ff00"
+         transform="translate(16.445312,-53.5)" />
+      <polygon
+         points="364.68,202.22303 374.655,202.22303 370,195.08533 "
+         id="polygon223"
+         style="fill:#ffffff"
+         transform="translate(16.445312,-53.5)" />
+    </g>
+    <text
+       style="font-size:10px"
+       id="text227"
+       y="66.273727"
+       x="-239.26553"
+       text-anchor="bottom"
+       font-size="10">10</text>
+    <rect
+       id="rect229"
+       y="55.023731"
+       x="-217.39053"
+       width="1.25"
+       height="3.75"
+       style="fill:#aaaaaa" />
+    <g
+       transform="translate(-620.71085,-121.97627)"
+       id="g3361">
+      <ellipse
+         cx="406.32999"
+         cy="134.72223"
+         rx="17.955"
+         ry="77.777779"
+         id="ellipse231"
+         sodipodi:cx="406.32999"
+         sodipodi:cy="134.72223"
+         sodipodi:rx="17.955"
+         sodipodi:ry="77.777779"
+         style="fill:#c8c800"
+         transform="translate(50.445312,-35.5)"
+         d="m 424.28499,134.72223 c 0,42.95548 -8.03873,77.77778 -17.955,77.77778 -9.91628,0 -17.955,-34.8223 -17.955,-77.77778 0,-42.955482 8.03872,-77.77778 17.955,-77.77778 9.91627,0 17.955,34.822298 17.955,77.77778 z" />
+      <ellipse
+         cx="405.9975"
+         cy="134.72223"
+         rx="12.46875"
+         ry="58.333332"
+         id="ellipse233"
+         sodipodi:cx="405.9975"
+         sodipodi:cy="134.72223"
+         sodipodi:rx="12.46875"
+         sodipodi:ry="58.333332"
+         style="fill:#ffffff"
+         transform="translate(50.445312,-35.5)"
+         d="m 418.46625,134.72223 c 0,32.21661 -5.58245,58.33333 -12.46875,58.33333 -6.8863,0 -12.46875,-26.11672 -12.46875,-58.33333 0,-32.21661 5.58245,-58.333333 12.46875,-58.333333 6.8863,0 12.46875,26.116723 12.46875,58.333333 z" />
+      <rect
+         height="77.777779"
+         width="19.950001"
+         x="455.44531"
+         y="60.333336"
+         id="rect235"
+         style="fill:#ffffff" />
+      <rect
+         height="38.888889"
+         width="6.9159999"
+         x="465.42032"
+         y="99.222229"
+         id="rect237"
+         style="fill:#c8c800" />
+      <rect
+         height="19.444445"
+         width="13.566"
+         x="458.77032"
+         y="99.222229"
+         id="rect239"
+         style="fill:#c8c800" />
+    </g>
+    <text
+       style="font-size:10px"
+       id="text241"
+       y="66.273727"
+       x="-204.26553"
+       text-anchor="bottom"
+       font-size="10">11</text>
+    <rect
+       id="rect243"
+       y="55.023731"
+       x="-182.39053"
+       width="1.25"
+       height="3.75"
+       style="fill:#aaaaaa" />
+    <text
+       style="font-size:10px"
+       id="text257"
+       y="66.273727"
+       x="-169.26553"
+       text-anchor="bottom"
+       font-size="10">12</text>
+    <polygon
+       transform="matrix(1,0,0,0.44766232,-604.26554,-30.974712)"
+       style="fill:#ff0000"
+       id="polygon271"
+       points="472.34,191.92337 472.34,180.70692 458.375,180.70692 458.375,178.57045 491.625,178.57045 491.625,180.70692 477.66,180.70692 477.66,191.92337 " />
+    <text
+       style="font-size:10px"
+       id="text273"
+       y="66.273727"
+       x="-134.26553"
+       text-anchor="bottom"
+       font-size="10">13</text>
+    <polygon
+       transform="matrix(1,0,0,0.40403113,-604.26554,-33.387525)"
+       style="fill:#ff0000"
+       id="polygon277"
+       points="507.34,212.5 507.34,200.6252 493.375,200.6252 493.375,198.36334 526.625,198.36334 526.625,200.6252 512.66,200.6252 512.66,212.5 " />
+    <g
+       transform="matrix(1,0,0,0.02460804,-620.71085,51.19412)"
+       id="g3380">
+      <ellipse
+         d="m 529.28499,148.76314 c 0,27.39343 -8.03873,49.60019 -17.955,49.60019 -9.91628,0 -17.955,-22.20676 -17.955,-49.60019 0,-27.39343 8.03872,-49.600195 17.955,-49.600195 9.91627,0 17.955,22.206765 17.955,49.600195 z"
+         cx="511.32999"
+         cy="148.76314"
+         rx="17.955"
+         ry="49.600193"
+         id="ellipse279"
+         sodipodi:cx="511.32999"
+         sodipodi:cy="148.76314"
+         sodipodi:rx="17.955"
+         sodipodi:ry="49.600193"
+         style="fill:#0000ff"
+         transform="translate(16.445312,-35.5)" />
+      <ellipse
+         d="m 523.46625,148.76314 c 0,20.54507 -5.58245,37.20014 -12.46875,37.20014 -6.8863,0 -12.46875,-16.65507 -12.46875,-37.20014 0,-20.54508 5.58245,-37.20015 12.46875,-37.20015 6.8863,0 12.46875,16.65507 12.46875,37.20015 z"
+         cx="510.9975"
+         cy="148.76314"
+         rx="12.46875"
+         ry="37.200146"
+         id="ellipse281"
+         sodipodi:cx="510.9975"
+         sodipodi:cy="148.76314"
+         sodipodi:rx="12.46875"
+         sodipodi:ry="37.200146"
+         style="fill:#ffffff"
+         transform="translate(16.445312,-35.5)" />
+      <rect
+         height="49.600193"
+         width="19.950001"
+         x="526.44531"
+         y="88.463043"
+         id="rect283"
+         style="fill:#ffffff" />
+    </g>
+    <text
+       style="font-size:10px"
+       id="text285"
+       y="66.273727"
+       x="-99.265541"
+       text-anchor="bottom"
+       font-size="10">14</text>
+    <rect
+       id="rect287"
+       y="55.023731"
+       x="-77.390541"
+       width="1.25"
+       height="3.75"
+       style="fill:#aaaaaa" />
+    <g
+       transform="matrix(1,0,0,0.64455221,-620.71085,-59.062011)"
+       id="g3408">
+      <polygon
+         points="556.6375,212.5 552.48125,210.95205 537.51875,210.95205 533.3625,212.5 528.375,212.5 528.375,212.5 542.34,206.30819 547.66,206.30819 561.625,212.5 "
+         id="polygon289"
+         style="fill:#00ff00"
+         transform="matrix(1,0,0,0.4766085,16.445312,75.720694)" />
+      <polygon
+         points="549.655,210.02328 545,207.54655 539.68,210.02328 "
+         id="polygon291"
+         style="fill:#ffffff"
+         transform="matrix(1,0,0,0.4766085,16.445312,75.720694)" />
+    </g>
+    <g
+       transform="matrix(1,0,0,5.7193892,-622.71085,-933.19147)"
+       id="g3391">
+      <ellipse
+         d="m 564.28502,198.56842 c 0,4.27455 -8.03873,7.73976 -17.955,7.73976 -9.91628,0 -17.955,-3.46521 -17.955,-7.73976 0,-4.27455 8.03872,-7.73976 17.955,-7.73976 9.91627,0 17.955,3.46521 17.955,7.73976 z"
+         cx="546.33002"
+         cy="198.56842"
+         rx="17.955"
+         ry="7.7397642"
+         id="ellipse293"
+         sodipodi:cx="546.33002"
+         sodipodi:cy="198.56842"
+         sodipodi:rx="17.955"
+         sodipodi:ry="7.7397642"
+         style="fill:#0000ff"
+         transform="translate(16.445312,-35.5)" />
+      <ellipse
+         d="m 558.46625,198.56842 c 0,3.20592 -5.58245,5.80482 -12.46875,5.80482 -6.8863,0 -12.46875,-2.5989 -12.46875,-5.80482 0,-3.20592 5.58245,-5.80482 12.46875,-5.80482 6.8863,0 12.46875,2.5989 12.46875,5.80482 z"
+         cx="545.9975"
+         cy="198.56842"
+         rx="12.46875"
+         ry="5.8048234"
+         id="ellipse295"
+         sodipodi:cx="545.9975"
+         sodipodi:cy="198.56842"
+         sodipodi:rx="12.46875"
+         sodipodi:ry="5.8048234"
+         style="fill:#ffffff"
+         transform="translate(16.445312,-35.5)" />
+      <rect
+         height="7.7397642"
+         width="19.950001"
+         x="561.44531"
+         y="159.19855"
+         id="rect297"
+         style="fill:#ffffff" />
+    </g>
+    <polygon
+       transform="matrix(1,0,0,0.20360156,-604.96484,10.25527)"
+       style="fill:#ff0000"
+       id="polygon299"
+       points="547.66,168.72389 547.66,190.82866 542.34,190.82866 542.34,168.72389 528.375,168.72389 528.375,164.51346 561.625,164.51346 561.625,168.72389 " />
+    <text
+       style="font-size:10px"
+       id="text301"
+       y="66.273727"
+       x="-64.265541"
+       text-anchor="bottom"
+       font-size="10">15</text>
+    <rect
+       id="rect303"
+       y="55.023731"
+       x="-42.390537"
+       width="1.25"
+       height="3.75"
+       style="fill:#aaaaaa" />
+    <text
+       font-size="10"
+       text-anchor="right"
+       x="-587.01556"
+       y="60.24596"
+       id="text3356"
+       style="font-size:10px">
+      <tspan
+         style="font-size:20px"
+         id="tspan3358">0</tspan>
+    </text>
+    <g
+       id="g3209"
+       transform="matrix(1,0,0,1.354063,-586.71085,-172.73162)">
+      <ellipse
+         transform="translate(16.445312,-35.5)"
+         style="fill:#c8c800"
+         sodipodi:ry="34.028378"
+         sodipodi:rx="17.955"
+         sodipodi:cy="160.99759"
+         sodipodi:cx="91.330002"
+         id="ellipse3211"
+         ry="34.028378"
+         rx="17.955"
+         cy="160.99759"
+         cx="91.330002"
+         d="m 109.285,160.99759 c 0,18.79335 -8.03873,34.02838 -17.954998,34.02838 -9.916273,0 -17.955,-15.23503 -17.955,-34.02838 0,-18.79335 8.038727,-34.02838 17.955,-34.02838 9.916268,0 17.954998,15.23503 17.954998,34.02838 z" />
+      <ellipse
+         transform="translate(16.445312,-35.5)"
+         style="fill:#ffffff"
+         sodipodi:ry="25.521284"
+         sodipodi:rx="12.46875"
+         sodipodi:cy="160.99759"
+         sodipodi:cx="90.997498"
+         id="ellipse3213"
+         ry="25.521284"
+         rx="12.46875"
+         cy="160.99759"
+         cx="90.997498"
+         d="m 103.46625,160.99759 c 0,14.09502 -5.582452,25.52128 -12.468752,25.52128 -6.886301,0 -12.46875,-11.42626 -12.46875,-25.52128 0,-14.09502 5.582449,-25.52128 12.46875,-25.52128 6.8863,0 12.468752,11.42626 12.468752,25.52128 z" />
+      <rect
+         style="fill:#ffffff"
+         id="rect3215"
+         y="108.4834"
+         x="106.44531"
+         width="19.950001"
+         height="34.028378" />
+      <rect
+         style="fill:#c8c800"
+         id="rect3217"
+         y="125.49759"
+         x="116.42031"
+         width="6.9159999"
+         height="17.014189" />
+      <rect
+         style="fill:#c8c800"
+         id="rect3219"
+         y="125.49759"
+         x="109.77031"
+         width="13.566"
+         height="8.5070944" />
+    </g>
+    <g
+       transform="matrix(1,0,0,0.02925991,-656.71085,49.84473)"
+       id="g3221">
+      <ellipse
+         d="m 214.285,134.72223 c 0,42.95548 -8.03873,77.77778 -17.955,77.77778 -9.91627,0 -17.955,-34.8223 -17.955,-77.77778 0,-42.955482 8.03873,-77.77778 17.955,-77.77778 9.91627,0 17.955,34.822298 17.955,77.77778 z"
+         transform="translate(16.445312,-35.5)"
+         style="fill:#0000ff"
+         sodipodi:ry="77.777779"
+         sodipodi:rx="17.955"
+         sodipodi:cy="134.72223"
+         sodipodi:cx="196.33"
+         id="ellipse3223"
+         ry="77.777779"
+         rx="17.955"
+         cy="134.72223"
+         cx="196.33" />
+      <ellipse
+         d="m 208.46625,134.72223 c 0,32.21661 -5.58245,58.33333 -12.46875,58.33333 -6.8863,0 -12.46875,-26.11672 -12.46875,-58.33333 0,-32.21661 5.58245,-58.333333 12.46875,-58.333333 6.8863,0 12.46875,26.116723 12.46875,58.333333 z"
+         transform="translate(16.445312,-35.5)"
+         style="fill:#ffffff"
+         sodipodi:ry="58.333332"
+         sodipodi:rx="12.46875"
+         sodipodi:cy="134.72223"
+         sodipodi:cx="195.9975"
+         id="ellipse3225"
+         ry="58.333332"
+         rx="12.46875"
+         cy="134.72223"
+         cx="195.9975" />
+      <rect
+         style="fill:#ffffff"
+         id="rect3227"
+         y="60.333336"
+         x="211.44531"
+         width="19.950001"
+         height="77.777779" />
+    </g>
+    <polygon
+       points="157.34,212.5 157.34,207.44116 143.375,207.44116 143.375,206.47757 176.625,206.47757 176.625,207.44116 162.66,207.44116 162.66,212.5 "
+       id="polygon3236"
+       style="fill:#ff0000"
+       transform="matrix(1,0,0,1.4667958,-569.46233,-262.95147)" />
+    <g
+       transform="matrix(1,0,0,0.097139,-517.23294,39.82859)"
+       id="g3238">
+      <ellipse
+         d="m 109.285,160.99759 c 0,18.79335 -8.03873,34.02838 -17.954998,34.02838 -9.916273,0 -17.955,-15.23503 -17.955,-34.02838 0,-18.79335 8.038727,-34.02838 17.955,-34.02838 9.916268,0 17.954998,15.23503 17.954998,34.02838 z"
+         cx="91.330002"
+         cy="160.99759"
+         rx="17.955"
+         ry="34.028378"
+         id="ellipse3240"
+         sodipodi:cx="91.330002"
+         sodipodi:cy="160.99759"
+         sodipodi:rx="17.955"
+         sodipodi:ry="34.028378"
+         style="fill:#c8c800"
+         transform="translate(16.445312,-35.5)" />
+      <ellipse
+         d="m 103.46625,160.99759 c 0,14.09502 -5.582452,25.52128 -12.468752,25.52128 -6.886301,0 -12.46875,-11.42626 -12.46875,-25.52128 0,-14.09502 5.582449,-25.52128 12.46875,-25.52128 6.8863,0 12.468752,11.42626 12.468752,25.52128 z"
+         cx="90.997498"
+         cy="160.99759"
+         rx="12.46875"
+         ry="25.521284"
+         id="ellipse3242"
+         sodipodi:cx="90.997498"
+         sodipodi:cy="160.99759"
+         sodipodi:rx="12.46875"
+         sodipodi:ry="25.521284"
+         style="fill:#ffffff"
+         transform="translate(16.445312,-35.5)" />
+      <rect
+         height="34.028378"
+         width="19.950001"
+         x="106.44531"
+         y="108.4834"
+         id="rect3244"
+         style="fill:#ffffff" />
+      <rect
+         height="17.014189"
+         width="6.9159999"
+         x="116.42031"
+         y="125.49759"
+         id="rect3246"
+         style="fill:#c8c800" />
+      <rect
+         height="8.5070944"
+         width="13.566"
+         x="109.77031"
+         y="125.49759"
+         id="rect3248"
+         style="fill:#c8c800" />
+    </g>
+    <g
+       id="g3262"
+       transform="matrix(1,0,0,0.02667815,-587.37752,50.30171)">
+      <ellipse
+         transform="translate(16.445312,-35.5)"
+         style="fill:#0000ff"
+         sodipodi:ry="77.777779"
+         sodipodi:rx="17.955"
+         sodipodi:cy="134.72223"
+         sodipodi:cx="196.33"
+         id="ellipse3264"
+         ry="77.777779"
+         rx="17.955"
+         cy="134.72223"
+         cx="196.33"
+         d="m 214.285,134.72223 c 0,42.95548 -8.03873,77.77778 -17.955,77.77778 -9.91627,0 -17.955,-34.8223 -17.955,-77.77778 0,-42.955482 8.03873,-77.77778 17.955,-77.77778 9.91627,0 17.955,34.822298 17.955,77.77778 z" />
+      <ellipse
+         transform="translate(16.445312,-35.5)"
+         style="fill:#ffffff"
+         sodipodi:ry="58.333332"
+         sodipodi:rx="12.46875"
+         sodipodi:cy="134.72223"
+         sodipodi:cx="195.9975"
+         id="ellipse3266"
+         ry="58.333332"
+         rx="12.46875"
+         cy="134.72223"
+         cx="195.9975"
+         d="m 208.46625,134.72223 c 0,32.21661 -5.58245,58.33333 -12.46875,58.33333 -6.8863,0 -12.46875,-26.11672 -12.46875,-58.33333 0,-32.21661 5.58245,-58.333333 12.46875,-58.333333 6.8863,0 12.46875,26.116723 12.46875,58.333333 z" />
+      <rect
+         style="fill:#ffffff"
+         id="rect3268"
+         y="60.333336"
+         x="211.44531"
+         width="19.950001"
+         height="77.777779" />
+    </g>
+    <polygon
+       points="386.625,135.67056 386.625,144.6059 372.66,144.6059 372.66,191.51647 367.34,191.51647 367.34,144.6059 353.375,144.6059 353.375,135.67056 "
+       id="polygon3291"
+       style="fill:#ff0000"
+       transform="matrix(1,0,0,0.5867981,-638.7285,-77.4745)" />
+    <g
+       transform="matrix(1,0,0,0.17624003,-341.26798,14.84452)"
+       id="g3293">
+      <ellipse
+         d="m 109.285,160.99759 c 0,18.79335 -8.03873,34.02838 -17.954998,34.02838 -9.916273,0 -17.955,-15.23503 -17.955,-34.02838 0,-18.79335 8.038727,-34.02838 17.955,-34.02838 9.916268,0 17.954998,15.23503 17.954998,34.02838 z"
+         cx="91.330002"
+         cy="160.99759"
+         rx="17.955"
+         ry="34.028378"
+         id="ellipse3295"
+         sodipodi:cx="91.330002"
+         sodipodi:cy="160.99759"
+         sodipodi:rx="17.955"
+         sodipodi:ry="34.028378"
+         style="fill:#c8c800"
+         transform="translate(16.445312,-35.5)" />
+      <ellipse
+         d="m 103.46625,160.99759 c 0,14.09502 -5.582452,25.52128 -12.468752,25.52128 -6.886301,0 -12.46875,-11.42626 -12.46875,-25.52128 0,-14.09502 5.582449,-25.52128 12.46875,-25.52128 6.8863,0 12.468752,11.42626 12.468752,25.52128 z"
+         cx="90.997498"
+         cy="160.99759"
+         rx="12.46875"
+         ry="25.521284"
+         id="ellipse3297"
+         sodipodi:cx="90.997498"
+         sodipodi:cy="160.99759"
+         sodipodi:rx="12.46875"
+         sodipodi:ry="25.521284"
+         style="fill:#ffffff"
+         transform="translate(16.445312,-35.5)" />
+      <rect
+         height="34.028378"
+         width="19.950001"
+         x="106.44531"
+         y="108.4834"
+         id="rect3299"
+         style="fill:#ffffff" />
+      <rect
+         height="17.014189"
+         width="6.9159999"
+         x="116.42031"
+         y="125.49759"
+         id="rect3301"
+         style="fill:#c8c800" />
+      <rect
+         height="8.5070944"
+         width="13.566"
+         x="109.77031"
+         y="125.49759"
+         id="rect3303"
+         style="fill:#c8c800" />
+    </g>
+    <g
+       id="g3309"
+       transform="matrix(1,0,0,0.03463856,-445.61848,48.89271)">
+      <ellipse
+         transform="translate(16.445312,-35.5)"
+         style="fill:#0000ff"
+         sodipodi:ry="77.777779"
+         sodipodi:rx="17.955"
+         sodipodi:cy="134.72223"
+         sodipodi:cx="196.33"
+         id="ellipse3311"
+         ry="77.777779"
+         rx="17.955"
+         cy="134.72223"
+         cx="196.33"
+         d="m 214.285,134.72223 c 0,42.95548 -8.03873,77.77778 -17.955,77.77778 -9.91627,0 -17.955,-34.8223 -17.955,-77.77778 0,-42.955482 8.03873,-77.77778 17.955,-77.77778 9.91627,0 17.955,34.822298 17.955,77.77778 z" />
+      <ellipse
+         transform="translate(16.445312,-35.5)"
+         style="fill:#ffffff"
+         sodipodi:ry="58.333332"
+         sodipodi:rx="12.46875"
+         sodipodi:cy="134.72223"
+         sodipodi:cx="195.9975"
+         id="ellipse3313"
+         ry="58.333332"
+         rx="12.46875"
+         cy="134.72223"
+         cx="195.9975"
+         d="m 208.46625,134.72223 c 0,32.21661 -5.58245,58.33333 -12.46875,58.33333 -6.8863,0 -12.46875,-26.11672 -12.46875,-58.33333 0,-32.21661 5.58245,-58.333333 12.46875,-58.333333 6.8863,0 12.46875,26.116723 12.46875,58.333333 z" />
+      <rect
+         style="fill:#ffffff"
+         id="rect3315"
+         y="60.333336"
+         x="211.44531"
+         width="19.950001"
+         height="77.777779" />
+    </g>
+    <g
+       id="g3317"
+       transform="matrix(1,0,0,1.97324,-271.63678,-281.37377)">
+      <ellipse
+         transform="translate(16.445312,-35.5)"
+         style="fill:#c8c800"
+         sodipodi:ry="7.3646369"
+         sodipodi:rx="17.955"
+         sodipodi:cy="198.55629"
+         sodipodi:cx="56.330002"
+         id="ellipse3319"
+         ry="7.3646369"
+         rx="17.955"
+         cy="198.55629"
+         cx="56.330002"
+         d="m 74.285002,198.55629 c 0,4.06738 -8.038728,7.36464 -17.955,7.36464 -9.916273,0 -17.955,-3.29726 -17.955,-7.36464 0,-4.06738 8.038727,-7.36464 17.955,-7.36464 9.916272,0 17.955,3.29726 17.955,7.36464 z" />
+      <ellipse
+         transform="translate(16.445312,-35.5)"
+         style="fill:#ffffff"
+         sodipodi:ry="5.5234776"
+         sodipodi:rx="12.46875"
+         sodipodi:cy="198.55629"
+         sodipodi:cx="55.997501"
+         id="ellipse3321"
+         ry="5.5234776"
+         rx="12.46875"
+         cy="198.55629"
+         cx="55.997501"
+         d="m 68.466251,198.55629 c 0,3.05053 -5.582449,5.52348 -12.46875,5.52348 -6.8863,0 -12.46875,-2.47295 -12.46875,-5.52348 0,-3.05053 5.58245,-5.52348 12.46875,-5.52348 6.886301,0 12.46875,2.47295 12.46875,5.52348 z" />
+      <rect
+         style="fill:#ffffff"
+         id="rect3323"
+         y="159.37396"
+         x="71.445312"
+         width="19.950001"
+         height="7.3646369" />
+      <rect
+         style="fill:#c8c800"
+         id="rect3325"
+         y="163.05629"
+         x="81.420311"
+         width="6.9159999"
+         height="3.6823184" />
+      <rect
+         style="fill:#c8c800"
+         id="rect3327"
+         y="163.05629"
+         x="74.770309"
+         width="13.566"
+         height="1.8411592" />
+    </g>
+    <g
+       id="g3329"
+       transform="matrix(1,0,0,2.3197742,-271.63678,-335.31443)">
+      <polygon
+         transform="translate(16.445312,-35.5)"
+         style="fill:#00ff00"
+         id="polygon3331"
+         points="38.375,191.19165 52.34,166.83925 57.66,166.83925 71.625,191.19165 66.6375,191.19165 62.48125,185.10355 47.51875,185.10355 43.3625,191.19165 38.375,191.19165 " />
+      <polygon
+         transform="translate(16.445312,-35.5)"
+         style="fill:#ffffff"
+         id="polygon3333"
+         points="55,171.70973 49.68,181.45069 59.655,181.45069 " />
+    </g>
+    <g
+       transform="matrix(1,0,0,0.21307678,-341.63678,18.59488)"
+       id="g3335">
+      <ellipse
+         d="m 74.285002,198.55629 c 0,4.06738 -8.038728,7.36464 -17.955,7.36464 -9.916273,0 -17.955,-3.29726 -17.955,-7.36464 0,-4.06738 8.038727,-7.36464 17.955,-7.36464 9.916272,0 17.955,3.29726 17.955,7.36464 z"
+         cx="56.330002"
+         cy="198.55629"
+         rx="17.955"
+         ry="7.3646369"
+         id="ellipse3337"
+         sodipodi:cx="56.330002"
+         sodipodi:cy="198.55629"
+         sodipodi:rx="17.955"
+         sodipodi:ry="7.3646369"
+         style="fill:#c8c800"
+         transform="translate(16.445312,-35.5)" />
+      <ellipse
+         d="m 68.466251,198.55629 c 0,3.05053 -5.582449,5.52348 -12.46875,5.52348 -6.8863,0 -12.46875,-2.47295 -12.46875,-5.52348 0,-3.05053 5.58245,-5.52348 12.46875,-5.52348 6.886301,0 12.46875,2.47295 12.46875,5.52348 z"
+         cx="55.997501"
+         cy="198.55629"
+         rx="12.46875"
+         ry="5.5234776"
+         id="ellipse3339"
+         sodipodi:cx="55.997501"
+         sodipodi:cy="198.55629"
+         sodipodi:rx="12.46875"
+         sodipodi:ry="5.5234776"
+         style="fill:#ffffff"
+         transform="translate(16.445312,-35.5)" />
+      <rect
+         height="7.3646369"
+         width="19.950001"
+         x="71.445312"
+         y="159.37396"
+         id="rect3341"
+         style="fill:#ffffff" />
+      <rect
+         height="3.6823184"
+         width="6.9159999"
+         x="81.420311"
+         y="163.05629"
+         id="rect3343"
+         style="fill:#c8c800" />
+      <rect
+         height="1.8411592"
+         width="13.566"
+         x="74.770309"
+         y="163.05629"
+         id="rect3345"
+         style="fill:#c8c800" />
+    </g>
+    <g
+       id="g3347"
+       transform="matrix(1,0,0,0.21307678,-375.63678,18.59488)">
+      <ellipse
+         transform="translate(16.445312,-35.5)"
+         style="fill:#c8c800"
+         sodipodi:ry="7.3646369"
+         sodipodi:rx="17.955"
+         sodipodi:cy="198.55629"
+         sodipodi:cx="56.330002"
+         id="ellipse3349"
+         ry="7.3646369"
+         rx="17.955"
+         cy="198.55629"
+         cx="56.330002"
+         d="m 74.285002,198.55629 c 0,4.06738 -8.038728,7.36464 -17.955,7.36464 -9.916273,0 -17.955,-3.29726 -17.955,-7.36464 0,-4.06738 8.038727,-7.36464 17.955,-7.36464 9.916272,0 17.955,3.29726 17.955,7.36464 z" />
+      <ellipse
+         transform="translate(16.445312,-35.5)"
+         style="fill:#ffffff"
+         sodipodi:ry="5.5234776"
+         sodipodi:rx="12.46875"
+         sodipodi:cy="198.55629"
+         sodipodi:cx="55.997501"
+         id="ellipse3351"
+         ry="5.5234776"
+         rx="12.46875"
+         cy="198.55629"
+         cx="55.997501"
+         d="m 68.466251,198.55629 c 0,3.05053 -5.582449,5.52348 -12.46875,5.52348 -6.8863,0 -12.46875,-2.47295 -12.46875,-5.52348 0,-3.05053 5.58245,-5.52348 12.46875,-5.52348 6.886301,0 12.46875,2.47295 12.46875,5.52348 z" />
+      <rect
+         style="fill:#ffffff"
+         id="rect3353"
+         y="159.37396"
+         x="71.445312"
+         width="19.950001"
+         height="7.3646369" />
+      <rect
+         style="fill:#c8c800"
+         id="rect3355"
+         y="163.05629"
+         x="81.420311"
+         width="6.9159999"
+         height="3.6823184" />
+      <rect
+         style="fill:#c8c800"
+         id="rect3357"
+         y="163.05629"
+         x="74.770309"
+         width="13.566"
+         height="1.8411592" />
+    </g>
+    <g
+       transform="matrix(1,0,0,0.83651579,-586.71085,-99.025996)"
+       id="g3368">
+      <ellipse
+         d="m 424.28499,134.72223 c 0,42.95548 -8.03873,77.77778 -17.955,77.77778 -9.91628,0 -17.955,-34.8223 -17.955,-77.77778 0,-42.955482 8.03872,-77.77778 17.955,-77.77778 9.91627,0 17.955,34.822298 17.955,77.77778 z"
+         transform="translate(50.445312,-35.5)"
+         style="fill:#c8c800"
+         sodipodi:ry="77.777779"
+         sodipodi:rx="17.955"
+         sodipodi:cy="134.72223"
+         sodipodi:cx="406.32999"
+         id="ellipse3370"
+         ry="77.777779"
+         rx="17.955"
+         cy="134.72223"
+         cx="406.32999" />
+      <ellipse
+         d="m 418.46625,134.72223 c 0,32.21661 -5.58245,58.33333 -12.46875,58.33333 -6.8863,0 -12.46875,-26.11672 -12.46875,-58.33333 0,-32.21661 5.58245,-58.333333 12.46875,-58.333333 6.8863,0 12.46875,26.116723 12.46875,58.333333 z"
+         transform="translate(50.445312,-35.5)"
+         style="fill:#ffffff"
+         sodipodi:ry="58.333332"
+         sodipodi:rx="12.46875"
+         sodipodi:cy="134.72223"
+         sodipodi:cx="405.9975"
+         id="ellipse3372"
+         ry="58.333332"
+         rx="12.46875"
+         cy="134.72223"
+         cx="405.9975" />
+      <rect
+         style="fill:#ffffff"
+         id="rect3374"
+         y="60.333336"
+         x="455.44531"
+         width="19.950001"
+         height="77.777779" />
+      <rect
+         style="fill:#c8c800"
+         id="rect3376"
+         y="99.222229"
+         x="465.42032"
+         width="6.9159999"
+         height="38.888889" />
+      <rect
+         style="fill:#c8c800"
+         id="rect3378"
+         y="99.222229"
+         x="458.77032"
+         width="13.566"
+         height="19.444445" />
+    </g>
+    <g
+       transform="matrix(1,0,0,0.34394998,-165.61826,-6.82968)"
+       id="g3385">
+      <polygon
+         points="71.625,191.19165 66.6375,191.19165 62.48125,185.10355 47.51875,185.10355 43.3625,191.19165 38.375,191.19165 38.375,191.19165 52.34,166.83925 57.66,166.83925 "
+         id="polygon3387"
+         style="fill:#00ff00"
+         transform="translate(16.445312,-35.5)" />
+      <polygon
+         points="55,171.70973 49.68,181.45069 59.655,181.45069 "
+         id="polygon3389"
+         style="fill:#ffffff"
+         transform="translate(16.445312,-35.5)" />
+    </g>
+    <g
+       id="g3396"
+       transform="matrix(1,0,0,0.0214369,-516.30839,48.93972)">
+      <ellipse
+         cx="406.32999"
+         cy="134.72223"
+         rx="17.955"
+         ry="77.777779"
+         id="ellipse3398"
+         sodipodi:cx="406.32999"
+         sodipodi:cy="134.72223"
+         sodipodi:rx="17.955"
+         sodipodi:ry="77.777779"
+         style="fill:#c8c800"
+         transform="translate(50.445312,-35.5)"
+         d="m 424.28499,134.72223 c 0,42.95548 -8.03873,77.77778 -17.955,77.77778 -9.91628,0 -17.955,-34.8223 -17.955,-77.77778 0,-42.955482 8.03872,-77.77778 17.955,-77.77778 9.91627,0 17.955,34.822298 17.955,77.77778 z" />
+      <ellipse
+         cx="405.9975"
+         cy="134.72223"
+         rx="12.46875"
+         ry="58.333332"
+         id="ellipse3400"
+         sodipodi:cx="405.9975"
+         sodipodi:cy="134.72223"
+         sodipodi:rx="12.46875"
+         sodipodi:ry="58.333332"
+         style="fill:#ffffff"
+         transform="translate(50.445312,-35.5)"
+         d="m 418.46625,134.72223 c 0,32.21661 -5.58245,58.33333 -12.46875,58.33333 -6.8863,0 -12.46875,-26.11672 -12.46875,-58.33333 0,-32.21661 5.58245,-58.333333 12.46875,-58.333333 6.8863,0 12.46875,26.116723 12.46875,58.333333 z" />
+      <rect
+         height="77.777779"
+         width="19.950001"
+         x="455.44531"
+         y="60.333336"
+         id="rect3402"
+         style="fill:#ffffff" />
+      <rect
+         height="38.888889"
+         width="6.9159999"
+         x="465.42032"
+         y="99.222229"
+         id="rect3404"
+         style="fill:#c8c800" />
+      <rect
+         height="19.444445"
+         width="13.566"
+         x="458.77032"
+         y="99.222229"
+         id="rect3406"
+         style="fill:#c8c800" />
+    </g>
+    <rect
+       height="3.75"
+       width="1.25"
+       x="-42.390537"
+       y="55.023731"
+       id="rect3412"
+       style="fill:#aaaaaa" />
+    <rect
+       id="rect3416"
+       y="55.023731"
+       x="-7.5242043"
+       width="1.25"
+       height="3.75"
+       style="fill:#aaaaaa" />
+    <text
+       font-size="10"
+       text-anchor="bottom"
+       x="-28.636814"
+       y="66.273727"
+       id="text3418"
+       style="font-size:10px">16</text>
+    <g
+       id="g3420"
+       transform="matrix(1,0,0,29.873897,-585.45342,-5244.1907)">
+      <polygon
+         transform="matrix(1,0,0,0.4766085,16.445312,75.720694)"
+         style="fill:#00ff00"
+         id="polygon3422"
+         points="556.6375,212.5 552.48125,210.95205 537.51875,210.95205 533.3625,212.5 528.375,212.5 528.375,212.5 542.34,206.30819 547.66,206.30819 561.625,212.5 " />
+      <polygon
+         transform="matrix(1,0,0,0.4766085,16.445312,75.720694)"
+         style="fill:#ffffff"
+         id="polygon3424"
+         points="549.655,210.02328 545,207.54655 539.68,210.02328 " />
+    </g>
+    <polygon
+       points="542.34,168.72389 528.375,168.72389 528.375,164.51346 561.625,164.51346 561.625,168.72389 547.66,168.72389 547.66,190.82866 542.34,190.82866 "
+       id="polygon3426"
+       style="fill:#ff0000"
+       transform="matrix(1,0,0,0.12835235,-568.84108,28.57538)" />
+    <g
+       transform="matrix(1,0,0,0.03973605,-479.56581,42.63146)"
+       id="g3428">
+      <ellipse
+         d="m 424.28499,134.72223 c 0,42.95548 -8.03873,77.77778 -17.955,77.77778 -9.91628,0 -17.955,-34.8223 -17.955,-77.77778 0,-42.955482 8.03872,-77.77778 17.955,-77.77778 9.91627,0 17.955,34.822298 17.955,77.77778 z"
+         transform="translate(50.445312,-35.5)"
+         style="fill:#c8c800"
+         sodipodi:ry="77.777779"
+         sodipodi:rx="17.955"
+         sodipodi:cy="134.72223"
+         sodipodi:cx="406.32999"
+         id="ellipse3430"
+         ry="77.777779"
+         rx="17.955"
+         cy="134.72223"
+         cx="406.32999" />
+      <ellipse
+         d="m 418.46625,134.72223 c 0,32.21661 -5.58245,58.33333 -12.46875,58.33333 -6.8863,0 -12.46875,-26.11672 -12.46875,-58.33333 0,-32.21661 5.58245,-58.333333 12.46875,-58.333333 6.8863,0 12.46875,26.116723 12.46875,58.333333 z"
+         transform="translate(50.445312,-35.5)"
+         style="fill:#ffffff"
+         sodipodi:ry="58.333332"
+         sodipodi:rx="12.46875"
+         sodipodi:cy="134.72223"
+         sodipodi:cx="405.9975"
+         id="ellipse3432"
+         ry="58.333332"
+         rx="12.46875"
+         cy="134.72223"
+         cx="405.9975" />
+      <rect
+         style="fill:#ffffff"
+         id="rect3434"
+         y="60.333336"
+         x="455.44531"
+         width="19.950001"
+         height="77.777779" />
+      <rect
+         style="fill:#c8c800"
+         id="rect3436"
+         y="99.222229"
+         x="465.42032"
+         width="6.9159999"
+         height="38.888889" />
+      <rect
+         style="fill:#c8c800"
+         id="rect3438"
+         y="99.222229"
+         x="458.77032"
+         width="13.566"
+         height="19.444445" />
+    </g>
+    <g
+       id="g3440"
+       transform="matrix(1,0,0,0.12272884,-585.82966,34.15008)">
+      <ellipse
+         transform="translate(16.445312,-35.5)"
+         style="fill:#0000ff"
+         sodipodi:ry="7.7397642"
+         sodipodi:rx="17.955"
+         sodipodi:cy="198.56842"
+         sodipodi:cx="546.33002"
+         id="ellipse3442"
+         ry="7.7397642"
+         rx="17.955"
+         cy="198.56842"
+         cx="546.33002"
+         d="m 564.28502,198.56842 c 0,4.27455 -8.03873,7.73976 -17.955,7.73976 -9.91628,0 -17.955,-3.46521 -17.955,-7.73976 0,-4.27455 8.03872,-7.73976 17.955,-7.73976 9.91627,0 17.955,3.46521 17.955,7.73976 z" />
+      <ellipse
+         transform="translate(16.445312,-35.5)"
+         style="fill:#ffffff"
+         sodipodi:ry="5.8048234"
+         sodipodi:rx="12.46875"
+         sodipodi:cy="198.56842"
+         sodipodi:cx="545.9975"
+         id="ellipse3444"
+         ry="5.8048234"
+         rx="12.46875"
+         cy="198.56842"
+         cx="545.9975"
+         d="m 558.46625,198.56842 c 0,3.20592 -5.58245,5.80482 -12.46875,5.80482 -6.8863,0 -12.46875,-2.5989 -12.46875,-5.80482 0,-3.20592 5.58245,-5.80482 12.46875,-5.80482 6.8863,0 12.46875,2.5989 12.46875,5.80482 z" />
+      <rect
+         style="fill:#ffffff"
+         id="rect3446"
+         y="159.19855"
+         x="561.44531"
+         width="19.950001"
+         height="7.7397642" />
+    </g>
+    <rect
+       height="3.75"
+       width="1.25"
+       x="-146.39053"
+       y="55.023731"
+       id="rect3452"
+       style="fill:#aaaaaa" />
+    <rect
+       id="rect3454"
+       y="55.023731"
+       x="-112.39054"
+       width="1.25"
+       height="3.75"
+       style="fill:#aaaaaa" />
+  </g>
+  <g
+     id="g4660"
+     transform="matrix(0.83606004,0,0,0.83606004,588.31214,-37.075069)">
+    <g
+       transform="matrix(1.7411983,0,0,1.7411983,40.30313,-142.40199)"
+       id="g4393">
+      <use
+         height="500"
+         width="500"
+         x="34"
+         y="140"
+         xlink:href="#a2"
+         id="use100" />
+      <use
+         height="500"
+         width="500"
+         x="34"
+         y="140"
+         xlink:href="#t"
+         id="use102" />
+      <use
+         height="500"
+         width="500"
+         x="54"
+         y="140"
+         xlink:href="#g2"
+         id="use104" />
+      <use
+         height="500"
+         width="500"
+         x="54"
+         y="140"
+         xlink:href="#c"
+         id="use106" />
+      <use
+         height="500"
+         width="500"
+         x="74"
+         y="140"
+         xlink:href="#g2"
+         id="use108" />
+      <use
+         height="500"
+         width="500"
+         x="74"
+         y="140"
+         xlink:href="#c"
+         id="use110" />
+      <use
+         height="500"
+         width="500"
+         x="94"
+         y="140"
+         xlink:href="#t2"
+         id="use112" />
+      <use
+         height="500"
+         width="500"
+         x="94"
+         y="140"
+         xlink:href="#a"
+         id="use114" />
+      <use
+         height="500"
+         width="500"
+         x="114"
+         y="140"
+         xlink:href="#c2"
+         id="use116" />
+      <use
+         height="500"
+         width="500"
+         x="114"
+         y="140"
+         xlink:href="#g"
+         id="use118" />
+      <use
+         height="500"
+         width="500"
+         x="134"
+         y="140"
+         xlink:href="#a2"
+         id="use120" />
+      <use
+         height="500"
+         width="500"
+         x="134"
+         y="140"
+         xlink:href="#t"
+         id="use122" />
+      <use
+         height="500"
+         width="500"
+         x="154"
+         y="140"
+         xlink:href="#t2"
+         id="use124" />
+      <use
+         height="500"
+         width="500"
+         x="154"
+         y="140"
+         xlink:href="#a"
+         id="use126" />
+      <use
+         height="500"
+         width="500"
+         x="174"
+         y="140"
+         xlink:href="#g2"
+         id="use128" />
+      <use
+         height="500"
+         width="500"
+         x="174"
+         y="140"
+         xlink:href="#c"
+         id="use130" />
+      <use
+         height="500"
+         width="500"
+         x="194"
+         y="140"
+         xlink:href="#a2"
+         id="use132" />
+      <use
+         height="500"
+         width="500"
+         x="194"
+         y="140"
+         xlink:href="#t"
+         id="use134" />
+      <use
+         height="500"
+         width="500"
+         x="214"
+         y="140"
+         xlink:href="#c2"
+         id="use136" />
+      <use
+         height="500"
+         width="500"
+         x="214"
+         y="140"
+         xlink:href="#g"
+         id="use138" />
+      <use
+         height="500"
+         width="500"
+         x="234"
+         y="140"
+         xlink:href="#c2"
+         id="use140" />
+      <use
+         height="500"
+         width="500"
+         x="234"
+         y="140"
+         xlink:href="#g"
+         id="use142" />
+      <use
+         height="500"
+         width="500"
+         x="254"
+         y="140"
+         xlink:href="#t2"
+         id="use144" />
+      <use
+         height="500"
+         width="500"
+         x="254"
+         y="140"
+         xlink:href="#a"
+         id="use146" />
+      <rect
+         style="fill:#aaaaaa"
+         x="30"
+         y="140"
+         width="244"
+         height="8"
+         id="rect148" />
+      <rect
+         style="fill:#aaaaaa"
+         x="30"
+         y="206"
+         width="244"
+         height="8"
+         id="rect150" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
+       d="m 97.86052,89.4728 193.31753,0"
+       id="path4648"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4650"
+       d="m 511.65117,89.4728 -193.31753,0"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
+  </g>
+  <g
+     id="g4691"
+     transform="matrix(0.83606004,0,0,0.83606004,500.96736,-17.075069)">
+    <g
+       transform="matrix(1.7411983,0,0,1.7411983,40.30313,254.74269)"
+       id="g4365">
+      <use
+         height="500"
+         width="500"
+         x="34"
+         y="20"
+         xlink:href="#t2"
+         id="use48" />
+      <use
+         height="500"
+         width="500"
+         x="34"
+         y="20"
+         xlink:href="#a"
+         id="use50" />
+      <use
+         height="500"
+         width="500"
+         x="54"
+         y="20"
+         xlink:href="#g2"
+         id="use52" />
+      <use
+         height="500"
+         width="500"
+         x="54"
+         y="20"
+         xlink:href="#c"
+         id="use54" />
+      <use
+         height="500"
+         width="500"
+         x="74"
+         y="20"
+         xlink:href="#a2"
+         id="use56" />
+      <use
+         height="500"
+         width="500"
+         x="74"
+         y="20"
+         xlink:href="#t"
+         id="use58" />
+      <use
+         height="500"
+         width="500"
+         x="94"
+         y="20"
+         xlink:href="#c2"
+         id="use60" />
+      <use
+         height="500"
+         width="500"
+         x="94"
+         y="20"
+         xlink:href="#g"
+         id="use62" />
+      <use
+         height="500"
+         width="500"
+         x="114"
+         y="20"
+         xlink:href="#c2"
+         id="use64" />
+      <use
+         height="500"
+         width="500"
+         x="114"
+         y="20"
+         xlink:href="#g"
+         id="use66" />
+      <use
+         height="500"
+         width="500"
+         x="134"
+         y="20"
+         xlink:href="#t2"
+         id="use68" />
+      <use
+         height="500"
+         width="500"
+         x="134"
+         y="20"
+         xlink:href="#a"
+         id="use70" />
+      <use
+         height="500"
+         width="500"
+         x="274"
+         y="20"
+         xlink:href="#a2"
+         id="use72" />
+      <use
+         height="500"
+         width="500"
+         x="274"
+         y="20"
+         xlink:href="#t"
+         id="use74" />
+      <use
+         height="500"
+         width="500"
+         x="294"
+         y="20"
+         xlink:href="#g2"
+         id="use76" />
+      <use
+         height="500"
+         width="500"
+         x="294"
+         y="20"
+         xlink:href="#c"
+         id="use78" />
+      <use
+         height="500"
+         width="500"
+         x="314"
+         y="20"
+         xlink:href="#g2"
+         id="use80" />
+      <use
+         height="500"
+         width="500"
+         x="314"
+         y="20"
+         xlink:href="#c"
+         id="use82" />
+      <use
+         height="500"
+         width="500"
+         x="334"
+         y="20"
+         xlink:href="#t2"
+         id="use84" />
+      <use
+         height="500"
+         width="500"
+         x="334"
+         y="20"
+         xlink:href="#a"
+         id="use86" />
+      <use
+         height="500"
+         width="500"
+         x="354"
+         y="20"
+         xlink:href="#c2"
+         id="use88" />
+      <use
+         height="500"
+         width="500"
+         x="354"
+         y="20"
+         xlink:href="#g"
+         id="use90" />
+      <use
+         height="500"
+         width="500"
+         x="374"
+         y="20"
+         xlink:href="#a2"
+         id="use92" />
+      <use
+         height="500"
+         width="500"
+         x="374"
+         y="20"
+         xlink:href="#t"
+         id="use94" />
+      <rect
+         style="fill:#aaaaaa"
+         x="30"
+         y="20"
+         width="364"
+         height="8"
+         id="rect96" />
+      <rect
+         style="fill:#aaaaaa"
+         x="30"
+         y="86"
+         width="364"
+         height="8"
+         id="rect98" />
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path4652"
+       d="m 295.65117,277.4728 -193.31753,0"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
+       d="m 519.86052,277.4728 193.31753,0"
+       id="path4654"
+       inkscape:connector-curvature="0" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="210.12341"
+     y="17.195312"
+     id="text4656"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4658"
+       x="210.12341"
+       y="17.195312">TRE classique (DR4)</tspan></text>
+  <text
+     sodipodi:linespacing="125%"
+     id="text4722"
+     y="17.195312"
+     x="744.12341"
+     style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     xml:space="preserve"><tspan
+       y="17.195312"
+       x="744.12341"
+       id="tspan4724"
+       sodipodi:role="line">TRE classique (IR0)</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="744.12341"
+     y="199.19531"
+     id="text4726"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4728"
+       x="744.12341"
+       y="199.19531">TRE classique (ER6)</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="1.84375"
+     y="26.035591"
+     id="text3304"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3306"
+       x="1.84375"
+       y="26.035591"
+       style="font-size:32px;font-weight:bold">A</tspan></text>
+  <text
+     sodipodi:linespacing="125%"
+     id="text3308"
+     y="192.03558"
+     x="1.84375"
+     style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     xml:space="preserve"><tspan
+       style="font-size:32px;font-weight:bold"
+       y="192.03558"
+       x="1.84375"
+       id="tspan3310"
+       sodipodi:role="line">B</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="607.84375"
+     y="26.035583"
+     id="text3312"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3314"
+       x="607.84375"
+       y="26.035583"
+       style="font-size:32px;font-weight:bold">C</tspan></text>
+</svg>

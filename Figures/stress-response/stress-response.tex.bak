@@ -1,0 +1,41 @@
+% BOTTOM caption
+% ------------------------
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\textwidth]
+% ------------------------
+%
+% SIDE caption
+% ------------------------
+%\begin{SCfigure}[\sidecaptionrelwidth][!htbp]
+%\centering
+%\includegraphics[width=0.5\textwidth]
+% ------------------------
+%
+% Main information
+% ===========================================================
+{Figures/stress-response/stress-response.pdf}
+\caption[Réponses physiologiques au stress]
+{
+Réponses physiologiques à court et à long terme à un stress.
+Dés les premières minutes, la médullosurrénale est stimulée via le système nerveux sympathique et secrète des catécholamines responsable de l'augmentation et de l'alimentation de comportement de confrontation ou de fuite (A).
+À plus long terme (quelques heures à plusieurs jours), les corticostéroïdes provoquent un changement de la physiologie du système circulatoire et excrétoire et participent à l'installation d'un état physiologique correspondant à la réaction de résistance (B).
+Les \glspl{gc} induisent la majorité de la réponse au stress en augmentant la mobilisation des ressources énergétiques et en supprimant le système immun.
+D'autres organes endocrines jouent un rôle, notamment le foie (augmentation de la glycémie sanguine) et la thyroïde (augmentation du catabolisme et de la production d'énergie à partir des stocks mobilisés).
+
+}
+\label{fig:stress-response}
+% ===========================================================
+%
+% BOTTOM caption
+% ------------------------
+\end{figure}
+% ------------------------
+%
+% SIDE caption
+% ------------------------
+%\end{SCfigure}
+% ------------------------
+%
+%
+%\missingfigure{Make a figure}

@@ -1,0 +1,53 @@
+\chapter{Stratégies expérimentales}
+
+% =====================================================
+% ======= BEGIN - Séquençage à haut débit des ARN
+
+\section{Séquençage à haut débit des transcrits}
+
+La partie principale du projet porte sur l'évaluation à l'échelle du transcriptome des intéractions croisées entre \glspl{ht} et \glspl{gc}.
+Les premières techniques permettant la mesure de la quantité de transcrits à grande échelle sont les puces à \gls{dna}.
+Elles ont vu un essor certain au cours de la dérnière décenie, mais souffrent d'un certain nombre de défauts, en particulier le fait qu'elles n'autorisent la mesure que de gènes déjà caractérisés \textit{a minima}, que la qualité de la mesure dépend grandement de la qualité la puce en elle même, et que la gamme dynamique est plutôt réduite.
+Bien que cette technologie ait été centrale dans l'étude de réseaux de régulation chez des espèces modèles telles que l'humain, la souris ou la drosophile, les puces spécifiques du xénope (\gls{xlaevis} ou \gls{xtrop}) restent incomplètes afin d'étudier la génétique de ces deux organismes.
+Nous avons par conséquent choisi d'utiliser la technologie du \gls{rnaseq}.
+Cette technique présent l'avantage d'être naïve dans le sens ou la mesure des niveaux de transcrits est indépendante de leur caractérisation.
+En effet, comme présenté précédemment, le \gls{rnaseq} peut bénéficier de l'évolution et l'amélioration constante de l'annotation et l'assemblage des génomes, alors que la détection de nouveaux transcrits par puce à \gls{dna} nécessiterait le dessein d'une nouvelle puce.
+De plus, la gamme dynamique est en générale plus grande que pour les puces à \gls{dna} (voir \autoref{sec:ctdb-review}).
+
+\input{Figures/rnaseq-principle/rnaseq-principle}
+
+Le principe de base du \gls{rnaseq} reste fondamentalement simple, et consiste à séquencer des fragments de \gls{cdna} synthétisés après extraction des \gls{rna} et sélection (dans le cas présent) par la queue poly-A.
+La composition en acides nucléiques des séquences ("reads"), permet de les repositionner sur le génome.
+La quantité de "reads" étant proportionnelle à la quantité de transcrits contenant ces séquences, le profil de densité de "read" le long d'un gène renseigne directement sur son niveau d'expression dans la cellule.
+En utilisant cette technologie pour chaque condition expérimentale, il devient possible d'identifier les gènes différentiellement exprimés dans une condition par rapport à une autre.
+La \autoref{fig:rnaseq-principle} décrit le principe du \gls{rnaseq}.
+
+% ======= END - Séquençage à haut débit des ARN
+% =====================================================
+
+% :::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+% =====================================================
+
+% ======= BEGIN - Séquençages des produits de ChIP
+
+\section{Séquençages des produits de ChIP}
+La seconde partie de ce projet, la cartographie à l'échelle du génome des sites de liaison de \gls{tr} et des différentes modification post-traductionnelles des d'histones, a été abordée à l'aide du \gls{chipseq}.
+Avec la très bonne caractérisation des \glspl{tre}, il serait tentant d'effectuer une recherche exhaustive des sites de liaison en se basant sur des modèles probabilistes.
+Malheureusement, en raison de leur petite taille et leur dégénérescence, la recherche de ces motif est polluée par un bruit de fond élevé et de nombreux faux positifs.
+En outre, la présence d'un \gls{dr4} ne permet de prédire précisément la liaison de \gls{tr} (\citet{Grimaldi2013}, \autoref{sec:ctdb-review}).
+Il devient donc essentiel d'utiliser des méthodes telles que la \gls{chip}, et par extension le \gls{chipseq} afin de fournir des preuves expérimentales de la liaison de \gls{tr} à des loci spécifiques.
+Le principe est décrit en figure~10.6 (B) de l'article \citet{Grimaldi2013} (\autoref{sec:ctdb-review}), et fait intervenir les étapes suivantes :
+\begin{itemize}
+\item Fixation covalente des interactions protéine-protéine et protéine-\gls{dna} à l'aide de formaldéhyde.
+\item Lyse des noyaux et récupération de la chromatine fixée.
+\item Fragmentation de la chromatine (en général par sonication) en morceaux de 200 à 400 \glspl{pb}.
+\item Immunoprécipitation des fragments d'\gls{dna} liés à la protéine d'intérêt à l'aide d'un anticorps spécifique.
+\item Rupture des liaisons covalentes, dégradation des protéines à l'aide protéinase K et purification des \glspl{dna}.
+La fin de cette étape marque l'obtention des produits de \gls{chip}.
+Ceux-ci peuvent être quantifiés par \gls{rtqpcr} ou massivement séquencés.
+\end{itemize}
+
+
+% ======= END - Séquençages des produits de ChIP
+% =====================================================

@@ -1,0 +1,88 @@
+\setlength{\extrarowheight}{5px}
+
+\begin{table}[!htbp]
+\footnotesize
+
+\def\tabularxcolumn#1{m{#1}}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcolumntype{M}{>{\setlength\hsize{2\hsize}\raggedright}X}
+\newcolumntype{N}{>{\setlength\hsize{1\hsize}\centering}X@{}}
+\newcolumntype{O}{>{\setlength\hsize{1\hsize}\centering}X}
+\newcolumntype{P}{>{\centering\setlength\hsize{4\hsize}}X}
+\newcolumntype{Q}{>{\centering\setlength\hsize{3\hsize}}X}
+
+\begin{tabularx}{\textwidth}{M O O O O O O O}
+
+\toprule
+
+		& \multicolumn{4}{P}{\gls{tra}}
+		& \multicolumn{3}{Q}{\gls{trb}} \tabularnewline
+
+		\cmidrule(rl){2-5}		\cmidrule(rl){6-8}
+
+\textbf{Tissu}
+	& \gls{tra}1	& \gls{tra}2	& \gls{trda}1	& \gls{trda}2	& \gls{trb}1	& \gls{trb}2	& \gls{trb}4 \tabularnewline
+
+Rein
+	& +	& +	& 	& 	& ++	& 	&  \tabularnewline
+
+Foie
+	& -	& -	& 	& 	& ++	& 	&  \tabularnewline
+
+Cerveau
+	& ++	& ++	& ++	& 	& ++	& ++	& + \tabularnewline
+
+Coeur
+	& +	& +	& 	& 	& ++	& +	& + \tabularnewline
+
+Thyroïde
+	& 	& 	& 	& 	& ++	& 	&  \tabularnewline
+
+Muscle squelettique
+	& +	& +	& 	& 	& +	& 	& + \tabularnewline
+
+Poumons
+	& +	& +	& 	& 	& +	& +	&  \tabularnewline
+
+Rate
+	& 	& 	& 	& 	& +	& 	& + \tabularnewline
+
+Testicules
+	& -	& -	& 	& 	& 	& 	& ++ \tabularnewline
+
+Rétine
+	& 	& 	& 	& 	& 	& ++	&  \tabularnewline
+
+Oreille interne
+	& 	& 	& 	& 	& 	& +	&  \tabularnewline
+
+Os (ostéoblastes)
+	& ++	& ++	& 	& 	& ++	& ++	&  \tabularnewline
+
+Os (chondrocytes hypertrophiés)
+	& ++	& ++	& 	& 	& ++	& -	&  \tabularnewline
+
+Neurones hypothalamiques
+	& +	& +	& 	& 	& 	& ++	&  \tabularnewline
+
+Anté-hypophyse
+	& 	& 	& 	& 	& 	& ++	& ++ \tabularnewline
+
+Épithélium intestinal
+	& 	& 	& +	& +	& 	& 	&  \tabularnewline
+
+Précocité durant le développement
+	& +	& +	& ++	& +	& 	& 	&  \tabularnewline
+
+\bottomrule
+
+\end{tabularx}
+\caption[Tissu-spécificité des différentes isoformes des récepteurs aux hormones thyroïdiennes]
+{
+Tissu-spécificité des différentes isoformes des \glspl{tr}.
+Tiré de \citet{Cheng2010,Jones2007,Abu2000,Williams2000}.
+}
+\label{tab:tr-isoforms-tissues}
+
+\def\tabularxcolumn#1{p{#1}}
+\end{table}
