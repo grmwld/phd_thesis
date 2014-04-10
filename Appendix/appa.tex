@@ -50,8 +50,11 @@ Les nouvelles technologies de séquençage ont profondément changé la façon d
 Cette revue se concentre sue les applications des nouvelles technologies de séquençage pour l'analyse et l'exploration de la métamorphose des amphibiens.
 \end{abstractfr}
 
-\includepdf[pages={-}]{Publications/ctdb-review.pdf}
-% \includepdf[pages={-},nup=1x2,landscape=true]{Publications/ctdb-review.pdf}
+\iftoggle{deadtree}{
+	\includepdf[pages={-},nup=1x2,landscape=true]{Publications/ctdb-review.pdf}
+}{
+	\includepdf[pages={-}]{Publications/ctdb-review.pdf}
+}
 
 \clearpage
 \newpage
@@ -71,11 +74,12 @@ Ces modifications de l'assemblage et de l'annotation ce sont révélées être d
 Cette démonstration de l'application de la technologie \gls{chiapet} pour comprendre les régulation génétiques dans un contexte physiologique chez un organisme non-conventionnel pourrait fournir des éléments de guidage méthodologiques et conceptuels pour des approches similaires chez d'autres espèces dont les données en génomique sont de basse résolution.
 \end{abstractfr}
 
-\includepdf[pages={-}]{Publications/buisine2014.pdf}
-\includepdf[pages={-}]{Publications/buisine2014-sup.pdf}
-
-% \includepdf[pages={-},nup=1x2,landscape=true]{Publications/buisine2014.pdf}
-% \includepdf[pages={-},nup=1x2,landscape=true]{Publications/buisine2014-sup.pdf}
-
+\iftoggle{deadtree}{
+	\includepdf[pages={-},nup=1x2,landscape=true]{Publications/buisine2014.pdf}
+	\includepdf[pages={-},nup=1x2,landscape=true]{Publications/buisine2014-sup.pdf}
+}{
+	\includepdf[pages={-}]{Publications/buisine2014.pdf}
+	\includepdf[pages={-}]{Publications/buisine2014-sup.pdf}
+}
 
 \end{document}

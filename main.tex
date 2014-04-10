@@ -7,23 +7,30 @@
 %%
 %\documentclass[12pt,vi,twoside]{mitthesis}
 %%
-%%  If you want your thesis copyright to you instead of MIT, use the
-%%  ``vi'' option, as above.
-%%
 %\documentclass[12pt,twoside,leftblank]{mitthesis}
 %%
 %% If you want blank pages before new chapters to be labelled ``This
 %% Page Intentionally Left Blank use the ``leftblank'' option, as
 %% above. 
 %\documentclass[a4paper,12pt,twoside,draft]{mitthesis}
-\documentclass[a4paper,12pt,twoside]{mitthesis}
-% \documentclass[a4paper,12pt]{mitthesis}
+
+\ifdefined\isdeadtree
+	\documentclass[a4paper,12pt,twoside]{mitthesis}
+	\toggletrue{deadtree}
+\else
+	\documentclass[a4paper,12pt]{mitthesis}
+	\togglefalse{deadtree}
+\fi
+
 \hbadness=10000
+
+% \togglefalse{deadtree}
+% \toggletrue{deadtree}
 
 \begin{document}
 \include{Frontmatter/abbreviations}
 
-\pagestyle{plainwheader}
+\pagestyle{plain}
 
 \subfile{Frontmatter/cover}
 \glsresetall
@@ -38,7 +45,7 @@
 \raggedbottom	
 \justifying
 
-% %%% - INDRODUCTION - %%
+%%% - INDRODUCTION - %%
 \part{Introduction}
 \subfile{Chapters/HormonesThyroidiennes}
 \subfile{Chapters/Glucocorticoides}
@@ -69,7 +76,7 @@
 \renewcommand{\thesection}{\thechapter - \arabic{section}}
 \part*{Annexes}
 \addcontentsline{toc}{part}{Annexes}
-\subfile{Appendix/appa}
+\subfile{appendix/appa}
 
 %% - BIBLIOGRAPHIE - %%
 \subfile{biblio}

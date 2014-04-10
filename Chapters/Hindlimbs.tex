@@ -37,10 +37,16 @@ Alors qu'il est bien décrit dans la littérature que les \glspl{ht} et les \gls
 % -----------------------------------------
 % --- BEGIN - Article
 
-\includepdf[pages={-}]{Publications/grimaldi2014.pdf}
-\includepdf[pages={-}]{Publications/grimaldi2014-fig.pdf}
-\includepdf[pages={-}]{Publications/grimaldi2014-sup.pdf}
-%\includepdf[pages={-},nup=1x2,landscape=true]{Publications/grimaldi2014-sup.pdf}
+\iftoggle{deadtree}{
+	\includepdf[pages={-},nup=1x2,landscape=true]{Publications/grimaldi2014.pdf}
+	\includepdf[pages={-},nup=1x2,landscape=true]{Publications/grimaldi2014-fig.pdf}
+	\includepdf[pages={-},nup=1x2,landscape=true]{Publications/grimaldi2014-sup.pdf}
+}{
+	\includepdf[pages={-}]{Publications/grimaldi2014.pdf}
+	\includepdf[pages={-}]{Publications/grimaldi2014-fig.pdf}
+	\includepdf[pages={-}]{Publications/grimaldi2014-sup.pdf}
+}
+
 
 % --- END - Article
 % -----------------------------------------
@@ -82,12 +88,12 @@ Dans une moindre mesure, le système immunitaire est également affecté, ainsi 
 \input{Figures/hlc-go-all-treemap/hlc-go-all-treemap}
 
 % -----------------------------------------
-% +++ BEGIN - Intéractions entre hormones
+% +++ BEGIN - Interactions entre hormones
 
 \subsection{Analyse des clusters spécifiques d'une interaction croisée entre les effets des deux hormones}
-Après avoir fait le choix délibéré de concentrer l'analyse sur les gènes affectés par les deux hormones simultanément (Figure 2 de l'article à la \autoref{subsec:grimaldi2014}, Figure 2), j'ai répété l'annotation fonctionnelle des gènes dans les différentes catégories de profil d'expression, parmi les profils "antagonistes" et "potentiation" en distinguant dans chaque cas les gènes induits et les gènes réprimés.
+Après avoir fait le choix délibéré de concentrer l'analyse sur les gènes affectés par les deux hormones simultanément (Figure 2 de l'article à la \autoref{subsec:grimaldi2014}, Figure 2), j'ai répété l'annotation fonctionnelle des gènes dans les différentes catégories de profil d'expression, parmi les profils "antagonistes" et ``potentiation'' en distinguant dans chaque cas les gènes induits et les gènes réprimés.
 Le contraste utilisé à cette étape emploie l'ensemble des 4741 gènes différentiellement exprimés dans au moins une condition comme background.
-Ceci permet de capturer les termes enrichis dans le contexte d'un crosstalk particulier comparé à ceux enrichis dans le contexte d'un effet quelconque.
+Ceci permet de capturer les termes enrichis dans le contexte d'une intéraction croisée particulière comparée à ceux enrichis dans le contexte d'un effet quelconque.
 De façon frappante, le contenu en gènes dans ces quatre catégories sous-tend des processus biologiques contrastés.
 
 % -----------------------------------------

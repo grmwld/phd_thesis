@@ -197,14 +197,15 @@
 
 % Redefinition of 'myheadings' page style.  
 %
-\def\ps@myheadings{\let\@mkboth\@gobbletwo
-    \def\@oddfoot{}
-    \def\@evenfoot{}
-    \def\sectionmark##1{}
-    \def\subsectionmark##1{}
-    \def\@evenhead{\rm \thepage\hfil\sl\leftmark\hbox {}}	%
-    \def\@oddhead{\hbox{}\sl\rightmark \hfil \rm\thepage}	%
-    \pulldownheader				% Bring header down from edge
+\def\ps@myheadings{
+  \let\@mkboth\@gobbletwo
+  \def\@oddfoot{}
+  \def\@evenfoot{}
+  \def\sectionmark##1{}
+  \def\subsectionmark##1{}
+  \def\@evenhead{\rm \thepage\hfil\sl\leftmark\hbox {}}	%
+  \def\@oddhead{\hbox{}\sl\rightmark \hfil \rm\thepage}	%
+  \pulldownheader				% Bring header down from edge
 }
 
 \pretolerance=10000
@@ -227,13 +228,13 @@
 
 % fancy headers and footers
 \usepackage{fancyhdr}
-\fancypagestyle{plain} {
+\fancypagestyle{plain}{
 	\fancyhf{}
 	\fancyfoot[LE]{\thepage}
 	\fancyfoot[RO]{\thepage}
 	\renewcommand{\headrulewidth}{0pt}
 }
-\fancypagestyle{plainwheader} {
+\fancypagestyle{plainwheader}{
 	\fancyhf{}
 	\fancyhead[RE]{\slshape \rightmark}
 	\fancyhead[LO]{\slshape \leftmark}
@@ -244,6 +245,13 @@
 
 % Customize titles headings
 \usepackage{titlesec}
+
+\let\oldpart\part
+\renewcommand{\part}[1]{
+  \cleardoublepage
+  \oldpart{#1}
+  \cleardoublepage
+}
 
 % Customize chapter heading
 \titleformat{\chapter}[display]
@@ -258,20 +266,22 @@
 % Should make no difference in singleside mode.
 \if@leftblank
 % Prints "THIS PAGE INTENTIONALLY LEFT BLANK" on blank pages.
-\def\chapter{\clearpage\ifodd\c@page\else
-	\hbox{}\par\vfill\centerline%
-	{THIS PAGE INTENTIONALLY LEFT BLANK}%
-	\vfill\newpage\fi
-	\thispagestyle{plain}	% Page style of chapter page is 'plain'
-	\global\@topnum\z@		% Prevents figures from going at top of page.
-	\@afterindentfalse		% Suppresses indent in first paragraph.  Change
-	\secdef\@chapter\@schapter}	% to \@afterindenttrue to have indent.
+  \def\chapter{
+    \clearpage\ifodd\c@page\else
+  	\hbox{}\par\vfill\centerline%
+  	{THIS PAGE INTENTIONALLY LEFT BLANK}%
+  	\vfill\newpage\fi
+  	\thispagestyle{plain}	% Page style of chapter page is 'plain'
+  	\global\@topnum\z@		% Prevents figures from going at top of page.
+  	\@afterindentfalse		% Suppresses indent in first paragraph.  Change
+  	\secdef\@chapter\@schapter}	% to \@afterindenttrue to have indent.
 \else
-\def\chapter{\cleardoublepage	% Starts new page.
-	\thispagestyle{plain}	% Page style of chapter page is 'plain'
-	\global\@topnum\z@		% Prevents figures from going at top of page.
-	\@afterindentfalse		% Suppresses indent in first paragraph.  Change
-	\secdef\@chapter\@schapter}	% to \@afterindenttrue to have indent.
+  \def\chapter{
+    \cleardoublepage	% Starts new page.
+  	\thispagestyle{plain}	% Page style of chapter page is 'plain'
+  	\global\@topnum\z@		% Prevents figures from going at top of page.
+  	\@afterindentfalse		% Suppresses indent in first paragraph.  Change
+  	\secdef\@chapter\@schapter}	% to \@afterindenttrue to have indent.
 \fi
 
 % If using the report style, use - instead of . in the figure number.
@@ -292,7 +302,7 @@
 
 
 % New page on each section except first from chapter
-%\usepackage{etoolbox}
+\usepackage{etoolbox}
 %\preto{\section} {
 %	\ifnum\value{section}=0 \else\clearpage\fi
 %}
@@ -304,7 +314,7 @@
 %\preto\table{%
 %  \ifnum\value{table}=0\addtocontents{lot}{{\bfseries Chapitre \thechapter\vskip10pt}}\fi
 %}
-
+\newtoggle{deadtree}
 
 % Regional settings and encoding
 \usepackage[french]{babel}
