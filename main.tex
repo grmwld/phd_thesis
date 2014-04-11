@@ -24,16 +24,11 @@
 
 \hbadness=10000
 
-% \togglefalse{deadtree}
-% \toggletrue{deadtree}
-
 \begin{document}
+\pagestyle{plain}
 \include{Frontmatter/abbreviations}
 
-\pagestyle{plain}
-
 \subfile{Frontmatter/cover}
-\glsresetall
 
 % \layout
 % \listoftodos
@@ -41,6 +36,8 @@
 \printglossary[title=Liste des abréviations]
 
 \subfile{Frontmatter/contents}
+
+\glsresetall
 
 \raggedbottom	
 \justifying
