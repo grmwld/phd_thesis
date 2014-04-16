@@ -17,23 +17,31 @@
 \ifdefined\isdeadtree
 	\documentclass[a4paper,12pt,twoside]{mitthesis}
 	\toggletrue{deadtree}
+	\fancypagestyle{plain}{
+		\fancyhf{}
+		\fancyfoot[LE,RO]{\thepage}
+		\renewcommand{\headrulewidth}{0pt}
+	}
 \else
 	\documentclass[a4paper,12pt]{mitthesis}
 	\togglefalse{deadtree}
+	\fancypagestyle{plain}{
+		\fancyhf{}
+		\fancyfoot[C]{\thepage}
+		\renewcommand{\headrulewidth}{0pt}
+	}
 \fi
 
 \hbadness=10000
 
 \begin{document}
 \pagestyle{plain}
+
 \include{Frontmatter/abbreviations}
 
 \subfile{Frontmatter/cover}
-
 % \layout
 % \listoftodos
-
-\printglossary[title=Liste des abréviations]
 
 \subfile{Frontmatter/contents}
 
@@ -74,6 +82,9 @@
 \part{Annexes}
 \addcontentsline{toc}{part}{Annexes}
 \subfile{Appendix/appa}
+
+%% - GLOSSARY - %%
+\printglossary[title=Liste des abréviations]
 
 %% - BIBLIOGRAPHIE - %%
 \subfile{biblio}

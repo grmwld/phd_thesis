@@ -228,18 +228,11 @@
 
 % fancy headers and footers
 \usepackage{fancyhdr}
-\fancypagestyle{plain}{
-	\fancyhf{}
-	\fancyfoot[LE]{\thepage}
-	\fancyfoot[RO]{\thepage}
-	\renewcommand{\headrulewidth}{0pt}
-}
 \fancypagestyle{plainwheader}{
 	\fancyhf{}
 	\fancyhead[RE]{\slshape \rightmark}
 	\fancyhead[LO]{\slshape \leftmark}
-	\fancyfoot[LE]{\thepage}
-	\fancyfoot[RO]{\thepage}
+	\fancyfoot[LE,RO]{\thepage}
 	\renewcommand{\headrulewidth}{0.4pt}
 }
 
@@ -271,14 +264,14 @@
   	\hbox{}\par\vfill\centerline%
   	{THIS PAGE INTENTIONALLY LEFT BLANK}%
   	\vfill\newpage\fi
-  	\thispagestyle{plain}	% Page style of chapter page is 'plain'
+  	% \thispagestyle{plain}	% Page style of chapter page is 'plain'
   	\global\@topnum\z@		% Prevents figures from going at top of page.
   	\@afterindentfalse		% Suppresses indent in first paragraph.  Change
   	\secdef\@chapter\@schapter}	% to \@afterindenttrue to have indent.
 \else
   \def\chapter{
     \cleardoublepage	% Starts new page.
-  	\thispagestyle{plain}	% Page style of chapter page is 'plain'
+  	% \thispagestyle{plain}	% Page style of chapter page is 'plain'
   	\global\@topnum\z@		% Prevents figures from going at top of page.
   	\@afterindentfalse		% Suppresses indent in first paragraph.  Change
   	\secdef\@chapter\@schapter}	% to \@afterindenttrue to have indent.
