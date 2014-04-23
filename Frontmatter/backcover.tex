@@ -1,0 +1,19 @@
+% -*- root: ../main.tex -*-
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+
+\newevenside
+\thispagestyle{empty}
+\newgeometry{a4paper,left=50pt,right=50pt,top=40pt,bottom=40pt,includehead,includefoot}
+
+\begin{abstractfr}
+\input{Frontmatter/abstract.tex}
+\end{abstractfr}
+
+\begin{abstracten}
+\input{Frontmatter/abstract-en.tex}
+\end{abstracten}
+
+\restoregeometry
+
+\end{document}

@@ -228,13 +228,13 @@
 
 % fancy headers and footers
 \usepackage{fancyhdr}
-\fancypagestyle{plainwheader}{
-	\fancyhf{}
-	\fancyhead[RE]{\slshape \rightmark}
-	\fancyhead[LO]{\slshape \leftmark}
-	\fancyfoot[LE,RO]{\thepage}
-	\renewcommand{\headrulewidth}{0.4pt}
-}
+% \fancypagestyle{plainwheader}{
+% 	\fancyhf{}
+% 	\fancyhead[RE]{\slshape \rightmark}
+% 	\fancyhead[LO]{\slshape \leftmark}
+% 	\fancyfoot[LE,RO]{\thepage}
+% 	\renewcommand{\headrulewidth}{0.4pt}
+% }
 
 % Customize titles headings
 \usepackage{titlesec}
@@ -561,7 +561,7 @@
 %\setlength{\itemsep}{0pt} \setlength{\parsep}{0pt}
 \renewcommand{\glsgroupskip}{}
 
-% TODO
+% TODO_list
 \usepackage[colorinlistoftodos]{todonotes}
 \newcommand{\insertref}[1]{\todo[color=green!40]{#1}}
 \renewcommand{\comment}[1]{\todo[color=yellow!40]{#1}}
@@ -593,6 +593,17 @@
 \usepackage[final,babel]{microtype}
 \usepackage{epigraph}
 \usepackage{abstract}
+
+\usepackage{ifthen}
+% From http://en.wikibooks.org/wiki/LaTeX/Tips_and_Tricks#New_even_page
+\newcommand{\newevenside}{
+	\ifthenelse{\isodd{\thepage}}{\newpage}{
+	\newpage
+        \phantom{placeholder} % doesn't appear on page
+	\thispagestyle{empty} % if want no header/footer
+	\newpage
+	}
+}
 
 \renewcommand{\thepart}{\Roman{part}}
 \renewcommand{\thechapter}{\arabic{chapter}}
