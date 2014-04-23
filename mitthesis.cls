@@ -85,7 +85,7 @@
 % with 2e.  setspace is a replacement which is 2e-compliant.
 
 % Read the doublespace style that we got from Rochester:
-%\input setdoublespace.sty 		
+%\input setdoublespace.sty
 
 \def\baselinestretch{\mystretch}	% Double spacing hack
 
@@ -96,31 +96,31 @@
 %	into 1in margin.
 %  Draft mode brings the header back down.
 
-\setlength{\topmargin}{-25pt}
-\setlength{\headsep}{35pt}
-\setlength{\headheight}{16pt}
-\setlength{\footskip}{45pt}
-\setlength{\textheight}{660pt}
-\setlength{\textwidth}{400pt}
-\addtolength{\evensidemargin}{-10pt}
-\setlength{\marginparsep}{8pt}
-\setlength{\marginparwidth}{99pt}
+% \setlength{\topmargin}{-25pt}
+% \setlength{\headsep}{35pt}
+% \setlength{\headheight}{16pt}
+% \setlength{\footskip}{45pt}
+% \setlength{\textheight}{660pt}
+% \setlength{\textwidth}{400pt}
+% \addtolength{\evensidemargin}{-10pt}
+% \setlength{\marginparsep}{8pt}
+% \setlength{\marginparwidth}{99pt}
 
 % The next two macros compensate page style for headers and footers
 % We only need them in page styles that USE headers and footers.
     % If we have a header, it must be 1in from top of page.
-\def\pulldownheader{			% Shift header down 1in from top
-    \addtolength{\topmargin}{\headheight}	
-    \addtolength{\topmargin}{\headsep}	
-    \addtolength{\textheight}{-\headheight}
-    \addtolength{\textheight}{-\headsep}
-}
+% \def\pulldownheader{			% Shift header down 1in from top
+%     \addtolength{\topmargin}{\headheight}	
+%     \addtolength{\topmargin}{\headsep}	
+%     \addtolength{\textheight}{-\headheight}
+%     \addtolength{\textheight}{-\headsep}
+% }
     % If we have a footer, put it 1in up from bottom
-\def\pullupfooter{				% Shift footer up
-    \addtolength{\textheight}{-\footskip}
+% \def\pullupfooter{				% Shift footer up
+%     \addtolength{\textheight}{-\footskip}
 %    \addtolength{\textheight}{-\footheight}  %footheight doesn't
 %    						exist in 2e
-}
+% }
 
 %%%%%%%  End of margins and formatting params %%%
 
@@ -128,43 +128,43 @@
 
 % Draft mark on the right side of left pages (outside)
 % this mark is also the only one visible on single sided.
-\newcommand{\draftrmark}{**DRAFT**} 
+% \newcommand{\draftrmark}{**DRAFT**} 
 % Draft mark on the left side of right pages (outside)
-\newcommand{\draftlmark}{**DRAFT**} % 
+% \newcommand{\draftlmark}{**DRAFT**} % 
 
 % Macros to make changing the Draft easier
-\newcommand{\drmark}[1]{\renewcommand{\draftrmark}{#1}}
-\newcommand{\dlmark}[1]{\renewcommand{\draftlmark}{#1}}
-\newcommand{\dmark}[1]{\drmark{#1}\dlmark{#1}}
+% \newcommand{\drmark}[1]{\renewcommand{\draftrmark}{#1}}
+% \newcommand{\dlmark}[1]{\renewcommand{\draftlmark}{#1}}
+% \newcommand{\dmark}[1]{\drmark{#1}\dlmark{#1}}
 
 % Format for draft of thesis.  Define our own PageStyle -
 % Just like headings, but has foot lines with the date and warning
 
-\if@twoside         % If two-sided printing.
-\def\ps@drafthead{
-    \let\@mkboth\markboth
-    \def\@oddfoot{\rm \today \hfil \sc \draftrmark}
-    \def\@evenfoot{\sc \draftlmark \hfil \rm \today }
-    \def\@evenhead{\rm \thepage\hfil \sl \leftmark}
-    \def\@oddhead{\hbox{}\sl \rightmark \hfil \rm\thepage}
-    \def\chaptermark##1{\markboth {\uppercase{\ifnum \c@secnumdepth >\m@ne
-	\@chapapp\ \thechapter. \ \fi ##1}}{}}
-    \def\sectionmark##1{\markright {\uppercase{\ifnum \c@secnumdepth >\z@
-	\thesection. \ \fi ##1}}}
-    \pulldownheader				% Bring header down from edge
-    \pullupfooter				% Bring footer up
-}
-\else               % If one-sided printing.
-\def\ps@drafthead{
-    \let\@mkboth\markboth
-    \def\@oddfoot{\rm \today \hfil \sc \draftrmark}
-    \def\@oddhead{\hbox{}\sl \rightmark \hfil \rm\thepage}
-    \def\chaptermark##1{\markright {\uppercase{\ifnum \c@secnumdepth >\m@ne
-	\@chapapp\ \thechapter. \ \fi ##1}}}
-    \pulldownheader				% Bring header down from edge
-    \pullupfooter				% Bring footer up
-}
-\fi
+% \if@twoside         % If two-sided printing.
+% \def\ps@drafthead{
+%     \let\@mkboth\markboth
+%     \def\@oddfoot{\rm \today \hfil \sc \draftrmark}
+%     \def\@evenfoot{\sc \draftlmark \hfil \rm \today }
+%     \def\@evenhead{\rm \thepage\hfil \sl \leftmark}
+%     \def\@oddhead{\hbox{}\sl \rightmark \hfil \rm\thepage}
+%     \def\chaptermark##1{\markboth {\uppercase{\ifnum \c@secnumdepth >\m@ne
+% 	\@chapapp\ \thechapter. \ \fi ##1}}{}}
+%     \def\sectionmark##1{\markright {\uppercase{\ifnum \c@secnumdepth >\z@
+% 	\thesection. \ \fi ##1}}}
+%     \pulldownheader				% Bring header down from edge
+%     \pullupfooter				% Bring footer up
+% }
+% \else               % If one-sided printing.
+% \def\ps@drafthead{
+%     \let\@mkboth\markboth
+%     \def\@oddfoot{\rm \today \hfil \sc \draftrmark}
+%     \def\@oddhead{\hbox{}\sl \rightmark \hfil \rm\thepage}
+%     \def\chaptermark##1{\markright {\uppercase{\ifnum \c@secnumdepth >\m@ne
+% 	\@chapapp\ \thechapter. \ \fi ##1}}}
+%     \pulldownheader				% Bring header down from edge
+%     \pullupfooter				% Bring footer up
+% }
+% \fi
 
 % I redefine these formats that were defined in report.sty
 % Definition of 'headings' page style 
@@ -172,41 +172,41 @@
 %  \def\ps@headings.
 %
 
-\if@twoside					% If two-sided printing.
-\def\ps@headings{\let\@mkboth\markboth
-    \def\@oddfoot{}
-    \def\@evenfoot{}		% No feet.
-    \def\@evenhead{\rm \thepage\hfil \sl \leftmark}	% Left heading.
-    \def\@oddhead{\hbox{}\sl \rightmark \hfil \rm\thepage}	% Right heading.
-    \def\chaptermark##1{\markboth {\uppercase{\ifnum \c@secnumdepth >\m@ne
-	\@chapapp\ \thechapter. \ \fi ##1}}{}}	
-    \def\sectionmark##1{\markright {\uppercase{\ifnum \c@secnumdepth >\z@
-	\thesection. \ \fi ##1}}}
-    \pulldownheader				% Bring header down from edge
-}
-\else						% If one-sided printing.
-\def\ps@headings{\let\@mkboth\markboth
-    \def\@oddfoot{}
-    \def\@evenfoot{}		%     No feet.
-    \def\@oddhead{\hbox {}\sl \rightmark \hfil \rm\thepage}	% Heading.
-    \def\chaptermark##1{\markright {\uppercase{\ifnum \c@secnumdepth >\m@ne
-	\@chapapp\ \thechapter. \ \fi ##1}}}
-    \pulldownheader				% Bring header down from edge
-}
-\fi
+% \if@twoside					% If two-sided printing.
+% \def\ps@headings{\let\@mkboth\markboth
+%     \def\@oddfoot{}
+%     \def\@evenfoot{}		% No feet.
+%     \def\@evenhead{\rm \thepage\hfil \sl \leftmark}	% Left heading.
+%     \def\@oddhead{\hbox{}\sl \rightmark \hfil \rm\thepage}	% Right heading.
+%     \def\chaptermark##1{\markboth {\uppercase{\ifnum \c@secnumdepth >\m@ne
+% 	\@chapapp\ \thechapter. \ \fi ##1}}{}}	
+%     \def\sectionmark##1{\markright {\uppercase{\ifnum \c@secnumdepth >\z@
+% 	\thesection. \ \fi ##1}}}
+%     \pulldownheader				% Bring header down from edge
+% }
+% \else						% If one-sided printing.
+% \def\ps@headings{\let\@mkboth\markboth
+%     \def\@oddfoot{}
+%     \def\@evenfoot{}		%     No feet.
+%     \def\@oddhead{\hbox {}\sl \rightmark \hfil \rm\thepage}	% Heading.
+%     \def\chaptermark##1{\markright {\uppercase{\ifnum \c@secnumdepth >\m@ne
+% 	\@chapapp\ \thechapter. \ \fi ##1}}}
+%     \pulldownheader				% Bring header down from edge
+% }
+% \fi
 
 % Redefinition of 'myheadings' page style.  
 %
-\def\ps@myheadings{
-  \let\@mkboth\@gobbletwo
-  \def\@oddfoot{}
-  \def\@evenfoot{}
-  \def\sectionmark##1{}
-  \def\subsectionmark##1{}
-  \def\@evenhead{\rm \thepage\hfil\sl\leftmark\hbox {}}	%
-  \def\@oddhead{\hbox{}\sl\rightmark \hfil \rm\thepage}	%
-  \pulldownheader				% Bring header down from edge
-}
+% \def\ps@myheadings{
+%   \let\@mkboth\@gobbletwo
+%   \def\@oddfoot{}
+%   \def\@evenfoot{}
+%   \def\sectionmark##1{}
+%   \def\subsectionmark##1{}
+%   \def\@evenhead{\rm \thepage\hfil\sl\leftmark\hbox {}}	%
+%   \def\@oddhead{\hbox{}\sl\rightmark \hfil \rm\thepage}	%
+%   \pulldownheader				% Bring header down from edge
+% }
 
 \pretolerance=10000
 

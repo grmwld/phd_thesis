@@ -11,25 +11,29 @@
 %%
 %% If you want blank pages before new chapters to be labelled ``This
 %% Page Intentionally Left Blank use the ``leftblank'' option, as
-%% above. 
+%% above.
 %\documentclass[a4paper,12pt,twoside,draft]{mitthesis}
 
 \ifdefined\isdeadtree
-	\documentclass[a4paper,12pt,twoside]{mitthesis}
+	\documentclass[12pt]{mitthesis}
 	\toggletrue{deadtree}
 	\fancypagestyle{plain}{
 		\fancyhf{}
+		% \fancyhead[RE]{\slshape \rightmark}
+		% \fancyhead[LO]{\slshape \leftmark}
 		\fancyfoot[LE,RO]{\thepage}
 		\renewcommand{\headrulewidth}{0pt}
 	}
+	\usepackage[a4paper,twoside,top=70pt,bottom=50pt,includefoot,hmarginratio=1:1]{geometry}
 \else
-	\documentclass[a4paper,12pt]{mitthesis}
+	\documentclass[12pt]{mitthesis}
 	\togglefalse{deadtree}
 	\fancypagestyle{plain}{
 		\fancyhf{}
 		\fancyfoot[C]{\thepage}
 		\renewcommand{\headrulewidth}{0pt}
 	}
+	\usepackage[a4paper,top=70pt,bottom=50pt,includefoot]{geometry}
 \fi
 
 \hbadness=10000
@@ -47,7 +51,7 @@
 
 \glsresetall
 
-\raggedbottom	
+\raggedbottom
 \justifying
 
 %%% - INDRODUCTION - %%
