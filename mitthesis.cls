@@ -8,19 +8,7 @@
 %   Double-spaced theses are the default.
 %   That is what M.I.T. asks for in the formal specifications.
 %
-%   To get singlespacing in an area - Use  the 'singlespace' environment. 
-%
-%%%%%%%%%%
-%
-%%%%%%%% Newer additions 
-%
-% documentclass options - 
-% vi		For MIT course VI or VIII thesis - will copyright the thesis to
-% 		you while giving MIT permission to copy and distribute it.
-% upcase	Will put much of the cover page in uppercase, as per the
-% 		example on page 17 of the *Specifications for Thesis
-% 		Preparation*, (revised 1989)
-% Also added ``All Rights Reserved'' to default copyright notice.
+%   To get singlespacing in an area - Use  the 'singlespace' environment.
 %
 %%%%%%%%%%%
 %
@@ -343,7 +331,7 @@
   \GlsUseAcrEntryDispStyle{long-short}%
 }%
 {% base the definitions on 'long-short'
-  \GlsUseAcrStyleDefs{long-short}%  
+  \GlsUseAcrStyleDefs{long-short}%
 % Make some custom modifications for the first use display.
 % Singular, no case change:
   \renewcommand*{\genacrfullformat}[2]{%
@@ -534,7 +522,7 @@
   \def\baselinestretch{1}\large
   \signature{Certified by}{#1 \\ #2 \\ Thesis Supervisor}}
   \setbox\@abstractsupervisor\vbox{\unvbox\@abstractsupervisor
-  \vskip\baselineskip \def\baselinestretch{1}\@normalsize 
+  \vskip\baselineskip \def\baselinestretch{1}\@normalsize
   \par\noindent Thesis Supervisor: #1 \\ Title: #2}}
 
 % department chairman, not thesis committee chairman
@@ -552,7 +540,7 @@
 
 \def\firstexaminator#1#2{\gdef\@firstexaminatorname{#1}\gdef\@firstexaminatortitle{#2}}
 
-\def\secondexaminator2#1#2{\gdef\@secondexaminatorname{#1}\gdef\@secondexaminatortitle{#2}}
+\def\secondexaminator#1#2{\gdef\@secondexaminatorname{#1}\gdef\@secondexaminatortitle{#2}}
 
 %----------------------------------------------
 
@@ -602,8 +590,9 @@ Pr\'esident du jury :
 Rapporteurs :
 	& \@firstreportername		& \@firstreportertitle \tabularnewline
  	& \@secondreportername		& \@secondreportertitle \tabularnewline
-Examinateur :
+Examinateurs :
 	& \@firstexaminatorname		& \@firstexaminatortitle \tabularnewline
+  & \@secondexaminatorname   & \@secondexaminatortitle
 
 \end{tabularx}
 \end{footnotesize}
