@@ -28,12 +28,12 @@ all: electronic deadtree
 electronic: $(BASENAME).bbl $(BASENAME).glsdefs
 	$(TEX) $(TEXFALGS) $(BASENAME)
 	$(TEX) $(TEXFALGS) $(BASENAME)
-	mv $(BASENAME).pdf $(E_OUT_FILENAME).pdf
+	cp $(BASENAME).pdf $(E_OUT_FILENAME).pdf
 
 deadtree: $(BASENAME).bbl $(BASENAME).glsdefs
 	$(TEX) $(TEXFALGS) $(DEADTREE) $(BASENAME)
 	$(TEX) $(TEXFALGS) $(DEADTREE) $(BASENAME)
-	mv $(BASENAME).pdf $(DEADTREE_OUT_FILENAME).pdf
+	cp $(BASENAME).pdf $(DEADTREE_OUT_FILENAME).pdf
 
 clean:
 	rm -fv *.acn *.acr *.alg *.idx *.ist *.glsdefs *.aux *.bbl *.blg *.lof *.lot *.toc

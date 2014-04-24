@@ -1,48 +1,43 @@
 % -*- Mode:TeX -*-
-%%
-%% The documentclass options along with the pagestyle can be used to generate
-%% a technical report, a draft copy, or a regular thesis.  You may need to
-%% re-specify the pagestyle after you \include  cover.tex.  For more
-%% information, see the first few lines of mitthesis.cls.
-%%
-%\documentclass[12pt,vi,twoside]{mitthesis}
-%%
-%\documentclass[12pt,twoside,leftblank]{mitthesis}
-%%
-%% If you want blank pages before new chapters to be labelled ``This
-%% Page Intentionally Left Blank use the ``leftblank'' option, as
-%% above. 
-%\documentclass[a4paper,12pt,twoside,draft]{mitthesis}
 
 \ifdefined\isdeadtree
-	\documentclass[a4paper,12pt,twoside]{mitthesis}
+	\documentclass[12pt]{mitthesis}
 	\toggletrue{deadtree}
+	\fancypagestyle{plain}{
+		\fancyhf{}
+		% \fancyhead[RE]{\slshape \rightmark}
+		% \fancyhead[LO]{\slshape \leftmark}
+		\fancyfoot[LE,RO]{\thepage}
+		\renewcommand{\headrulewidth}{0pt}
+	}
+	\usepackage[a4paper,twoside,top=70pt,bottom=50pt,includefoot,hmarginratio=1:1]{geometry}
 \else
-	\documentclass[a4paper,12pt]{mitthesis}
+	\documentclass[12pt]{mitthesis}
 	\togglefalse{deadtree}
+	\fancypagestyle{plain}{
+		\fancyhf{}
+		\fancyfoot[C]{\thepage}
+		\renewcommand{\headrulewidth}{0pt}
+	}
+	\usepackage[a4paper,top=70pt,bottom=50pt,includefoot]{geometry}
 \fi
 
 \hbadness=10000
 
-% \togglefalse{deadtree}
-% \toggletrue{deadtree}
-
 \begin{document}
-\include{Frontmatter/abbreviations}
-
 \pagestyle{plain}
 
-\subfile{Frontmatter/cover}
-\glsresetall
+\include{Frontmatter/abbreviations}
 
+\subfile{Frontmatter/cover}
 % \layout
 % \listoftodos
 
-\printglossary[title=Liste des abréviations]
-
 \subfile{Frontmatter/contents}
 
-\raggedbottom	
+\glsresetall
+
+\raggedbottom
 \justifying
 
 %%% - INDRODUCTION - %%
@@ -74,12 +69,18 @@
 \appendix
 \renewcommand{\thechapter}{\Alph{chapter}}
 \renewcommand{\thesection}{\thechapter - \arabic{section}}
-\part*{Annexes}
+\part{Annexes}
 \addcontentsline{toc}{part}{Annexes}
-\subfile{appendix/appa}
+\subfile{Appendix/appa}
+
+%% - GLOSSARY - %%
+\printglossary[title=Liste des abréviations]
 
 %% - BIBLIOGRAPHIE - %%
 \subfile{biblio}
+
+%% - QUATRIEME DE COUVERTURE - %%
+\subfile{Frontmatter/backcover}
 
 \end{document}
 
