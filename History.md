@@ -1,4 +1,12 @@
 
+1.2 / 2014-06-16 
+==================
+
+ * Corrections mineures (orthographe)
+ * Correction des remerciements
+ * fix typo in PNAS manuscript
+ * Merge branch 'release/1.1' into develop
+
 1.0 / 2014-04-10 
 ==================
 

@@ -10,7 +10,7 @@ La mesure du niveau d'expression des transcrits a ensuite été fortement parall
 Les séquences brutes ont été nettoyées et ont subi tout un ensemble de contrôles qualité, avant d'être associées à leur gène cible (\autoref{fig:thesis-technical-workflow}~orange).
 Tout au long de cette trame, des contrôles qualités sont menés pour valider la qualité des échantillons biologiques et de la mesure effectuée par séquençage (\autoref{fig:thesis-technical-workflow}~violet).
 Les mesures digitales d'expression des gènes ainsi obtenues ont permis de déterminer les gènes différentiellement exprimés, de dériver des profils d'expression (``clustering'') et d'isoler les gènes soumis à une régulation spécifique des co-traitement \gls{ht} - \gls{gc}.
-La fouille ultérieure des données (étape communément appelée ``intégration des données'') a permis de traduire les listes de gènes différentiellement exprimés en processus biologiques affectés par les interactions croisées en \glspl{ht} et \glspl{gc}. 
+La fouille ultérieure des données (étape communément appelée ``intégration des données'') a permis de traduire les listes de gènes différentiellement exprimés en processus biologiques affectés par les interactions croisées en \glspl{ht} et \glspl{gc}.
 La trame générale des principales étapes méritant une attention particulière est présentée \autoref{fig:thesis-technical-workflow}.
 
 \input{Figures/thesis-technical-workflow/thesis-technical-workflow}
@@ -129,7 +129,7 @@ La trame générale des principales étapes méritant une attention particulièr
 
 	\subsection{Contrôles qualités}
 		La qualité des séquences récupérées a été vérifiée à l'aide de la suite logicielle ``FastQC'' (\url{http://www.bioinformatics.babraham.ac.uk/projects/fastqc/}).
-		Cet outil fournit un ensemble de métriques (longueur, score-qualité, nombre de 'N' des séquences, proportion de séquences dupliquées... ) reflétant la qualité générale de l'ensemble des ``reads'' et permet de visualiser directement les biais éventuels et les erreurs systématiques, et permet par la suite d'adapter le traitement des données à la qualité des séquences produites.
+		Cet outil fournit un ensemble de métriques (longueur, score-qualité, nombre de ``N'' des séquences, proportion de séquences dupliquées... ) reflétant la qualité générale de l'ensemble des ``reads'' et permet de visualiser directement les biais éventuels et les erreurs systématiques, et permet par la suite d'adapter le traitement des données à la qualité des séquences produites.
 
 % ======= END - Séquençage à haut débit des ARN
 % =====================================================
@@ -144,7 +144,7 @@ La trame générale des principales étapes méritant une attention particulièr
 	%Ces manipulation ne concernent qu'un aspect purement technique pré-requis l'exploitation des données et ne correspondent pas à l'analyse de ces dernières.
 	Les séquences brutes ne sont pas directement exploitables car elles ne reflètent pas (encore) le niveau d'expression des gènes.
 	Pour cela, il est nécessaire, dans un premier temps, d'effectuer un ensemble d'opérations purement techniques sur ces données (filtrage, rabotage, placement sur le génome...), mais qui se révèlent déterminantes pour leur exploitation biologique ultérieure.
-	Ces différentes étapes de traitement du signal ne correspondent pas à l'analyse des séquences à proprement parler. 
+	Ces différentes étapes de traitement du signal ne correspondent pas à l'analyse des séquences à proprement parler.
 
 	\subsection{Élimination de la redondance}
 		%Bien que la quantité d'\gls{rna} fournie ait été largement en excès, des étapes de \gls{pcr} inhérentes au protocole de synthèse des banques ont malgré tout été effectuées.
@@ -178,7 +178,7 @@ La trame générale des principales étapes méritant une attention particulièr
 		En effet, l'assemblage du génome de \gls{xtrop} est composé d'environs 20 000 scaffolds alors que le format BAM ne peut en accommoder qu'une centaine.
 		Ce type de complication est malheureusement très courant dans les approches génomiques des modèles non conventionnels, ce qui entrave fortement le traitement et l'analyse des données.
 		Ces outils bioinformatiques sont, en général, très performants pour des modèles courants (souris, humain, drosophile...).
-		Le nombre de ``reads'' localisé entre les bornes de chaque gène correspond alors à la mesure brute de son niveau d'expression. 
+		Le nombre de ``reads'' localisé entre les bornes de chaque gène correspond alors à la mesure brute de son niveau d'expression.
 		Il faut noter que les ``reads'' peuvent être orientés sur chaque brin, quelle que soit l'orientation du gène.
 		C'est une conséquence normale du protocole de \gls{rnaseq} utilisé (voir ci-dessus).
 		De plus, les régions où deux gènes se chevauchent sont exclues de l'analyse car il devient alors impossible de déterminer de quel gène les ``reads'' sont issus.
